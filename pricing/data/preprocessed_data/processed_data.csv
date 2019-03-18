@@ -1,275 +1,275 @@
-,Informazioni cronologiche,Language/Lingua:,What gender do you identify with?,How old are you?,Where are you from?,Did you continue your studies after high school?,What is your educational background?,Are you employed?,Do you spend a lot of time outdoor?,"Assuming you are interested in the product, which is the maximum amount of money you would pay for it? (€)"
-0,2019/03/15 11:58:50 AM GMT-5,Italiano,Male,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",Yes,Yes,150.0
-1,2019/03/15 11:59:40 AM GMT-5,English,Female,28.0,Asia,Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,20.0
-2,2019/03/15 12:02:03 PM GMT-5,English,Male,24.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,130.0
-3,2019/03/15 12:06:44 PM GMT-5,English,Male,23.0,Asia,Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,150.0
-4,2019/03/15 12:08:23 PM GMT-5,English,Male,25.0,North America,Yes,"Scientific (Engineering, Maths, Medicine...)",Yes,Yes,300.0
-5,2019/03/15 12:10:32 PM GMT-5,English,Male,22.0,Asia,Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,20.0
-6,2019/03/15 12:11:47 PM GMT-5,English,Male,27.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",Yes,Yes,50.0
-7,2019/03/15 12:17:54 PM GMT-5,English,Male,21.0,Asia,Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,15.0
-8,2019/03/15 12:18:02 PM GMT-5,English,Female,19.0,Asia,Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,80.0
-9,2019/03/15 12:29:27 PM GMT-5,Italiano,Male,53.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,Yes,35.0
-10,2019/03/15 12:48:47 PM GMT-5,Italiano,Female,19.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,140.0
-11,2019/03/15 12:48:54 PM GMT-5,Italiano,Female,17.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,130.0
-12,2019/03/15 12:53:19 PM GMT-5,Italiano,Female,19.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,70.0
-13,2019/03/15 12:53:48 PM GMT-5,Italiano,Female,17.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,20.0
-14,2019/03/15 1:00:50 PM GMT-5,Italiano,Male,19.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,50.0
-15,2019/03/15 1:02:33 PM GMT-5,English,Male,22.0,Asia,Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,3.0
-16,2019/03/15 1:05:24 PM GMT-5,English,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,50.0
-17,2019/03/15 1:06:13 PM GMT-5,English,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,13.0
-18,2019/03/15 1:06:29 PM GMT-5,English,Male,20.0,"Eastern Europe (Czech Republic, Estonia, Hungary, Latvia, Lithuania, Russia, ... )",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,45.0
-19,2019/03/15 1:07:11 PM GMT-5,English,Male,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,20.0
-20,2019/03/15 1:10:57 PM GMT-5,Italiano,Female,21.0,"Eastern Europe (Czech Republic, Estonia, Hungary, Latvia, Lithuania, Russia, ... )",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,50.0
-21,2019/03/15 1:12:34 PM GMT-5,English,Female,21.0,"Eastern Europe (Czech Republic, Estonia, Hungary, Latvia, Lithuania, Russia, ... )",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,20.0
-22,2019/03/15 1:31:32 PM GMT-5,English,Female,20.0,"Eastern Europe (Czech Republic, Estonia, Hungary, Latvia, Lithuania, Russia, ... )",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,100.0
-23,2019/03/15 1:33:22 PM GMT-5,English,Female,24.0,Asia,Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,50.0
-24,2019/03/15 1:34:54 PM GMT-5,English,Female,22.0,Asia,Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,20.0
-25,2019/03/15 1:45:06 PM GMT-5,Italiano,Female,16.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,50.0
-26,2019/03/15 2:13:01 PM GMT-5,English,Male,20.0,"Eastern Europe (Czech Republic, Estonia, Hungary, Latvia, Lithuania, Russia, ... )",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,10.0
-27,2019/03/15 3:07:49 PM GMT-5,English,Male,23.0,North America,Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,40.0
-28,2019/03/15 3:39:15 PM GMT-5,English,Male,25.0,Asia,Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,129.0
-29,2019/03/15 3:47:52 PM GMT-5,English,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,45.0
-30,2019/03/15 3:50:47 PM GMT-5,English,Female,18.0,Africa,Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,20.0
-31,2019/03/15 3:59:31 PM GMT-5,Italiano,Male,60.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,Yes,80.0
-32,2019/03/15 4:18:50 PM GMT-5,Italiano,Male,24.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,100.0
-33,2019/03/15 4:21:53 PM GMT-5,English,Male,35.0,Asia,Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,150.0
-34,2019/03/15 5:24:46 PM GMT-5,Italiano,Male,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",Yes,No,150.0
-35,2019/03/15 5:48:02 PM GMT-5,English,Female,28.0,Asia,Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,90.0
-36,2019/03/15 5:59:27 PM GMT-5,English,Female,30.0,Asia,Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,90.0
-37,2019/03/15 6:13:32 PM GMT-5,Italiano,Female,58.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,No,150.0
-38,2019/03/15 8:21:37 PM GMT-5,English,Male,25.0,Asia,Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,20.0
-39,2019/03/16 3:50:29 AM GMT-5,Italiano,Female,17.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,No,Yes,50.0
-40,2019/03/16 3:54:19 AM GMT-5,Italiano,Female,17.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,80.0
-41,2019/03/16 3:57:52 AM GMT-5,Italiano,Female,18.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,100.0
-42,2019/03/16 4:01:05 AM GMT-5,Italiano,Male,60.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,No,Yes,20.0
-43,2019/03/16 4:03:19 AM GMT-5,Italiano,Male,72.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,No,No,35.0
-44,2019/03/16 4:14:46 AM GMT-5,Italiano,Male,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,100.0
-45,2019/03/16 4:19:17 AM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,200.0
-46,2019/03/16 4:27:37 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,250.0
-47,2019/03/16 4:31:34 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,No,60.0
-48,2019/03/16 4:35:01 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,200.0
-49,2019/03/16 4:37:24 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Artistic (Arts, Design, Architecture, ...)",No,No,150.0
-50,2019/03/16 4:38:45 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,300.0
-51,2019/03/16 4:43:38 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Artistic (Arts, Design, Architecture, ...)",No,No,300.0
-52,2019/03/16 4:49:58 AM GMT-5,English,Female,22.0,"Eastern Europe (Czech Republic, Estonia, Hungary, Latvia, Lithuania, Russia, ... )",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,1.0
-53,2019/03/16 4:55:32 AM GMT-5,Italiano,Male,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,100.0
-54,2019/03/16 4:57:39 AM GMT-5,Italiano,Male,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,150.0
-55,2019/03/16 5:17:12 AM GMT-5,Italiano,Female,22.0,"Western Europe (Austria, Belgium, France, Germany, Netherlands, Switzerland, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,90.0
-56,2019/03/16 5:27:39 AM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,100.0
-57,2019/03/16 5:27:50 AM GMT-5,English,Female,27.0,Asia,Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,100.0
-58,2019/03/16 5:28:43 AM GMT-5,Italiano,Male,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,10.0
-59,2019/03/16 5:34:53 AM GMT-5,Italiano,Male,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Artistic (Arts, Design, Architecture, ...)",No,No,300.0
-60,2019/03/16 5:36:18 AM GMT-5,Italiano,Male,29.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,No,250.0
-61,2019/03/16 5:40:31 AM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Artistic (Arts, Design, Architecture, ...)",No,No,150.0
-62,2019/03/16 5:51:19 AM GMT-5,Italiano,Female,52.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,No,No,100.0
-63,2019/03/16 5:53:50 AM GMT-5,Italiano,Female,25.0,"Eastern Europe (Czech Republic, Estonia, Hungary, Latvia, Lithuania, Russia, ... )",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,Yes,50.0
-64,2019/03/16 5:53:59 AM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,Yes,200.0
-65,2019/03/16 5:55:49 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,100.0
-66,2019/03/16 5:56:32 AM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,150.0
-67,2019/03/16 5:56:48 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Artistic (Arts, Design, Architecture, ...)",No,Yes,80.0
-68,2019/03/16 5:57:17 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,150.0
-69,2019/03/16 5:57:43 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,50.0
-70,2019/03/16 5:57:48 AM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,100.0
-71,2019/03/16 5:58:16 AM GMT-5,English,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,Yes,150.0
-72,2019/03/16 5:58:23 AM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,No,120.0
-73,2019/03/16 5:59:14 AM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,60.0
-74,2019/03/16 5:59:33 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,No,Yes,100.0
-75,2019/03/16 6:00:34 AM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,75.0
-76,2019/03/16 6:02:14 AM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,Yes,120.0
-77,2019/03/16 6:02:48 AM GMT-5,Italiano,Female,24.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",Yes,Yes,175.0
-78,2019/03/16 6:03:26 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,80.0
-79,2019/03/16 6:04:54 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,80.0
-80,2019/03/16 6:05:57 AM GMT-5,Italiano,Female,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,80.0
-81,2019/03/16 6:06:21 AM GMT-5,Italiano,Male,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,200.0
-82,2019/03/16 6:06:31 AM GMT-5,Italiano,Male,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,200.0
-83,2019/03/16 6:09:26 AM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,400.0
-84,2019/03/16 6:10:39 AM GMT-5,Italiano,Female,39.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",Yes,No,200.0
-85,2019/03/16 6:12:36 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,80.0
-86,2019/03/16 6:13:09 AM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,200.0
-87,2019/03/16 6:13:20 AM GMT-5,Italiano,Male,35.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",Yes,No,300.0
-88,2019/03/16 6:18:25 AM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,No,160.0
-89,2019/03/16 6:18:29 AM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,Yes,80.0
-90,2019/03/16 6:20:10 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,120.0
-91,2019/03/16 6:21:38 AM GMT-5,Italiano,Male,24.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,180.0
-92,2019/03/16 6:21:41 AM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,50.0
-93,2019/03/16 6:24:41 AM GMT-5,Italiano,Female,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Artistic (Arts, Design, Architecture, ...)",No,No,120.0
-94,2019/03/16 6:33:12 AM GMT-5,Italiano,Female,54.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,No,150.0
-95,2019/03/16 6:34:50 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,Yes,170.0
-96,2019/03/16 6:35:41 AM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,70.0
-97,2019/03/16 6:38:07 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,50.0
-98,2019/03/16 7:00:27 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,250.0
-99,2019/03/16 7:01:01 AM GMT-5,Italiano,Male,24.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Artistic (Arts, Design, Architecture, ...)",No,Yes,100.0
-100,2019/03/16 7:05:27 AM GMT-5,Italiano,Female,18.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,No,No,150.0
-101,2019/03/16 7:07:55 AM GMT-5,Italiano,Female,15.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,No,No,200.0
-102,2019/03/16 7:07:58 AM GMT-5,Italiano,Female,17.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,50.0
-103,2019/03/16 7:12:43 AM GMT-5,Italiano,Female,25.0,"Eastern Europe (Czech Republic, Estonia, Hungary, Latvia, Lithuania, Russia, ... )",Yes,"Artistic (Arts, Design, Architecture, ...)",Yes,No,150.0
-104,2019/03/16 7:12:57 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,No,120.0
-105,2019/03/16 7:13:44 AM GMT-5,Italiano,Male,22.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Artistic (Arts, Design, Architecture, ...)",Yes,No,60.0
-106,2019/03/16 7:13:49 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,90.0
-107,2019/03/16 7:18:26 AM GMT-5,Italiano,Male,22.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,200.0
-108,2019/03/16 7:20:26 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,Yes,300.0
-109,2019/03/16 7:20:33 AM GMT-5,Italiano,Female,25.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,150.0
-110,2019/03/16 7:23:03 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,Yes,200.0
-111,2019/03/16 7:25:08 AM GMT-5,Italiano,Female,42.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,No,60.0
-112,2019/03/16 7:28:03 AM GMT-5,Italiano,Female,24.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,200.0
-113,2019/03/16 7:28:26 AM GMT-5,Italiano,Male,27.0,"Eastern Europe (Czech Republic, Estonia, Hungary, Latvia, Lithuania, Russia, ... )",No,,Yes,Yes,20.0
-114,2019/03/16 7:29:16 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,Yes,120.0
-115,2019/03/16 7:30:15 AM GMT-5,Italiano,Male,27.0,"Eastern Europe (Czech Republic, Estonia, Hungary, Latvia, Lithuania, Russia, ... )",No,,Yes,Yes,20.0
-116,2019/03/16 7:33:37 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,Yes,300.0
-117,2019/03/16 7:34:31 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Artistic (Arts, Design, Architecture, ...)",No,Yes,100.0
-118,2019/03/16 7:35:00 AM GMT-5,Italiano,Female,47.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,100.0
-119,2019/03/16 7:36:08 AM GMT-5,Italiano,Male,22.0,"Eastern Europe (Czech Republic, Estonia, Hungary, Latvia, Lithuania, Russia, ... )",Yes,"Artistic (Arts, Design, Architecture, ...)",Yes,Yes,2.0
-120,2019/03/16 7:41:39 AM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,150.0
-121,2019/03/16 7:42:04 AM GMT-5,Italiano,Male,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Artistic (Arts, Design, Architecture, ...)",Yes,Yes,100.0
-122,2019/03/16 7:44:05 AM GMT-5,Italiano,Male,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",Yes,No,150.0
-123,2019/03/16 7:48:47 AM GMT-5,Italiano,Female,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Artistic (Arts, Design, Architecture, ...)",Yes,No,75.0
-124,2019/03/16 7:51:58 AM GMT-5,Italiano,Male,22.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,Yes,150.0
-125,2019/03/16 8:02:37 AM GMT-5,Italiano,Female,27.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,No,Yes,15.0
-126,2019/03/16 8:03:03 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,120.0
-127,2019/03/16 8:11:18 AM GMT-5,Italiano,Male,37.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",Yes,No,200.0
-128,2019/03/16 8:11:59 AM GMT-5,Italiano,Male,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,250.0
-129,2019/03/16 8:14:45 AM GMT-5,Italiano,Female,51.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,No,50.0
-130,2019/03/16 8:17:53 AM GMT-5,Italiano,Female,19.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",Yes,Yes,100.0
-131,2019/03/16 9:20:50 AM GMT-5,Italiano,Female,22.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,No,20.0
-132,2019/03/16 10:28:07 AM GMT-5,Italiano,Male,25.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,150.0
-133,2019/03/16 10:44:53 AM GMT-5,Italiano,Male,22.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",Yes,Yes,50.0
-134,2019/03/16 10:53:42 AM GMT-5,Italiano,Male,58.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,No,100.0
-135,2019/03/16 11:02:41 AM GMT-5,Italiano,Male,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,70.0
-136,2019/03/16 11:16:10 AM GMT-5,Italiano,Male,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,No,150.0
-137,2019/03/16 11:32:25 AM GMT-5,Italiano,Male,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,Yes,50.0
-138,2019/03/16 11:47:18 AM GMT-5,Italiano,Female,52.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Artistic (Arts, Design, Architecture, ...)",Yes,No,150.0
-139,2019/03/16 11:58:58 AM GMT-5,Italiano,Male,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,40.0
-140,2019/03/16 12:04:02 PM GMT-5,Italiano,Female,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,70.0
-141,2019/03/16 12:08:00 PM GMT-5,Italiano,Female,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,Yes,60.0
-142,2019/03/16 12:10:40 PM GMT-5,Italiano,Male,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,25.0
-143,2019/03/16 12:12:27 PM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,400.0
-144,2019/03/16 12:15:18 PM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,120.0
-145,2019/03/16 12:18:59 PM GMT-5,Italiano,Female,24.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,50.0
-146,2019/03/16 12:20:09 PM GMT-5,Italiano,Female,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,100.0
-147,2019/03/16 12:22:11 PM GMT-5,Italiano,Female,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,200.0
-148,2019/03/16 12:26:26 PM GMT-5,Italiano,Female,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,70.0
-149,2019/03/16 12:28:20 PM GMT-5,Italiano,Female,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,100.0
-150,2019/03/16 12:40:17 PM GMT-5,English,Female,25.0,Asia,Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,80.0
-151,2019/03/16 12:45:56 PM GMT-5,Italiano,Female,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,60.0
-152,2019/03/16 12:46:43 PM GMT-5,Italiano,Female,51.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,No,Yes,50.0
-153,2019/03/16 12:47:56 PM GMT-5,Italiano,Female,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,75.0
-154,2019/03/16 1:03:28 PM GMT-5,Italiano,Female,22.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,200.0
-155,2019/03/16 1:03:41 PM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,180.0
-156,2019/03/16 1:04:01 PM GMT-5,Italiano,Female,24.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,100.0
-157,2019/03/16 1:04:18 PM GMT-5,Italiano,Female,25.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,50.0
-158,2019/03/16 1:04:28 PM GMT-5,Italiano,Female,55.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,No,200.0
-159,2019/03/16 1:06:38 PM GMT-5,Italiano,Female,40.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,No,50.0
-160,2019/03/16 1:12:42 PM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",Yes,No,45.0
-161,2019/03/16 1:17:35 PM GMT-5,Italiano,Male,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,450.0
-162,2019/03/16 1:17:40 PM GMT-5,Italiano,Female,18.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,No,Yes,70.0
-163,2019/03/16 1:17:53 PM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Artistic (Arts, Design, Architecture, ...)",No,Yes,80.0
-164,2019/03/16 1:31:39 PM GMT-5,Italiano,Female,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,200.0
-165,2019/03/16 1:32:17 PM GMT-5,Italiano,Male,24.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,40.0
-166,2019/03/16 1:36:08 PM GMT-5,Italiano,Female,25.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,30.0
-167,2019/03/16 1:38:38 PM GMT-5,Italiano,Female,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,100.0
-168,2019/03/16 1:43:09 PM GMT-5,English,Male,21.0,"Western Europe (Austria, Belgium, France, Germany, Netherlands, Switzerland, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,40.0
-169,2019/03/16 1:45:39 PM GMT-5,Italiano,Female,18.0,"Western Europe (Austria, Belgium, France, Germany, Netherlands, Switzerland, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,30.0
-170,2019/03/16 1:50:10 PM GMT-5,Italiano,Male,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,100.0
-171,2019/03/16 1:52:41 PM GMT-5,Italiano,Female,32.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,150.0
-172,2019/03/16 2:01:10 PM GMT-5,Italiano,Female,26.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,50.0
-173,2019/03/16 2:09:33 PM GMT-5,Italiano,Female,50.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,No,100.0
-174,2019/03/16 2:15:40 PM GMT-5,Italiano,Female,47.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,Yes,120.0
-175,2019/03/16 2:16:04 PM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,110.0
-176,2019/03/16 2:25:04 PM GMT-5,Italiano,Female,47.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,Yes,60.0
-177,2019/03/16 2:30:51 PM GMT-5,Italiano,Female,51.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",Yes,No,100.0
-178,2019/03/16 2:31:38 PM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,60.0
-179,2019/03/16 2:36:31 PM GMT-5,Italiano,Female,53.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,Yes,150.0
-180,2019/03/16 2:40:19 PM GMT-5,Italiano,Female,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,200.0
-181,2019/03/16 2:40:39 PM GMT-5,Italiano,Male,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,50.0
-182,2019/03/16 2:41:09 PM GMT-5,Italiano,Female,35.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,No,50.0
-183,2019/03/16 2:45:07 PM GMT-5,Italiano,Female,32.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,80.0
-184,2019/03/16 2:48:45 PM GMT-5,Italiano,Female,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,50.0
-185,2019/03/16 3:09:10 PM GMT-5,Italiano,Female,31.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,Yes,120.0
-186,2019/03/16 3:15:22 PM GMT-5,Italiano,Female,60.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,Yes,100.0
-187,2019/03/16 3:20:01 PM GMT-5,Italiano,Female,24.0,"Eastern Europe (Czech Republic, Estonia, Hungary, Latvia, Lithuania, Russia, ... )",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,90.0
-188,2019/03/16 3:20:22 PM GMT-5,Italiano,Female,45.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,No,100.0
-189,2019/03/16 3:36:00 PM GMT-5,English,Female,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,Yes,230.0
-190,2019/03/16 3:57:13 PM GMT-5,Italiano,Female,38.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,50.0
-191,2019/03/16 4:02:51 PM GMT-5,Italiano,Male,18.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",Yes,Yes,230.0
-192,2019/03/16 4:04:20 PM GMT-5,Italiano,Female,22.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,90.0
-193,2019/03/16 4:09:27 PM GMT-5,Italiano,Male,28.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,No,100.0
-194,2019/03/16 4:22:46 PM GMT-5,Italiano,Female,19.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,150.0
-195,2019/03/16 4:25:17 PM GMT-5,Italiano,Female,19.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,50.0
-196,2019/03/16 4:40:45 PM GMT-5,Italiano,Male,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,Yes,0.0
-197,2019/03/16 4:48:35 PM GMT-5,Italiano,Male,46.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",Yes,No,250.0
-198,2019/03/16 4:52:44 PM GMT-5,Italiano,Male,54.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,No,50.0
-199,2019/03/16 4:54:58 PM GMT-5,Italiano,Male,26.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",Yes,Yes,100.0
-200,2019/03/16 6:02:49 PM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,Yes,80.0
-201,2019/03/16 6:06:48 PM GMT-5,Italiano,Female,25.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,100.0
-202,2019/03/16 6:53:07 PM GMT-5,Italiano,Male,25.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,No,150.0
-203,2019/03/16 7:31:16 PM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,150.0
-204,2019/03/16 8:25:35 PM GMT-5,Italiano,Female,25.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,200.0
-205,2019/03/17 12:35:19 AM GMT-5,English,Female,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,Yes,230.0
-206,2019/03/17 12:59:40 AM GMT-5,Italiano,Male,39.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,Yes,60.0
-207,2019/03/17 1:00:42 AM GMT-5,Italiano,Male,39.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,Yes,60.0
-208,2019/03/17 2:36:56 AM GMT-5,Italiano,Female,22.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,200.0
-209,2019/03/17 5:56:25 AM GMT-5,Italiano,Female,64.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Artistic (Arts, Design, Architecture, ...)",Yes,No,200.0
-210,2019/03/17 6:00:54 AM GMT-5,Italiano,Female,64.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Artistic (Arts, Design, Architecture, ...)",No,Yes,200.0
-211,2019/03/17 6:55:18 AM GMT-5,Italiano,Female,45.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,No,100.0
-212,2019/03/17 7:05:25 AM GMT-5,Italiano,Female,45.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,Yes,200.0
-213,2019/03/17 7:16:00 AM GMT-5,Italiano,Female,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,60.0
-214,2019/03/17 9:16:59 AM GMT-5,Italiano,Female,38.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,50.0
-215,2019/03/17 10:00:45 AM GMT-5,Italiano,Male,22.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,100.0
-216,2019/03/17 10:08:13 AM GMT-5,Italiano,Female,55.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,No,No,40.0
-217,2019/03/17 10:11:08 AM GMT-5,Italiano,Female,22.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,150.0
-218,2019/03/17 10:19:38 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,No,300.0
-219,2019/03/17 10:40:34 AM GMT-5,Italiano,Female,17.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,30.0
-220,2019/03/17 10:48:14 AM GMT-5,Italiano,Female,19.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,40.0
-221,2019/03/17 10:51:09 AM GMT-5,Italiano,Male,19.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,175.0
-222,2019/03/17 10:51:09 AM GMT-5,Italiano,Male,22.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,Yes,100.0
-223,2019/03/17 10:51:24 AM GMT-5,Italiano,Female,19.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,50.0
-224,2019/03/17 10:55:47 AM GMT-5,Italiano,Female,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,150.0
-225,2019/03/17 10:56:00 AM GMT-5,Italiano,Male,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,30.0
-226,2019/03/17 10:56:02 AM GMT-5,Italiano,Male,19.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,250.0
-227,2019/03/17 10:56:13 AM GMT-5,Italiano,Male,19.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,250.0
-228,2019/03/17 10:56:35 AM GMT-5,English,Female,20.0,"Western Europe (Austria, Belgium, France, Germany, Netherlands, Switzerland, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,40.0
-229,2019/03/17 10:58:45 AM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,100.0
-230,2019/03/17 11:00:58 AM GMT-5,Italiano,Male,22.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,40.0
-231,2019/03/17 11:01:31 AM GMT-5,English,Male,19.0,"Western Europe (Austria, Belgium, France, Germany, Netherlands, Switzerland, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,70.0
-232,2019/03/17 11:03:01 AM GMT-5,Italiano,Female,19.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,150.0
-233,2019/03/17 11:03:51 AM GMT-5,Italiano,Female,22.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,Yes,50.0
-234,2019/03/17 11:04:14 AM GMT-5,English,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,150.0
-235,2019/03/17 11:05:34 AM GMT-5,English,Female,21.0,Africa,Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,70.0
-236,2019/03/17 11:05:41 AM GMT-5,Italiano,Female,19.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,180.0
-237,2019/03/17 11:07:48 AM GMT-5,Italiano,Female,19.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,30.0
-238,2019/03/17 11:08:31 AM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,Yes,80.0
-239,2019/03/17 11:23:50 AM GMT-5,Italiano,Male,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,70.0
-240,2019/03/17 11:24:01 AM GMT-5,Italiano,Female,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,60.0
-241,2019/03/17 11:28:00 AM GMT-5,Italiano,Male,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,100.0
-242,2019/03/17 11:33:14 AM GMT-5,English,Female,20.0,"Western Europe (Austria, Belgium, France, Germany, Netherlands, Switzerland, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,No,50.0
-243,2019/03/17 11:36:08 AM GMT-5,Italiano,Female,19.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,60.0
-244,2019/03/17 11:36:51 AM GMT-5,Italiano,Male,22.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,70.0
-245,2019/03/17 11:38:14 AM GMT-5,English,Female,29.0,South America,Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,20.0
-246,2019/03/17 11:43:39 AM GMT-5,Italiano,Female,19.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,50.0
-247,2019/03/17 11:49:42 AM GMT-5,Italiano,Male,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,39.0
-248,2019/03/17 11:56:15 AM GMT-5,English,Female,19.0,"Western Europe (Austria, Belgium, France, Germany, Netherlands, Switzerland, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,30.0
-249,2019/03/17 12:08:58 PM GMT-5,English,Female,19.0,"Western Europe (Austria, Belgium, France, Germany, Netherlands, Switzerland, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,Yes,35.0
-250,2019/03/17 12:38:21 PM GMT-5,Italiano,Male,50.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,Yes,100.0
-251,2019/03/17 12:40:44 PM GMT-5,Italiano,Male,56.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,Yes,25.0
-252,2019/03/17 1:12:27 PM GMT-5,Italiano,Male,26.0,"Eastern Europe (Czech Republic, Estonia, Hungary, Latvia, Lithuania, Russia, ... )",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,200.0
-253,2019/03/17 2:12:00 PM GMT-5,Italiano,Male,18.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,100.0
-254,2019/03/17 2:14:15 PM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,No,30.0
-255,2019/03/17 2:15:09 PM GMT-5,Italiano,Female,24.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,Yes,300.0
-256,2019/03/17 2:16:49 PM GMT-5,Italiano,Female,24.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,Yes,300.0
-257,2019/03/17 2:18:01 PM GMT-5,Italiano,Female,22.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",Yes,Yes,250.0
-258,2019/03/17 2:24:41 PM GMT-5,Italiano,Female,43.0,Africa,No,,Yes,No,90.0
-259,2019/03/17 4:54:20 PM GMT-5,Italiano,Male,24.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,250.0
-260,2019/03/17 5:03:01 PM GMT-5,Italiano,Male,24.0,Asia,Yes,"Artistic (Arts, Design, Architecture, ...)",Yes,No,450.0
-261,2019/03/17 5:06:51 PM GMT-5,Italiano,Female,27.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,No,250.0
-262,2019/03/17 5:07:56 PM GMT-5,English,Female,24.0,South America,No,,No,No,19.0
-263,2019/03/17 5:08:35 PM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Artistic (Arts, Design, Architecture, ...)",No,Yes,200.0
-264,2019/03/17 5:14:26 PM GMT-5,Italiano,Female,28.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,110.0
-265,2019/03/17 5:16:22 PM GMT-5,Italiano,Male,29.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,Yes,80.0
-266,2019/03/17 5:17:36 PM GMT-5,Italiano,Male,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,No,450.0
-267,2019/03/17 5:19:24 PM GMT-5,Italiano,Male,29.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",Yes,Yes,120.0
-268,2019/03/17 5:23:58 PM GMT-5,English,Female,21.0,South America,Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,30.0
-269,2019/03/17 5:51:04 PM GMT-5,Italiano,Female,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Artistic (Arts, Design, Architecture, ...)",No,No,63.0
-270,2019/03/17 6:00:06 PM GMT-5,Italiano,Male,26.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,100.0
-271,2019/03/17 6:03:55 PM GMT-5,Italiano,Female,28.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,Yes,300.0
-272,2019/03/17 6:05:09 PM GMT-5,Italiano,Male,25.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",Yes,No,400.0
-273,2019/03/17 6:46:26 PM GMT-5,Italiano,Male,24.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,Yes,60.0
+Informazioni cronologiche,Language/Lingua:,What gender do you identify with?,How old are you?,Where are you from?,Did you continue your studies after high school?,What is your educational background?,Are you employed?,Do you spend a lot of time outdoor?,"Assuming you are interested in the product, which is the maximum amount of money you would pay for it? (€)"
+2019/03/15 11:58:50 AM GMT-5,Italiano,Male,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",Yes,Yes,150.0
+2019/03/15 11:59:40 AM GMT-5,English,Female,28.0,Asia,Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,20.0
+2019/03/15 12:02:03 PM GMT-5,English,Male,24.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,130.0
+2019/03/15 12:06:44 PM GMT-5,English,Male,23.0,Asia,Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,150.0
+2019/03/15 12:08:23 PM GMT-5,English,Male,25.0,North America,Yes,"Scientific (Engineering, Maths, Medicine...)",Yes,Yes,300.0
+2019/03/15 12:10:32 PM GMT-5,English,Male,22.0,Asia,Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,20.0
+2019/03/15 12:11:47 PM GMT-5,English,Male,27.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",Yes,Yes,50.0
+2019/03/15 12:17:54 PM GMT-5,English,Male,21.0,Asia,Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,15.0
+2019/03/15 12:18:02 PM GMT-5,English,Female,19.0,Asia,Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,80.0
+2019/03/15 12:29:27 PM GMT-5,Italiano,Male,53.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,Yes,35.0
+2019/03/15 12:48:47 PM GMT-5,Italiano,Female,19.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,140.0
+2019/03/15 12:48:54 PM GMT-5,Italiano,Female,17.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,130.0
+2019/03/15 12:53:19 PM GMT-5,Italiano,Female,19.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,70.0
+2019/03/15 12:53:48 PM GMT-5,Italiano,Female,17.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,20.0
+2019/03/15 1:00:50 PM GMT-5,Italiano,Male,19.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,50.0
+2019/03/15 1:02:33 PM GMT-5,English,Male,22.0,Asia,Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,3.0
+2019/03/15 1:05:24 PM GMT-5,English,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,50.0
+2019/03/15 1:06:13 PM GMT-5,English,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,13.0
+2019/03/15 1:06:29 PM GMT-5,English,Male,20.0,"Eastern Europe (Czech Republic, Estonia, Hungary, Latvia, Lithuania, Russia, ... )",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,45.0
+2019/03/15 1:07:11 PM GMT-5,English,Male,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,20.0
+2019/03/15 1:10:57 PM GMT-5,Italiano,Female,21.0,"Eastern Europe (Czech Republic, Estonia, Hungary, Latvia, Lithuania, Russia, ... )",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,50.0
+2019/03/15 1:12:34 PM GMT-5,English,Female,21.0,"Eastern Europe (Czech Republic, Estonia, Hungary, Latvia, Lithuania, Russia, ... )",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,20.0
+2019/03/15 1:31:32 PM GMT-5,English,Female,20.0,"Eastern Europe (Czech Republic, Estonia, Hungary, Latvia, Lithuania, Russia, ... )",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,100.0
+2019/03/15 1:33:22 PM GMT-5,English,Female,24.0,Asia,Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,50.0
+2019/03/15 1:34:54 PM GMT-5,English,Female,22.0,Asia,Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,20.0
+2019/03/15 1:45:06 PM GMT-5,Italiano,Female,16.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,50.0
+2019/03/15 2:13:01 PM GMT-5,English,Male,20.0,"Eastern Europe (Czech Republic, Estonia, Hungary, Latvia, Lithuania, Russia, ... )",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,10.0
+2019/03/15 3:07:49 PM GMT-5,English,Male,23.0,North America,Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,40.0
+2019/03/15 3:39:15 PM GMT-5,English,Male,25.0,Asia,Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,129.0
+2019/03/15 3:47:52 PM GMT-5,English,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,45.0
+2019/03/15 3:50:47 PM GMT-5,English,Female,18.0,Africa,Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,20.0
+2019/03/15 3:59:31 PM GMT-5,Italiano,Male,60.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,Yes,80.0
+2019/03/15 4:18:50 PM GMT-5,Italiano,Male,24.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,100.0
+2019/03/15 4:21:53 PM GMT-5,English,Male,35.0,Asia,Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,150.0
+2019/03/15 5:24:46 PM GMT-5,Italiano,Male,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",Yes,No,150.0
+2019/03/15 5:48:02 PM GMT-5,English,Female,28.0,Asia,Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,90.0
+2019/03/15 5:59:27 PM GMT-5,English,Female,30.0,Asia,Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,90.0
+2019/03/15 6:13:32 PM GMT-5,Italiano,Female,58.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,No,150.0
+2019/03/15 8:21:37 PM GMT-5,English,Male,25.0,Asia,Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,20.0
+2019/03/16 3:50:29 AM GMT-5,Italiano,Female,17.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,No,Yes,50.0
+2019/03/16 3:54:19 AM GMT-5,Italiano,Female,17.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,80.0
+2019/03/16 3:57:52 AM GMT-5,Italiano,Female,18.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,100.0
+2019/03/16 4:01:05 AM GMT-5,Italiano,Male,60.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,No,Yes,20.0
+2019/03/16 4:03:19 AM GMT-5,Italiano,Male,72.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,No,No,35.0
+2019/03/16 4:14:46 AM GMT-5,Italiano,Male,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,100.0
+2019/03/16 4:19:17 AM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,200.0
+2019/03/16 4:27:37 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,250.0
+2019/03/16 4:31:34 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,No,60.0
+2019/03/16 4:35:01 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,200.0
+2019/03/16 4:37:24 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Artistic (Arts, Design, Architecture, ...)",No,No,150.0
+2019/03/16 4:38:45 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,300.0
+2019/03/16 4:43:38 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Artistic (Arts, Design, Architecture, ...)",No,No,300.0
+2019/03/16 4:49:58 AM GMT-5,English,Female,22.0,"Eastern Europe (Czech Republic, Estonia, Hungary, Latvia, Lithuania, Russia, ... )",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,1.0
+2019/03/16 4:55:32 AM GMT-5,Italiano,Male,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,100.0
+2019/03/16 4:57:39 AM GMT-5,Italiano,Male,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,150.0
+2019/03/16 5:17:12 AM GMT-5,Italiano,Female,22.0,"Western Europe (Austria, Belgium, France, Germany, Netherlands, Switzerland, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,90.0
+2019/03/16 5:27:39 AM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,100.0
+2019/03/16 5:27:50 AM GMT-5,English,Female,27.0,Asia,Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,100.0
+2019/03/16 5:28:43 AM GMT-5,Italiano,Male,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,10.0
+2019/03/16 5:34:53 AM GMT-5,Italiano,Male,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Artistic (Arts, Design, Architecture, ...)",No,No,300.0
+2019/03/16 5:36:18 AM GMT-5,Italiano,Male,29.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,No,250.0
+2019/03/16 5:40:31 AM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Artistic (Arts, Design, Architecture, ...)",No,No,150.0
+2019/03/16 5:51:19 AM GMT-5,Italiano,Female,52.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,No,No,100.0
+2019/03/16 5:53:50 AM GMT-5,Italiano,Female,25.0,"Eastern Europe (Czech Republic, Estonia, Hungary, Latvia, Lithuania, Russia, ... )",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,Yes,50.0
+2019/03/16 5:53:59 AM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,Yes,200.0
+2019/03/16 5:55:49 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,100.0
+2019/03/16 5:56:32 AM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,150.0
+2019/03/16 5:56:48 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Artistic (Arts, Design, Architecture, ...)",No,Yes,80.0
+2019/03/16 5:57:17 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,150.0
+2019/03/16 5:57:43 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,50.0
+2019/03/16 5:57:48 AM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,100.0
+2019/03/16 5:58:16 AM GMT-5,English,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,Yes,150.0
+2019/03/16 5:58:23 AM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,No,120.0
+2019/03/16 5:59:14 AM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,60.0
+2019/03/16 5:59:33 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,No,Yes,100.0
+2019/03/16 6:00:34 AM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,75.0
+2019/03/16 6:02:14 AM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,Yes,120.0
+2019/03/16 6:02:48 AM GMT-5,Italiano,Female,24.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",Yes,Yes,175.0
+2019/03/16 6:03:26 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,80.0
+2019/03/16 6:04:54 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,80.0
+2019/03/16 6:05:57 AM GMT-5,Italiano,Female,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,80.0
+2019/03/16 6:06:21 AM GMT-5,Italiano,Male,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,200.0
+2019/03/16 6:06:31 AM GMT-5,Italiano,Male,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,200.0
+2019/03/16 6:09:26 AM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,400.0
+2019/03/16 6:10:39 AM GMT-5,Italiano,Female,39.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",Yes,No,200.0
+2019/03/16 6:12:36 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,80.0
+2019/03/16 6:13:09 AM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,200.0
+2019/03/16 6:13:20 AM GMT-5,Italiano,Male,35.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",Yes,No,300.0
+2019/03/16 6:18:25 AM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,No,160.0
+2019/03/16 6:18:29 AM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,Yes,80.0
+2019/03/16 6:20:10 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,120.0
+2019/03/16 6:21:38 AM GMT-5,Italiano,Male,24.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,180.0
+2019/03/16 6:21:41 AM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,50.0
+2019/03/16 6:24:41 AM GMT-5,Italiano,Female,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Artistic (Arts, Design, Architecture, ...)",No,No,120.0
+2019/03/16 6:33:12 AM GMT-5,Italiano,Female,54.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,No,150.0
+2019/03/16 6:34:50 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,Yes,170.0
+2019/03/16 6:35:41 AM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,70.0
+2019/03/16 6:38:07 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,50.0
+2019/03/16 7:00:27 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,250.0
+2019/03/16 7:01:01 AM GMT-5,Italiano,Male,24.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Artistic (Arts, Design, Architecture, ...)",No,Yes,100.0
+2019/03/16 7:05:27 AM GMT-5,Italiano,Female,18.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,No,No,150.0
+2019/03/16 7:07:55 AM GMT-5,Italiano,Female,15.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,No,No,200.0
+2019/03/16 7:07:58 AM GMT-5,Italiano,Female,17.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,50.0
+2019/03/16 7:12:43 AM GMT-5,Italiano,Female,25.0,"Eastern Europe (Czech Republic, Estonia, Hungary, Latvia, Lithuania, Russia, ... )",Yes,"Artistic (Arts, Design, Architecture, ...)",Yes,No,150.0
+2019/03/16 7:12:57 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,No,120.0
+2019/03/16 7:13:44 AM GMT-5,Italiano,Male,22.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Artistic (Arts, Design, Architecture, ...)",Yes,No,60.0
+2019/03/16 7:13:49 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,90.0
+2019/03/16 7:18:26 AM GMT-5,Italiano,Male,22.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,200.0
+2019/03/16 7:20:26 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,Yes,300.0
+2019/03/16 7:20:33 AM GMT-5,Italiano,Female,25.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,150.0
+2019/03/16 7:23:03 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,Yes,200.0
+2019/03/16 7:25:08 AM GMT-5,Italiano,Female,42.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,No,60.0
+2019/03/16 7:28:03 AM GMT-5,Italiano,Female,24.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,200.0
+2019/03/16 7:28:26 AM GMT-5,Italiano,Male,27.0,"Eastern Europe (Czech Republic, Estonia, Hungary, Latvia, Lithuania, Russia, ... )",No,,Yes,Yes,20.0
+2019/03/16 7:29:16 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,Yes,120.0
+2019/03/16 7:30:15 AM GMT-5,Italiano,Male,27.0,"Eastern Europe (Czech Republic, Estonia, Hungary, Latvia, Lithuania, Russia, ... )",No,,Yes,Yes,20.0
+2019/03/16 7:33:37 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,Yes,300.0
+2019/03/16 7:34:31 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Artistic (Arts, Design, Architecture, ...)",No,Yes,100.0
+2019/03/16 7:35:00 AM GMT-5,Italiano,Female,47.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,100.0
+2019/03/16 7:36:08 AM GMT-5,Italiano,Male,22.0,"Eastern Europe (Czech Republic, Estonia, Hungary, Latvia, Lithuania, Russia, ... )",Yes,"Artistic (Arts, Design, Architecture, ...)",Yes,Yes,2.0
+2019/03/16 7:41:39 AM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,150.0
+2019/03/16 7:42:04 AM GMT-5,Italiano,Male,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Artistic (Arts, Design, Architecture, ...)",Yes,Yes,100.0
+2019/03/16 7:44:05 AM GMT-5,Italiano,Male,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",Yes,No,150.0
+2019/03/16 7:48:47 AM GMT-5,Italiano,Female,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Artistic (Arts, Design, Architecture, ...)",Yes,No,75.0
+2019/03/16 7:51:58 AM GMT-5,Italiano,Male,22.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,Yes,150.0
+2019/03/16 8:02:37 AM GMT-5,Italiano,Female,27.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,No,Yes,15.0
+2019/03/16 8:03:03 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,120.0
+2019/03/16 8:11:18 AM GMT-5,Italiano,Male,37.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",Yes,No,200.0
+2019/03/16 8:11:59 AM GMT-5,Italiano,Male,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,250.0
+2019/03/16 8:14:45 AM GMT-5,Italiano,Female,51.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,No,50.0
+2019/03/16 8:17:53 AM GMT-5,Italiano,Female,19.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",Yes,Yes,100.0
+2019/03/16 9:20:50 AM GMT-5,Italiano,Female,22.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,No,20.0
+2019/03/16 10:28:07 AM GMT-5,Italiano,Male,25.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,150.0
+2019/03/16 10:44:53 AM GMT-5,Italiano,Male,22.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",Yes,Yes,50.0
+2019/03/16 10:53:42 AM GMT-5,Italiano,Male,58.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,No,100.0
+2019/03/16 11:02:41 AM GMT-5,Italiano,Male,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,70.0
+2019/03/16 11:16:10 AM GMT-5,Italiano,Male,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,No,150.0
+2019/03/16 11:32:25 AM GMT-5,Italiano,Male,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,Yes,50.0
+2019/03/16 11:47:18 AM GMT-5,Italiano,Female,52.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Artistic (Arts, Design, Architecture, ...)",Yes,No,150.0
+2019/03/16 11:58:58 AM GMT-5,Italiano,Male,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,40.0
+2019/03/16 12:04:02 PM GMT-5,Italiano,Female,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,70.0
+2019/03/16 12:08:00 PM GMT-5,Italiano,Female,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,Yes,60.0
+2019/03/16 12:10:40 PM GMT-5,Italiano,Male,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,25.0
+2019/03/16 12:12:27 PM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,400.0
+2019/03/16 12:15:18 PM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,120.0
+2019/03/16 12:18:59 PM GMT-5,Italiano,Female,24.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,50.0
+2019/03/16 12:20:09 PM GMT-5,Italiano,Female,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,100.0
+2019/03/16 12:22:11 PM GMT-5,Italiano,Female,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,200.0
+2019/03/16 12:26:26 PM GMT-5,Italiano,Female,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,70.0
+2019/03/16 12:28:20 PM GMT-5,Italiano,Female,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,100.0
+2019/03/16 12:40:17 PM GMT-5,English,Female,25.0,Asia,Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,80.0
+2019/03/16 12:45:56 PM GMT-5,Italiano,Female,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,60.0
+2019/03/16 12:46:43 PM GMT-5,Italiano,Female,51.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,No,Yes,50.0
+2019/03/16 12:47:56 PM GMT-5,Italiano,Female,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,75.0
+2019/03/16 1:03:28 PM GMT-5,Italiano,Female,22.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,200.0
+2019/03/16 1:03:41 PM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,180.0
+2019/03/16 1:04:01 PM GMT-5,Italiano,Female,24.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,100.0
+2019/03/16 1:04:18 PM GMT-5,Italiano,Female,25.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,50.0
+2019/03/16 1:04:28 PM GMT-5,Italiano,Female,55.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,No,200.0
+2019/03/16 1:06:38 PM GMT-5,Italiano,Female,40.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,No,50.0
+2019/03/16 1:12:42 PM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",Yes,No,45.0
+2019/03/16 1:17:35 PM GMT-5,Italiano,Male,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,450.0
+2019/03/16 1:17:40 PM GMT-5,Italiano,Female,18.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,No,Yes,70.0
+2019/03/16 1:17:53 PM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Artistic (Arts, Design, Architecture, ...)",No,Yes,80.0
+2019/03/16 1:31:39 PM GMT-5,Italiano,Female,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,200.0
+2019/03/16 1:32:17 PM GMT-5,Italiano,Male,24.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,40.0
+2019/03/16 1:36:08 PM GMT-5,Italiano,Female,25.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,30.0
+2019/03/16 1:38:38 PM GMT-5,Italiano,Female,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,100.0
+2019/03/16 1:43:09 PM GMT-5,English,Male,21.0,"Western Europe (Austria, Belgium, France, Germany, Netherlands, Switzerland, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,40.0
+2019/03/16 1:45:39 PM GMT-5,Italiano,Female,18.0,"Western Europe (Austria, Belgium, France, Germany, Netherlands, Switzerland, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,30.0
+2019/03/16 1:50:10 PM GMT-5,Italiano,Male,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,100.0
+2019/03/16 1:52:41 PM GMT-5,Italiano,Female,32.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,150.0
+2019/03/16 2:01:10 PM GMT-5,Italiano,Female,26.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,50.0
+2019/03/16 2:09:33 PM GMT-5,Italiano,Female,50.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,No,100.0
+2019/03/16 2:15:40 PM GMT-5,Italiano,Female,47.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,Yes,120.0
+2019/03/16 2:16:04 PM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,110.0
+2019/03/16 2:25:04 PM GMT-5,Italiano,Female,47.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,Yes,60.0
+2019/03/16 2:30:51 PM GMT-5,Italiano,Female,51.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",Yes,No,100.0
+2019/03/16 2:31:38 PM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,60.0
+2019/03/16 2:36:31 PM GMT-5,Italiano,Female,53.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,Yes,150.0
+2019/03/16 2:40:19 PM GMT-5,Italiano,Female,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,200.0
+2019/03/16 2:40:39 PM GMT-5,Italiano,Male,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,50.0
+2019/03/16 2:41:09 PM GMT-5,Italiano,Female,35.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,No,50.0
+2019/03/16 2:45:07 PM GMT-5,Italiano,Female,32.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,80.0
+2019/03/16 2:48:45 PM GMT-5,Italiano,Female,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,50.0
+2019/03/16 3:09:10 PM GMT-5,Italiano,Female,31.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,Yes,120.0
+2019/03/16 3:15:22 PM GMT-5,Italiano,Female,60.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,Yes,100.0
+2019/03/16 3:20:01 PM GMT-5,Italiano,Female,24.0,"Eastern Europe (Czech Republic, Estonia, Hungary, Latvia, Lithuania, Russia, ... )",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,90.0
+2019/03/16 3:20:22 PM GMT-5,Italiano,Female,45.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,No,100.0
+2019/03/16 3:36:00 PM GMT-5,English,Female,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,Yes,230.0
+2019/03/16 3:57:13 PM GMT-5,Italiano,Female,38.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,50.0
+2019/03/16 4:02:51 PM GMT-5,Italiano,Male,18.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",Yes,Yes,230.0
+2019/03/16 4:04:20 PM GMT-5,Italiano,Female,22.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,90.0
+2019/03/16 4:09:27 PM GMT-5,Italiano,Male,28.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,No,100.0
+2019/03/16 4:22:46 PM GMT-5,Italiano,Female,19.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,150.0
+2019/03/16 4:25:17 PM GMT-5,Italiano,Female,19.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,50.0
+2019/03/16 4:40:45 PM GMT-5,Italiano,Male,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,Yes,0.0
+2019/03/16 4:48:35 PM GMT-5,Italiano,Male,46.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",Yes,No,250.0
+2019/03/16 4:52:44 PM GMT-5,Italiano,Male,54.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,No,50.0
+2019/03/16 4:54:58 PM GMT-5,Italiano,Male,26.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",Yes,Yes,100.0
+2019/03/16 6:02:49 PM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,Yes,80.0
+2019/03/16 6:06:48 PM GMT-5,Italiano,Female,25.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,100.0
+2019/03/16 6:53:07 PM GMT-5,Italiano,Male,25.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,No,150.0
+2019/03/16 7:31:16 PM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,150.0
+2019/03/16 8:25:35 PM GMT-5,Italiano,Female,25.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,200.0
+2019/03/17 12:35:19 AM GMT-5,English,Female,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,Yes,230.0
+2019/03/17 12:59:40 AM GMT-5,Italiano,Male,39.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,Yes,60.0
+2019/03/17 1:00:42 AM GMT-5,Italiano,Male,39.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,Yes,60.0
+2019/03/17 2:36:56 AM GMT-5,Italiano,Female,22.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,200.0
+2019/03/17 5:56:25 AM GMT-5,Italiano,Female,64.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Artistic (Arts, Design, Architecture, ...)",Yes,No,200.0
+2019/03/17 6:00:54 AM GMT-5,Italiano,Female,64.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Artistic (Arts, Design, Architecture, ...)",No,Yes,200.0
+2019/03/17 6:55:18 AM GMT-5,Italiano,Female,45.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,No,100.0
+2019/03/17 7:05:25 AM GMT-5,Italiano,Female,45.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,Yes,200.0
+2019/03/17 7:16:00 AM GMT-5,Italiano,Female,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,60.0
+2019/03/17 9:16:59 AM GMT-5,Italiano,Female,38.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,50.0
+2019/03/17 10:00:45 AM GMT-5,Italiano,Male,22.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,100.0
+2019/03/17 10:08:13 AM GMT-5,Italiano,Female,55.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,No,No,40.0
+2019/03/17 10:11:08 AM GMT-5,Italiano,Female,22.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,150.0
+2019/03/17 10:19:38 AM GMT-5,Italiano,Female,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,No,300.0
+2019/03/17 10:40:34 AM GMT-5,Italiano,Female,17.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,30.0
+2019/03/17 10:48:14 AM GMT-5,Italiano,Female,19.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,40.0
+2019/03/17 10:51:09 AM GMT-5,Italiano,Male,19.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,175.0
+2019/03/17 10:51:09 AM GMT-5,Italiano,Male,22.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,Yes,100.0
+2019/03/17 10:51:24 AM GMT-5,Italiano,Female,19.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,50.0
+2019/03/17 10:55:47 AM GMT-5,Italiano,Female,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,150.0
+2019/03/17 10:56:00 AM GMT-5,Italiano,Male,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,30.0
+2019/03/17 10:56:02 AM GMT-5,Italiano,Male,19.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,250.0
+2019/03/17 10:56:13 AM GMT-5,Italiano,Male,19.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,250.0
+2019/03/17 10:56:35 AM GMT-5,English,Female,20.0,"Western Europe (Austria, Belgium, France, Germany, Netherlands, Switzerland, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,40.0
+2019/03/17 10:58:45 AM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,100.0
+2019/03/17 11:00:58 AM GMT-5,Italiano,Male,22.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,40.0
+2019/03/17 11:01:31 AM GMT-5,English,Male,19.0,"Western Europe (Austria, Belgium, France, Germany, Netherlands, Switzerland, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,70.0
+2019/03/17 11:03:01 AM GMT-5,Italiano,Female,19.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,150.0
+2019/03/17 11:03:51 AM GMT-5,Italiano,Female,22.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,Yes,50.0
+2019/03/17 11:04:14 AM GMT-5,English,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,150.0
+2019/03/17 11:05:34 AM GMT-5,English,Female,21.0,Africa,Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,70.0
+2019/03/17 11:05:41 AM GMT-5,Italiano,Female,19.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,180.0
+2019/03/17 11:07:48 AM GMT-5,Italiano,Female,19.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,30.0
+2019/03/17 11:08:31 AM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,Yes,80.0
+2019/03/17 11:23:50 AM GMT-5,Italiano,Male,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,70.0
+2019/03/17 11:24:01 AM GMT-5,Italiano,Female,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,60.0
+2019/03/17 11:28:00 AM GMT-5,Italiano,Male,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,100.0
+2019/03/17 11:33:14 AM GMT-5,English,Female,20.0,"Western Europe (Austria, Belgium, France, Germany, Netherlands, Switzerland, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,No,50.0
+2019/03/17 11:36:08 AM GMT-5,Italiano,Female,19.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,60.0
+2019/03/17 11:36:51 AM GMT-5,Italiano,Male,22.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,Yes,70.0
+2019/03/17 11:38:14 AM GMT-5,English,Female,29.0,South America,Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,20.0
+2019/03/17 11:43:39 AM GMT-5,Italiano,Female,19.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,50.0
+2019/03/17 11:49:42 AM GMT-5,Italiano,Male,21.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,39.0
+2019/03/17 11:56:15 AM GMT-5,English,Female,19.0,"Western Europe (Austria, Belgium, France, Germany, Netherlands, Switzerland, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,30.0
+2019/03/17 12:08:58 PM GMT-5,English,Female,19.0,"Western Europe (Austria, Belgium, France, Germany, Netherlands, Switzerland, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,Yes,35.0
+2019/03/17 12:38:21 PM GMT-5,Italiano,Male,50.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,Yes,100.0
+2019/03/17 12:40:44 PM GMT-5,Italiano,Male,56.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,Yes,25.0
+2019/03/17 1:12:27 PM GMT-5,Italiano,Male,26.0,"Eastern Europe (Czech Republic, Estonia, Hungary, Latvia, Lithuania, Russia, ... )",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,200.0
+2019/03/17 2:12:00 PM GMT-5,Italiano,Male,18.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,Yes,100.0
+2019/03/17 2:14:15 PM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,No,30.0
+2019/03/17 2:15:09 PM GMT-5,Italiano,Female,24.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,Yes,300.0
+2019/03/17 2:16:49 PM GMT-5,Italiano,Female,24.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,Yes,300.0
+2019/03/17 2:18:01 PM GMT-5,Italiano,Female,22.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",Yes,Yes,250.0
+2019/03/17 2:24:41 PM GMT-5,Italiano,Female,43.0,Africa,No,,Yes,No,90.0
+2019/03/17 4:54:20 PM GMT-5,Italiano,Male,24.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,250.0
+2019/03/17 5:03:01 PM GMT-5,Italiano,Male,24.0,Asia,Yes,"Artistic (Arts, Design, Architecture, ...)",Yes,No,450.0
+2019/03/17 5:06:51 PM GMT-5,Italiano,Female,27.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,No,250.0
+2019/03/17 5:07:56 PM GMT-5,English,Female,24.0,South America,No,,No,No,19.0
+2019/03/17 5:08:35 PM GMT-5,Italiano,Female,20.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Artistic (Arts, Design, Architecture, ...)",No,Yes,200.0
+2019/03/17 5:14:26 PM GMT-5,Italiano,Female,28.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,110.0
+2019/03/17 5:16:22 PM GMT-5,Italiano,Male,29.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,Yes,80.0
+2019/03/17 5:17:36 PM GMT-5,Italiano,Male,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,No,450.0
+2019/03/17 5:19:24 PM GMT-5,Italiano,Male,29.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",Yes,Yes,120.0
+2019/03/17 5:23:58 PM GMT-5,English,Female,21.0,South America,Yes,"Humanistic (Languages, Law, Literature, ...)",No,No,30.0
+2019/03/17 5:51:04 PM GMT-5,Italiano,Female,23.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Artistic (Arts, Design, Architecture, ...)",No,No,63.0
+2019/03/17 6:00:06 PM GMT-5,Italiano,Male,26.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",No,No,100.0
+2019/03/17 6:03:55 PM GMT-5,Italiano,Female,28.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Humanistic (Languages, Law, Literature, ...)",Yes,Yes,300.0
+2019/03/17 6:05:09 PM GMT-5,Italiano,Male,25.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,"Scientific (Engineering, Maths, Medicine...)",Yes,No,400.0
+2019/03/17 6:46:26 PM GMT-5,Italiano,Male,24.0,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",No,,Yes,Yes,60.0
