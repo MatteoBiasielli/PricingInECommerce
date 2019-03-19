@@ -1,5 +1,7 @@
 import os
+
 import pandas as pd
+
 import pricing.data.answers_conversions_dictionaries as acd
 
 RAWDATADIRPATH = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'raw_data')
@@ -8,14 +10,15 @@ PREPROCDATADIRPATH = os.path.join(os.path.dirname(os.path.realpath(__file__)), '
 
 class DataPreprocesser:
 
-    def __init__(self, path=None, no_basic_preprocessing=False):
+    def __init__(self, path=None, no_basic_preprocessing=False, columns_to_remove=None):
         rawdata = pd.read_csv(os.path.join(RAWDATADIRPATH, 'rawdata.csv') if path is None else path)
 
         if not no_basic_preprocessing:
-            # remove date and language
-            rawdata.drop(rawdata.columns[[0, 1]], axis=1, inplace=True)
+            # remove useless columns
+            if columns_to_remove is not None:
+                rawdata.drop(rawdata.columns[columns_to_remove], axis=1, inplace=True)
 
-            # unify columns in english/italian
+            # unify columns
             convs = acd.anwswers_translations()
             for c in convs:
                 rawdata = rawdata.replace(to_replace=c[0], value=c[1])
@@ -28,21 +31,17 @@ class DataPreprocesser:
             for c2c in col2col:
                 rawdata = rawdata.drop(labels=[c2c[0]], axis=1)
 
-            # simplify column names
+            # simplify column names (TODO move it somewhere else so parser is generic)
             rawdata.columns = ["Gender", "Age", "Location", "University", "Background", "Employed", "Outdoor",
                                "Max_Price"]
 
             # fix categorical data
-            rawdata.University.replace(('Yes', 'No'), (1, 0), inplace=True)
-            rawdata.Employed.replace(('Yes', 'No'), (1, 0), inplace=True)
-            rawdata.Outdoor.replace(('Yes', 'No'), (1, 0), inplace=True)
+            rawdata.replace(('Yes', 'No'), (1, 0), inplace=True)
 
-            location_dummies = pd.get_dummies(rawdata['Location'], prefix='Location')
-            rawdata.drop("Location", axis=1, inplace=True)
-            background_dummies = pd.get_dummies(rawdata['Background'], prefix='Background')
-            rawdata.drop("Background", axis=1, inplace=True)
-
-            rawdata = pd.concat([rawdata, location_dummies, background_dummies], axis=1)
+            for column in self.__get_categorical_columns(rawdata):
+                dummies = pd.get_dummies(rawdata[column], prefix=column)
+                rawdata.drop(column, axis=1, inplace=True)
+                rawdata = pd.concat([rawdata, dummies], axis=1)
 
         self.data = rawdata
 
@@ -56,8 +55,13 @@ class DataPreprocesser:
     def save_data(self, path=None):
         self.data.to_csv(os.path.join(PREPROCDATADIRPATH, 'processed_data.csv') if path is None else path, index=False)
 
+    def __get_categorical_columns(self, dataframe):
+        cols = dataframe.columns
+        num_cols = dataframe._get_numeric_data().columns
+        return list(set(cols) - set(num_cols))
+
 
 if __name__ == '__main__':
-    dp = DataPreprocesser()
+    dp = DataPreprocesser(columns_to_remove=[0, 1])
     dp.save_data()
     # print(DataPreprocesser(path='./preprocessed_data/processed_data.csv', no_basic_preprocessing=True).data)
