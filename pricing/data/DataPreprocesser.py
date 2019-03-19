@@ -62,6 +62,6 @@ class DataPreprocesser:
 
 
 if __name__ == '__main__':
-    dp = DataPreprocesser(columns_to_remove=[0, 1])
-    dp.save_data()
-    # print(DataPreprocesser(path='./preprocessed_data/processed_data.csv', no_basic_preprocessing=True).data)
+    # dp = DataPreprocesser(columns_to_remove=[0, 1])
+    # dp.save_data()
+    print(DataPreprocesser(path='./preprocessed_data/processed_data.csv', no_basic_preprocessing=True).data)
