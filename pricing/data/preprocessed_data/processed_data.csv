@@ -1,4 +1,4 @@
-Age,University,Employed,Outdoor,Max_Price,Gender_Female,Gender_Male,"Background_Artistic (Arts, Design, Architecture, ...)","Background_Humanistic (Languages, Law, Literature, ...)","Background_Scientific (Engineering, Maths, Medicine...)",Location_Africa,Location_Asia,"Location_Eastern Europe (Czech Republic, Estonia, Hungary, Latvia, Lithuania, Russia, ... )",Location_North America,Location_South America,"Location_Southern Europe (Greece, Italy, Portugal, Spain, ...)","Location_Western Europe (Austria, Belgium, France, Germany, Netherlands, Switzerland, ...)"
+Age,University,Employed,Outdoor,Max_Price,Gender_Female,Gender_Male,Background_Artistic,Background_Humanistic,Background_Scientific,Location_Africa,Location_Asia,Location_EastEU,Location_NorthAmerica,Location_SouthAmerica,Location_SouthEU,Location_WestEU
 23.0,1,1,1,150.0,0,1,0,0,1,0,0,0,0,0,1,0
 28.0,1,0,1,20.0,1,0,0,0,1,0,1,0,0,0,0,0
 24.0,1,0,1,130.0,0,1,0,0,1,0,0,0,0,0,1,0

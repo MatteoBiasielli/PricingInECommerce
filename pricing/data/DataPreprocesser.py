@@ -31,11 +31,16 @@ class DataPreprocesser:
             for c2c in col2col:
                 rawdata = rawdata.drop(labels=[c2c[0]], axis=1)
 
-            # simplify column names (TODO move it somewhere else so parser is generic)
-            rawdata.columns = ["Gender", "Age", "Location", "University", "Background", "Employed", "Outdoor",
-                               "Max_Price"]
+            # simplify column names
+            for column in rawdata:
+                rawdata.rename(columns={column: col2col[next(i for i, lst in enumerate(col2col) if column in lst)][2]},
+                               inplace=True)
 
             # fix categorical data
+            for c in convs:
+                # more readable names
+                rawdata = rawdata.replace(to_replace=c[1], value=c[2])
+
             rawdata.replace(('Yes', 'No'), (1, 0), inplace=True)
 
             for column in self.__get_categorical_columns(rawdata):
