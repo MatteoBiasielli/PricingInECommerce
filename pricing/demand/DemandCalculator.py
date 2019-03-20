@@ -25,8 +25,8 @@ class DemandCalculator:
             reverse_cum[0:int(val)] += quantum
         smooth_reverse_cum[0] = 1
         for i in range(1, num):
-            smooth_reverse_cum[i] = np.mean(reverse_cum[max(0, int(i - self.smoothing_window_size/2)):
-                                                       int(i + self.smoothing_window_size/2)])
+            smooth_reverse_cum[i] = np.mean(reverse_cum[max(0, int(i - self.smoothing_window_size / 2)):
+                                                        int(i + self.smoothing_window_size / 2)])
 
         return reverse_cum, smooth_reverse_cum, indexes
 
@@ -72,8 +72,8 @@ if __name__ == '__main__':
     # DISAGGREGATED DEMANDS
     a_people = DP(path='../data/preprocessed_data/processed_data.csv', no_basic_preprocessing=True)
     a_people.process_data([
-            select_where(column="Location_Southern Europe (Greece, Italy, Portugal, Spain, ...)", equals_to=1),
-            select_where(column="Employed", equals_to=1)])
+        select_where(column="Location_SouthEU", equals_to=1),
+        select_where(column="Employed", equals_to=1)])
     a = DemandCalculator(a_people,
                               smoothing_window_size=50)
     a.plot(smooth_reverse=True,
@@ -84,7 +84,7 @@ if __name__ == '__main__':
 
     b_people = DP(path='../data/preprocessed_data/processed_data.csv', no_basic_preprocessing=True)
     b_people.process_data([
-        select_where(column="Location_Southern Europe (Greece, Italy, Portugal, Spain, ...)", equals_to=0)])
+        select_where(column="Location_SouthEU", equals_to=0)])
     b = DemandCalculator(b_people,
                             smoothing_window_size=50)
     b.plot(smooth_reverse=True,
@@ -95,7 +95,7 @@ if __name__ == '__main__':
 
     c_people = DP(path='../data/preprocessed_data/processed_data.csv', no_basic_preprocessing=True)
     c_people.process_data([
-        select_where(column="Location_Southern Europe (Greece, Italy, Portugal, Spain, ...)", equals_to=1),
+        select_where(column="Location_SouthEU", equals_to=1),
         select_where(column="Employed", equals_to=0)])
     c = DemandCalculator(c_people,
                             smoothing_window_size=50)
