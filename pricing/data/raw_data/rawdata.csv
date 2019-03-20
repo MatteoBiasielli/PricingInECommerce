@@ -1,275 +1,330 @@
-"Informazioni cronologiche","Language/Lingua:","What gender do you identify with?","How old are you?","Where are you from?","Did you continue your studies after high school?","Sesso:","Età:","Continente di provenienza:","Hai continuato gli studi dopo le scuole superiori?","What is your educational background?","In che campo hai studiato?","Are you employed?","Do you spend a lot of time outdoor?","Hai un lavoro?","Passi molto tempo all'aria aperta?","Assuming you are interested in the product, which is the maximum amount of money you would pay for it? (€)","Assumendo ti interessi il prodotto, qual è la cifra massima che spenderesti per acquistarlo? (€)"
-"2019/03/15 11:58:50 AM GMT-5","Italiano","","","","","Maschio","23","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","Sì","Sì","","150"
-"2019/03/15 11:59:40 AM GMT-5","English","Female","28","Asia","Yes","","","","","Scientific (Engineering, Maths, Medicine...)","","No","Yes","","","20",""
-"2019/03/15 12:02:03 PM GMT-5","English","Male","24","Southern Europe (Greece, Italy, Portugal, Spain, ...)","Yes","","","","","Scientific (Engineering, Maths, Medicine...)","","No","Yes","","","130",""
-"2019/03/15 12:06:44 PM GMT-5","English","Male","23","Asia","Yes","","","","","Scientific (Engineering, Maths, Medicine...)","","No","Yes","","","150",""
-"2019/03/15 12:08:23 PM GMT-5","English","Male","25","North America","Yes","","","","","Scientific (Engineering, Maths, Medicine...)","","Yes","Yes","","","300",""
-"2019/03/15 12:10:32 PM GMT-5","English","Male","22","Asia","Yes","","","","","Scientific (Engineering, Maths, Medicine...)","","No","No","","","20",""
-"2019/03/15 12:11:47 PM GMT-5","English","Male","27","Southern Europe (Greece, Italy, Portugal, Spain, ...)","Yes","","","","","Scientific (Engineering, Maths, Medicine...)","","Yes","Yes","","","50",""
-"2019/03/15 12:17:54 PM GMT-5","English","Male","21","Asia","Yes","","","","","Scientific (Engineering, Maths, Medicine...)","","No","Yes","","","15",""
-"2019/03/15 12:18:02 PM GMT-5","English","Female","19","Asia","Yes","","","","","Humanistic (Languages, Law, Literature, ...)","","No","Yes","","","80",""
-"2019/03/15 12:29:27 PM GMT-5","Italiano","","","","","Maschio","53","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","Sì","Sì","","35"
-"2019/03/15 12:48:47 PM GMT-5","Italiano","","","","","Femmina","19","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","No","","140"
-"2019/03/15 12:48:54 PM GMT-5","Italiano","","","","","Femmina","17","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","No","","130"
-"2019/03/15 12:53:19 PM GMT-5","Italiano","","","","","Femmina","19","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","No","","70"
-"2019/03/15 12:53:48 PM GMT-5","Italiano","","","","","Femmina","17","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","No","","20"
-"2019/03/15 1:00:50 PM GMT-5","Italiano","","","","","Maschio","19","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","No","","50"
-"2019/03/15 1:02:33 PM GMT-5","English","Male","22","Asia","Yes","","","","","Scientific (Engineering, Maths, Medicine...)","","No","Yes","","","3",""
-"2019/03/15 1:05:24 PM GMT-5","English","Female","20","Southern Europe (Greece, Italy, Portugal, Spain, ...)","Yes","","","","","Scientific (Engineering, Maths, Medicine...)","","No","Yes","","","50",""
-"2019/03/15 1:06:13 PM GMT-5","English","Female","21","Southern Europe (Greece, Italy, Portugal, Spain, ...)","Yes","","","","","Scientific (Engineering, Maths, Medicine...)","","No","No","","","13",""
-"2019/03/15 1:06:29 PM GMT-5","English","Male","20","Eastern Europe (Czech Republic, Estonia, Hungary, Latvia, Lithuania, Russia, ... )","Yes","","","","","Scientific (Engineering, Maths, Medicine...)","","No","Yes","","","45",""
-"2019/03/15 1:07:11 PM GMT-5","English","Male","21","Southern Europe (Greece, Italy, Portugal, Spain, ...)","Yes","","","","","Scientific (Engineering, Maths, Medicine...)","","No","Yes","","","20",""
-"2019/03/15 1:10:57 PM GMT-5","Italiano","","","","","Femmina","21","Europa Orientale (Repubblica Ceca, Estonia, Ungheria, Lettonia, Lituania, Russia, ... )","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","No","","50"
-"2019/03/15 1:12:34 PM GMT-5","English","Female","21","Eastern Europe (Czech Republic, Estonia, Hungary, Latvia, Lithuania, Russia, ... )","Yes","","","","","Scientific (Engineering, Maths, Medicine...)","","No","Yes","","","20",""
-"2019/03/15 1:31:32 PM GMT-5","English","Female","20","Eastern Europe (Czech Republic, Estonia, Hungary, Latvia, Lithuania, Russia, ... )","Yes","","","","","Scientific (Engineering, Maths, Medicine...)","","No","Yes","","","100",""
-"2019/03/15 1:33:22 PM GMT-5","English","Female","24","Asia","Yes","","","","","Humanistic (Languages, Law, Literature, ...)","","No","Yes","","","50",""
-"2019/03/15 1:34:54 PM GMT-5","English","Female","22","Asia","Yes","","","","","Scientific (Engineering, Maths, Medicine...)","","No","No","","","20",""
-"2019/03/15 1:45:06 PM GMT-5","Italiano","","","","","Femmina","16","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","Sì","","50"
-"2019/03/15 2:13:01 PM GMT-5","English","Male","20","Eastern Europe (Czech Republic, Estonia, Hungary, Latvia, Lithuania, Russia, ... )","Yes","","","","","Scientific (Engineering, Maths, Medicine...)","","No","Yes","","","10",""
-"2019/03/15 3:07:49 PM GMT-5","English","Male","23","North America","Yes","","","","","Scientific (Engineering, Maths, Medicine...)","","No","Yes","","","40",""
-"2019/03/15 3:39:15 PM GMT-5","English","Male","25","Asia","Yes","","","","","Scientific (Engineering, Maths, Medicine...)","","No","No","","","129",""
-"2019/03/15 3:47:52 PM GMT-5","English","Female","20","Southern Europe (Greece, Italy, Portugal, Spain, ...)","Yes","","","","","Scientific (Engineering, Maths, Medicine...)","","No","Yes","","","45",""
-"2019/03/15 3:50:47 PM GMT-5","English","Female","18","Africa","Yes","","","","","Scientific (Engineering, Maths, Medicine...)","","No","Yes","","","20",""
-"2019/03/15 3:59:31 PM GMT-5","Italiano","","","","","Maschio","60","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","Sì","Sì","","80 "
-"2019/03/15 4:18:50 PM GMT-5","Italiano","","","","","Maschio","24","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","Sì","","100"
-"2019/03/15 4:21:53 PM GMT-5","English","Male","35","Asia","Yes","","","","","Scientific (Engineering, Maths, Medicine...)","","No","Yes","","","150",""
-"2019/03/15 5:24:46 PM GMT-5","Italiano","","","","","Maschio","23","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","Sì","No","","150"
-"2019/03/15 5:48:02 PM GMT-5","English","Female","28","Asia","Yes","","","","","Scientific (Engineering, Maths, Medicine...)","","No","Yes","","","90",""
-"2019/03/15 5:59:27 PM GMT-5","English","Female","30","Asia","Yes","","","","","Scientific (Engineering, Maths, Medicine...)","","No","Yes","","","90",""
-"2019/03/15 6:13:32 PM GMT-5","Italiano","","","","","Femmina","58","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","Sì","No","","150"
-"2019/03/15 8:21:37 PM GMT-5","English","Male","25","Asia","Yes","","","","","Scientific (Engineering, Maths, Medicine...)","","No","No","","","20",""
-"2019/03/16 3:50:29 AM GMT-5","Italiano","","","","","Femmina","17","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","No","Sì","","50"
-"2019/03/16 3:54:19 AM GMT-5","Italiano","","","","","Femmina","17","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","No","","80"
-"2019/03/16 3:57:52 AM GMT-5","Italiano","","","","","Femmina","18","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","Sì","","100"
-"2019/03/16 4:01:05 AM GMT-5","Italiano","","","","","Maschio","60","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","No","Sì","","20"
-"2019/03/16 4:03:19 AM GMT-5","Italiano","","","","","Maschio","72","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","No","No","","35"
-"2019/03/16 4:14:46 AM GMT-5","Italiano","","","","","Maschio","21","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","Sì","","100 "
-"2019/03/16 4:19:17 AM GMT-5","Italiano","","","","","Femmina","20","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","Sì","","200"
-"2019/03/16 4:27:37 AM GMT-5","Italiano","","","","","Femmina","21","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","No","","250"
-"2019/03/16 4:31:34 AM GMT-5","Italiano","","","","","Femmina","21 ","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","Sì","No","","60"
-"2019/03/16 4:35:01 AM GMT-5","Italiano","","","","","Femmina","21","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","Sì","","200"
-"2019/03/16 4:37:24 AM GMT-5","Italiano","","","","","Femmina","21","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Artistico (Arti, Design, Architettura, ...)","","","No","No","","150"
-"2019/03/16 4:38:45 AM GMT-5","Italiano","","","","","Femmina","21","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","Sì","","300 "
-"2019/03/16 4:43:38 AM GMT-5","Italiano","","","","","Femmina","21","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Artistico (Arti, Design, Architettura, ...)","","","No","No","","300"
-"2019/03/16 4:49:58 AM GMT-5","English","Female","22","Eastern Europe (Czech Republic, Estonia, Hungary, Latvia, Lithuania, Russia, ... )","Yes","","","","","Humanistic (Languages, Law, Literature, ...)","","No","No","","","1",""
-"2019/03/16 4:55:32 AM GMT-5","Italiano","","","","","Maschio","20","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","No","","100"
-"2019/03/16 4:57:39 AM GMT-5","Italiano","","","","","Maschio","20","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","Sì","","150"
-"2019/03/16 5:17:12 AM GMT-5","Italiano","","","","","Femmina","22","Europa Occidentale (Austria, Belgio, Francia, Germania, Paesi Bassi, Svizzera, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","Sì","","90"
-"2019/03/16 5:27:39 AM GMT-5","Italiano","","","","","Femmina","20 ","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","No","","100"
-"2019/03/16 5:27:50 AM GMT-5","English","Female","27","Asia","Yes","","","","","Scientific (Engineering, Maths, Medicine...)","","No","No","","","100",""
-"2019/03/16 5:28:43 AM GMT-5","Italiano","","","","","Maschio","23","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","No","","10"
-"2019/03/16 5:34:53 AM GMT-5","Italiano","","","","","Maschio","21","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Artistico (Arti, Design, Architettura, ...)","","","No","No","","300"
-"2019/03/16 5:36:18 AM GMT-5","Italiano","","","","","Maschio","29","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","Sì","No","","250"
-"2019/03/16 5:40:31 AM GMT-5","Italiano","","","","","Femmina","20","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Artistico (Arti, Design, Architettura, ...)","","","No","No","","150"
-"2019/03/16 5:51:19 AM GMT-5","Italiano","","","","","Femmina","52","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","No","No","","100"
-"2019/03/16 5:53:50 AM GMT-5","Italiano","","","","","Femmina","25","Europa Orientale (Repubblica Ceca, Estonia, Ungheria, Lettonia, Lituania, Russia, ... )","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","Sì","Sì","","50"
-"2019/03/16 5:53:59 AM GMT-5","Italiano","","","","","Femmina","20","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","Sì","Sì","","200"
-"2019/03/16 5:55:49 AM GMT-5","Italiano","","","","","Femmina","21","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","Sì","","100"
-"2019/03/16 5:56:32 AM GMT-5","Italiano","","","","","Femmina","20","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","Sì","","150"
-"2019/03/16 5:56:48 AM GMT-5","Italiano","","","","","Femmina","21","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Artistico (Arti, Design, Architettura, ...)","","","No","Sì","","80"
-"2019/03/16 5:57:17 AM GMT-5","Italiano","","","","","Femmina","21","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","Sì","","150"
-"2019/03/16 5:57:43 AM GMT-5","Italiano","","","","","Femmina","21","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","No","","50"
-"2019/03/16 5:57:48 AM GMT-5","Italiano","","","","","Femmina","20","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","Sì","","100"
-"2019/03/16 5:58:16 AM GMT-5","English","Female","20","Southern Europe (Greece, Italy, Portugal, Spain, ...)","Yes","","","","","Humanistic (Languages, Law, Literature, ...)","","Yes","Yes","","","150",""
-"2019/03/16 5:58:23 AM GMT-5","Italiano","","","","","Femmina","20","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","Sì","No","","120"
-"2019/03/16 5:59:14 AM GMT-5","Italiano","","","","","Femmina","20","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","No","","60"
-"2019/03/16 5:59:33 AM GMT-5","Italiano","","","","","Femmina","21","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","No","Sì","","100"
-"2019/03/16 6:00:34 AM GMT-5","Italiano","","","","","Femmina","20","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","No","","75"
-"2019/03/16 6:02:14 AM GMT-5","Italiano","","","","","Femmina","20","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","Sì","Sì","","120"
-"2019/03/16 6:02:48 AM GMT-5","Italiano","","","","","Femmina","24","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","Sì","Sì","","175"
-"2019/03/16 6:03:26 AM GMT-5","Italiano","","","","","Femmina","21","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","No","","80 "
-"2019/03/16 6:04:54 AM GMT-5","Italiano","","","","","Femmina","21","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","No","","80"
-"2019/03/16 6:05:57 AM GMT-5","Italiano","","","","","Femmina","23","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","No","","80"
-"2019/03/16 6:06:21 AM GMT-5","Italiano","","","","","Maschio","21","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","Sì","","200"
-"2019/03/16 6:06:31 AM GMT-5","Italiano","","","","","Maschio","21","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","Sì","","200"
-"2019/03/16 6:09:26 AM GMT-5","Italiano","","","","","Femmina","20","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","No","","400"
-"2019/03/16 6:10:39 AM GMT-5","Italiano","","","","","Femmina","39","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","Sì","No","","200"
-"2019/03/16 6:12:36 AM GMT-5","Italiano","","","","","Femmina","21","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","No","","80"
-"2019/03/16 6:13:09 AM GMT-5","Italiano","","","","","Femmina","20","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","No","","200"
-"2019/03/16 6:13:20 AM GMT-5","Italiano","","","","","Maschio","35","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","Sì","No","","300"
-"2019/03/16 6:18:25 AM GMT-5","Italiano","","","","","Femmina","20","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","Sì","No","","160"
-"2019/03/16 6:18:29 AM GMT-5","Italiano","","","","","Femmina","20","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","Sì","Sì","","80"
-"2019/03/16 6:20:10 AM GMT-5","Italiano","","","","","Femmina","21","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","No","","120"
-"2019/03/16 6:21:38 AM GMT-5","Italiano","","","","","Maschio","24","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","No","","180"
-"2019/03/16 6:21:41 AM GMT-5","Italiano","","","","","Femmina","20","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","No","","50"
-"2019/03/16 6:24:41 AM GMT-5","Italiano","","","","","Femmina","23","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Artistico (Arti, Design, Architettura, ...)","","","No","No","","120"
-"2019/03/16 6:33:12 AM GMT-5","Italiano","","","","","Femmina","54","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","Sì","No","","150"
-"2019/03/16 6:34:50 AM GMT-5","Italiano","","","","","Femmina","21","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","Sì","Sì","","170"
-"2019/03/16 6:35:41 AM GMT-5","Italiano","","","","","Femmina","20","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","No","","70"
-"2019/03/16 6:38:07 AM GMT-5","Italiano","","","","","Femmina","21","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","Sì","","50"
-"2019/03/16 7:00:27 AM GMT-5","Italiano","","","","","Femmina","21","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","No","","250"
-"2019/03/16 7:01:01 AM GMT-5","Italiano","","","","","Maschio","24","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Artistico (Arti, Design, Architettura, ...)","","","No","Sì","","100"
-"2019/03/16 7:05:27 AM GMT-5","Italiano","","","","","Femmina","18 ","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","No","No","","150"
-"2019/03/16 7:07:55 AM GMT-5","Italiano","","","","","Femmina","15","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","No","No","","200"
-"2019/03/16 7:07:58 AM GMT-5","Italiano","","","","","Femmina","17","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","No","","50"
-"2019/03/16 7:12:43 AM GMT-5","Italiano","","","","","Femmina","25","Europa Orientale (Repubblica Ceca, Estonia, Ungheria, Lettonia, Lituania, Russia, ... )","Sì","","Artistico (Arti, Design, Architettura, ...)","","","Sì","No","","150"
-"2019/03/16 7:12:57 AM GMT-5","Italiano","","","","","Femmina","21","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","Sì","No","","120"
-"2019/03/16 7:13:44 AM GMT-5","Italiano","","","","","Maschio","22","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Artistico (Arti, Design, Architettura, ...)","","","Sì","No","","60"
-"2019/03/16 7:13:49 AM GMT-5","Italiano","","","","","Femmina","21","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","Sì","","90"
-"2019/03/16 7:18:26 AM GMT-5","Italiano","","","","","Maschio","22","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","Sì","","200"
-"2019/03/16 7:20:26 AM GMT-5","Italiano","","","","","Femmina","21","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","Sì","Sì","","300"
-"2019/03/16 7:20:33 AM GMT-5","Italiano","","","","","Femmina","25","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","Sì","","150"
-"2019/03/16 7:23:03 AM GMT-5","Italiano","","","","","Femmina","21","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","Sì","Sì","","200"
-"2019/03/16 7:25:08 AM GMT-5","Italiano","","","","","Femmina","42","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","Sì","No","","60"
-"2019/03/16 7:28:03 AM GMT-5","Italiano","","","","","Femmina","24","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","No","","200"
-"2019/03/16 7:28:26 AM GMT-5","Italiano","","","","","Maschio","27","Europa Orientale (Repubblica Ceca, Estonia, Ungheria, Lettonia, Lituania, Russia, ... )","No","","","","","Sì","Sì","","20"
-"2019/03/16 7:29:16 AM GMT-5","Italiano","","","","","Femmina","21","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","Sì","Sì","","120"
-"2019/03/16 7:30:15 AM GMT-5","Italiano","","","","","Maschio","27","Europa Orientale (Repubblica Ceca, Estonia, Ungheria, Lettonia, Lituania, Russia, ... )","No","","","","","Sì","Sì","","20"
-"2019/03/16 7:33:37 AM GMT-5","Italiano","","","","","Femmina","21","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","Sì","Sì","","300"
-"2019/03/16 7:34:31 AM GMT-5","Italiano","","","","","Femmina","21","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Artistico (Arti, Design, Architettura, ...)","","","No","Sì","","100"
-"2019/03/16 7:35:00 AM GMT-5","Italiano","","","","","Femmina","47","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","Sì","","100"
-"2019/03/16 7:36:08 AM GMT-5","Italiano","","","","","Maschio","22","Europa Orientale (Repubblica Ceca, Estonia, Ungheria, Lettonia, Lituania, Russia, ... )","Sì","","Artistico (Arti, Design, Architettura, ...)","","","Sì","Sì","","2"
-"2019/03/16 7:41:39 AM GMT-5","Italiano","","","","","Femmina","20 ","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","Sì","","150"
-"2019/03/16 7:42:04 AM GMT-5","Italiano","","","","","Maschio","21","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Artistico (Arti, Design, Architettura, ...)","","","Sì","Sì","","100"
-"2019/03/16 7:44:05 AM GMT-5","Italiano","","","","","Maschio","21","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","Sì","No","","150"
-"2019/03/16 7:48:47 AM GMT-5","Italiano","","","","","Femmina","23","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Artistico (Arti, Design, Architettura, ...)","","","Sì","No","","75"
-"2019/03/16 7:51:58 AM GMT-5","Italiano","","","","","Maschio","22","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","Sì","Sì","","150"
-"2019/03/16 8:02:37 AM GMT-5","Italiano","","","","","Femmina","27","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","No","Sì","","15"
-"2019/03/16 8:03:03 AM GMT-5","Italiano","","","","","Femmina","21","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","No","","120"
-"2019/03/16 8:11:18 AM GMT-5","Italiano","","","","","Maschio","37","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","Sì","No","","200"
-"2019/03/16 8:11:59 AM GMT-5","Italiano","","","","","Maschio","23","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","No","","250"
-"2019/03/16 8:14:45 AM GMT-5","Italiano","","","","","Femmina","51","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","Sì","No","","50"
-"2019/03/16 8:17:53 AM GMT-5","Italiano","","","","","Femmina","19","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","Sì","Sì","","100"
-"2019/03/16 9:20:50 AM GMT-5","Italiano","","","","","Femmina","22","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","Sì","No","","20"
-"2019/03/16 10:28:07 AM GMT-5","Italiano","","","","","Maschio","25","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","No","","150"
-"2019/03/16 10:44:53 AM GMT-5","Italiano","","","","","Maschio","22","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","Sì","Sì","","50"
-"2019/03/16 10:53:42 AM GMT-5","Italiano","","","","","Maschio","58","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","Sì","No","","100"
-"2019/03/16 11:02:41 AM GMT-5","Italiano","","","","","Maschio","23","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","No","","70"
-"2019/03/16 11:16:10 AM GMT-5","Italiano","","","","","Maschio","23","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","Sì","No","","150"
-"2019/03/16 11:32:25 AM GMT-5","Italiano","","","","","Maschio","21","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","Sì","Sì","","50"
-"2019/03/16 11:47:18 AM GMT-5","Italiano","","","","","Femmina","52","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Artistico (Arti, Design, Architettura, ...)","","","Sì","No","","150"
-"2019/03/16 11:58:58 AM GMT-5","Italiano","","","","","Maschio","23","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","No","","40"
-"2019/03/16 12:04:02 PM GMT-5","Italiano","","","","","Femmina","23","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","No","","70"
-"2019/03/16 12:08:00 PM GMT-5","Italiano","","","","","Femmina","23","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","Sì","Sì","","60"
-"2019/03/16 12:10:40 PM GMT-5","Italiano","","","","","Maschio","21","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","Sì","","25"
-"2019/03/16 12:12:27 PM GMT-5","Italiano","","","","","Femmina","20","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","No","","400"
-"2019/03/16 12:15:18 PM GMT-5","Italiano","","","","","Femmina","20","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","Sì","","120"
-"2019/03/16 12:18:59 PM GMT-5","Italiano","","","","","Femmina","24","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","No","","50"
-"2019/03/16 12:20:09 PM GMT-5","Italiano","","","","","Femmina","23","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","No","","100"
-"2019/03/16 12:22:11 PM GMT-5","Italiano","","","","","Femmina","23","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","Sì","","200"
-"2019/03/16 12:26:26 PM GMT-5","Italiano","","","","","Femmina","23","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","No","","70 "
-"2019/03/16 12:28:20 PM GMT-5","Italiano","","","","","Femmina","23","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","No","","100"
-"2019/03/16 12:40:17 PM GMT-5","English","Female","25","Asia","Yes","","","","","Scientific (Engineering, Maths, Medicine...)","","No","No","","","80",""
-"2019/03/16 12:45:56 PM GMT-5","Italiano","","","","","Femmina","23","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","Sì","","60 "
-"2019/03/16 12:46:43 PM GMT-5","Italiano","","","","","Femmina","51","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","No","Sì","","50"
-"2019/03/16 12:47:56 PM GMT-5","Italiano","","","","","Femmina","23","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","No","","75"
-"2019/03/16 1:03:28 PM GMT-5","Italiano","","","","","Femmina","22","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","Sì","","200"
-"2019/03/16 1:03:41 PM GMT-5","Italiano","","","","","Femmina","20","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","No","","180"
-"2019/03/16 1:04:01 PM GMT-5","Italiano","","","","","Femmina","24","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","No","","100"
-"2019/03/16 1:04:18 PM GMT-5","Italiano","","","","","Femmina","25","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","No","","50"
-"2019/03/16 1:04:28 PM GMT-5","Italiano","","","","","Femmina","55 ","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","Sì","No","","200"
-"2019/03/16 1:06:38 PM GMT-5","Italiano","","","","","Femmina","40","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","Sì","No","","50"
-"2019/03/16 1:12:42 PM GMT-5","Italiano","","","","","Femmina","21","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","Sì","No","","45"
-"2019/03/16 1:17:35 PM GMT-5","Italiano","","","","","Maschio","21","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","No","","450"
-"2019/03/16 1:17:40 PM GMT-5","Italiano","","","","","Femmina","18","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","No","Sì","","70"
-"2019/03/16 1:17:53 PM GMT-5","Italiano","","","","","Femmina","21","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Artistico (Arti, Design, Architettura, ...)","","","No","Sì","","80"
-"2019/03/16 1:31:39 PM GMT-5","Italiano","","","","","Femmina","23","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","Sì","","200"
-"2019/03/16 1:32:17 PM GMT-5","Italiano","","","","","Maschio","24","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","No","","40"
-"2019/03/16 1:36:08 PM GMT-5","Italiano","","","","","Femmina","25","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","Sì","","30"
-"2019/03/16 1:38:38 PM GMT-5","Italiano","","","","","Femmina","23","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","Sì","","100"
-"2019/03/16 1:43:09 PM GMT-5","English","Male","21","Western Europe (Austria, Belgium, France, Germany, Netherlands, Switzerland, ...)","Yes","","","","","Scientific (Engineering, Maths, Medicine...)","","No","Yes","","","40",""
-"2019/03/16 1:45:39 PM GMT-5","Italiano","","","","","Femmina","18","Europa Occidentale (Austria, Belgio, Francia, Germania, Paesi Bassi, Svizzera, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","No","","30"
-"2019/03/16 1:50:10 PM GMT-5","Italiano","","","","","Maschio","23","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","No","","100"
-"2019/03/16 1:52:41 PM GMT-5","Italiano","","","","","Femmina","32","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","Sì","","150"
-"2019/03/16 2:01:10 PM GMT-5","Italiano","","","","","Femmina","26","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","No","","50"
-"2019/03/16 2:09:33 PM GMT-5","Italiano","","","","","Femmina","50","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","Sì","No","","100"
-"2019/03/16 2:15:40 PM GMT-5","Italiano","","","","","Femmina","47 ","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","Sì","Sì","","120.00"
-"2019/03/16 2:16:04 PM GMT-5","Italiano","","","","","Femmina","20","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","No","","110"
-"2019/03/16 2:25:04 PM GMT-5","Italiano","","","","","Femmina","47","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","Sì","Sì","","60"
-"2019/03/16 2:30:51 PM GMT-5","Italiano","","","","","Femmina","51","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","Sì","No","","100"
-"2019/03/16 2:31:38 PM GMT-5","Italiano","","","","","Femmina","20","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","Sì","","60"
-"2019/03/16 2:36:31 PM GMT-5","Italiano","","","","","Femmina","53","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","Sì","Sì","","150"
-"2019/03/16 2:40:19 PM GMT-5","Italiano","","","","","Femmina","23","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","No","","200"
-"2019/03/16 2:40:39 PM GMT-5","Italiano","","","","","Maschio","23","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","No","","50"
-"2019/03/16 2:41:09 PM GMT-5","Italiano","","","","","Femmina","35","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","Sì","No","","50"
-"2019/03/16 2:45:07 PM GMT-5","Italiano","","","","","Femmina","32","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","Sì","","80"
-"2019/03/16 2:48:45 PM GMT-5","Italiano","","","","","Femmina","23","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","No","","50"
-"2019/03/16 3:09:10 PM GMT-5","Italiano","","","","","Femmina","31","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","Sì","Sì","","120"
-"2019/03/16 3:15:22 PM GMT-5","Italiano","","","","","Femmina","60","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","Sì","Sì","","100"
-"2019/03/16 3:20:01 PM GMT-5","Italiano","","","","","Femmina","24","Europa Orientale (Repubblica Ceca, Estonia, Ungheria, Lettonia, Lituania, Russia, ... )","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","No","","90"
-"2019/03/16 3:20:22 PM GMT-5","Italiano","","","","","Femmina","45","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","Sì","No","","100"
-"2019/03/16 3:36:00 PM GMT-5","English","Female","23","Southern Europe (Greece, Italy, Portugal, Spain, ...)","Yes","","","","","Humanistic (Languages, Law, Literature, ...)","","Yes","Yes","","","230",""
-"2019/03/16 3:57:13 PM GMT-5","Italiano","","","","","Femmina","38","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","No","","50"
-"2019/03/16 4:02:51 PM GMT-5","Italiano","","","","","Maschio","18","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","Sì","Sì","","230"
-"2019/03/16 4:04:20 PM GMT-5","Italiano","","","","","Femmina","22","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","Sì","","90"
-"2019/03/16 4:09:27 PM GMT-5","Italiano","","","","","Maschio","28","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","Sì","No","","100"
-"2019/03/16 4:22:46 PM GMT-5","Italiano","","","","","Femmina","19","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","No","","150"
-"2019/03/16 4:25:17 PM GMT-5","Italiano","","","","","Femmina","19","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","No","","50"
-"2019/03/16 4:40:45 PM GMT-5","Italiano","","","","","Maschio","21","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","Sì","Sì","","0"
-"2019/03/16 4:48:35 PM GMT-5","Italiano","","","","","Maschio","46","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","Sì","No","","250"
-"2019/03/16 4:52:44 PM GMT-5","Italiano","","","","","Maschio","54","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","Sì","No","","50"
-"2019/03/16 4:54:58 PM GMT-5","Italiano","","","","","Maschio","26","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","Sì","Sì","","100"
-"2019/03/16 6:02:49 PM GMT-5","Italiano","","","","","Femmina","20","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","Sì","Sì","","80"
-"2019/03/16 6:06:48 PM GMT-5","Italiano","","","","","Femmina","25","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","No","","100"
-"2019/03/16 6:53:07 PM GMT-5","Italiano","","","","","Maschio","25","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","Sì","No","","150"
-"2019/03/16 7:31:16 PM GMT-5","Italiano","","","","","Femmina","21","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","No","","150"
-"2019/03/16 8:25:35 PM GMT-5","Italiano","","","","","Femmina","25","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","Sì","","200"
-"2019/03/17 12:35:19 AM GMT-5","English","Female","23","Southern Europe (Greece, Italy, Portugal, Spain, ...)","Yes","","","","","Humanistic (Languages, Law, Literature, ...)","","Yes","Yes","","","230",""
-"2019/03/17 12:59:40 AM GMT-5","Italiano","","","","","Maschio","39","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","Sì","Sì","","60"
-"2019/03/17 1:00:42 AM GMT-5","Italiano","","","","","Maschio","39","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","Sì","Sì","","60"
-"2019/03/17 2:36:56 AM GMT-5","Italiano","","","","","Femmina","22","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","Sì","","200"
-"2019/03/17 5:56:25 AM GMT-5","Italiano","","","","","Femmina","64","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Artistico (Arti, Design, Architettura, ...)","","","Sì","No","","200"
-"2019/03/17 6:00:54 AM GMT-5","Italiano","","","","","Femmina","64","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Artistico (Arti, Design, Architettura, ...)","","","No","Sì","","200"
-"2019/03/17 6:55:18 AM GMT-5","Italiano","","","","","Femmina","45","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","Sì","No","","100"
-"2019/03/17 7:05:25 AM GMT-5","Italiano","","","","","Femmina","45","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","Sì","Sì","","200"
-"2019/03/17 7:16:00 AM GMT-5","Italiano","","","","","Femmina","23","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","Sì","","60 "
-"2019/03/17 9:16:59 AM GMT-5","Italiano","","","","","Femmina","38","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","No","","50"
-"2019/03/17 10:00:45 AM GMT-5","Italiano","","","","","Maschio","22","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","No","","100"
-"2019/03/17 10:08:13 AM GMT-5","Italiano","","","","","Femmina","55","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","No","No","","40"
-"2019/03/17 10:11:08 AM GMT-5","Italiano","","","","","Femmina","22","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","Sì","","150"
-"2019/03/17 10:19:38 AM GMT-5","Italiano","","","","","Femmina","21","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","Sì","No","","300"
-"2019/03/17 10:40:34 AM GMT-5","Italiano","","","","","Femmina","17","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","Sì","","30"
-"2019/03/17 10:48:14 AM GMT-5","Italiano","","","","","Femmina","19","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","No","","40"
-"2019/03/17 10:51:09 AM GMT-5","Italiano","","","","","Maschio","19","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","No","","175"
-"2019/03/17 10:51:09 AM GMT-5","Italiano","","","","","Maschio","22","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","Sì","Sì","","100"
-"2019/03/17 10:51:24 AM GMT-5","Italiano","","","","","Femmina","19","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","Sì","","50"
-"2019/03/17 10:55:47 AM GMT-5","Italiano","","","","","Femmina","23","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","Sì","","150"
-"2019/03/17 10:56:00 AM GMT-5","Italiano","","","","","Maschio","21","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","No","","30"
-"2019/03/17 10:56:02 AM GMT-5","Italiano","","","","","Maschio","19","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","No","","250"
-"2019/03/17 10:56:13 AM GMT-5","Italiano","","","","","Maschio","19","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","No","","250"
-"2019/03/17 10:56:35 AM GMT-5","English","Female","20","Western Europe (Austria, Belgium, France, Germany, Netherlands, Switzerland, ...)","Yes","","","","","Humanistic (Languages, Law, Literature, ...)","","No","Yes","","","40",""
-"2019/03/17 10:58:45 AM GMT-5","Italiano","","","","","Femmina","20","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","No","","100"
-"2019/03/17 11:00:58 AM GMT-5","Italiano","","","","","Maschio","22","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","Sì","","40"
-"2019/03/17 11:01:31 AM GMT-5","English","Male","19","Western Europe (Austria, Belgium, France, Germany, Netherlands, Switzerland, ...)","Yes","","","","","Humanistic (Languages, Law, Literature, ...)","","No","No","","","70",""
-"2019/03/17 11:03:01 AM GMT-5","Italiano","","","","","Femmina","19","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","Sì","","150"
-"2019/03/17 11:03:51 AM GMT-5","Italiano","","","","","Femmina","22","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","Sì","Sì","","50"
-"2019/03/17 11:04:14 AM GMT-5","English","Female","20","Southern Europe (Greece, Italy, Portugal, Spain, ...)","Yes","","","","","Humanistic (Languages, Law, Literature, ...)","","No","No","","","150",""
-"2019/03/17 11:05:34 AM GMT-5","English","Female","21","Africa","Yes","","","","","Humanistic (Languages, Law, Literature, ...)","","No","No","","","70",""
-"2019/03/17 11:05:41 AM GMT-5","Italiano","","","","","Femmina","19","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","No","","180"
-"2019/03/17 11:07:48 AM GMT-5","Italiano","","","","","Femmina","19","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","No","","30"
-"2019/03/17 11:08:31 AM GMT-5","Italiano","","","","","Femmina","20","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","Sì","Sì","","80"
-"2019/03/17 11:23:50 AM GMT-5","Italiano","","","","","Maschio","21","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","Sì","","70"
-"2019/03/17 11:24:01 AM GMT-5","Italiano","","","","","Femmina","23","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","Sì","","60 "
-"2019/03/17 11:28:00 AM GMT-5","Italiano","","","","","Maschio","20","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","Sì","","100"
-"2019/03/17 11:33:14 AM GMT-5","English","Female","20","Western Europe (Austria, Belgium, France, Germany, Netherlands, Switzerland, ...)","Yes","","","","","Humanistic (Languages, Law, Literature, ...)","","Yes","No","","","50",""
-"2019/03/17 11:36:08 AM GMT-5","Italiano","","","","","Femmina","19","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","Sì","","60"
-"2019/03/17 11:36:51 AM GMT-5","Italiano","","","","","Maschio","22","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","No","Sì","","70"
-"2019/03/17 11:38:14 AM GMT-5","English","Female","29","South America","Yes","","","","","Humanistic (Languages, Law, Literature, ...)","","No","No","","","20",""
-"2019/03/17 11:43:39 AM GMT-5","Italiano","","","","","Femmina","19","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","No","","50"
-"2019/03/17 11:49:42 AM GMT-5","Italiano","","","","","Maschio","21","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","No","","39"
-"2019/03/17 11:56:15 AM GMT-5","English","Female","19","Western Europe (Austria, Belgium, France, Germany, Netherlands, Switzerland, ...)","Yes","","","","","Humanistic (Languages, Law, Literature, ...)","","No","No","","","30",""
-"2019/03/17 12:08:58 PM GMT-5","English","Female","19","Western Europe (Austria, Belgium, France, Germany, Netherlands, Switzerland, ...)","Yes","","","","","Humanistic (Languages, Law, Literature, ...)","","Yes","Yes","","","35",""
-"2019/03/17 12:38:21 PM GMT-5","Italiano","","","","","Maschio","50","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","Sì","Sì","","100"
-"2019/03/17 12:40:44 PM GMT-5","Italiano","","","","","Maschio","56","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","Sì","Sì","","25"
-"2019/03/17 1:12:27 PM GMT-5","Italiano","","","","","Maschio","26","Europa Orientale (Repubblica Ceca, Estonia, Ungheria, Lettonia, Lituania, Russia, ... )","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","No","","200"
-"2019/03/17 2:12:00 PM GMT-5","Italiano","","","","","Maschio","18","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","Sì","","100"
-"2019/03/17 2:14:15 PM GMT-5","Italiano","","","","","Femmina","20","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","Sì","No","","30"
-"2019/03/17 2:15:09 PM GMT-5","Italiano","","","","","Femmina","24","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","Sì","Sì","","300"
-"2019/03/17 2:16:49 PM GMT-5","Italiano","","","","","Femmina","24","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","Sì","Sì","","300"
-"2019/03/17 2:18:01 PM GMT-5","Italiano","","","","","Femmina","22","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","Sì","Sì","","250"
-"2019/03/17 2:24:41 PM GMT-5","Italiano","","","","","Femmina","43","Africa","No","","","","","Sì","No","","90"
-"2019/03/17 4:54:20 PM GMT-5","Italiano","","","","","Maschio","24","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","No","","250"
-"2019/03/17 5:03:01 PM GMT-5","Italiano","","","","","Maschio","24","Asia","Sì","","Artistico (Arti, Design, Architettura, ...)","","","Sì","No","","450"
-"2019/03/17 5:06:51 PM GMT-5","Italiano","","","","","Femmina","27","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","Sì","No","","250"
-"2019/03/17 5:07:56 PM GMT-5","English","Female","24","South America","No","","","","","","","No","No","","","19",""
-"2019/03/17 5:08:35 PM GMT-5","Italiano","","","","","Femmina","20","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Artistico (Arti, Design, Architettura, ...)","","","No","Sì","","200"
-"2019/03/17 5:14:26 PM GMT-5","Italiano","","","","","Femmina","28","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","No","","110"
-"2019/03/17 5:16:22 PM GMT-5","Italiano","","","","","Maschio","29","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","Sì","Sì","","80"
-"2019/03/17 5:17:36 PM GMT-5","Italiano","","","","","Maschio","23","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","Sì","No","","450"
-"2019/03/17 5:19:24 PM GMT-5","Italiano","","","","","Maschio","29","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","Sì","Sì","","120 "
-"2019/03/17 5:23:58 PM GMT-5","English","Female","21","South America","Yes","","","","","Humanistic (Languages, Law, Literature, ...)","","No","No","","","30",""
-"2019/03/17 5:51:04 PM GMT-5","Italiano","","","","","Femmina","23","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Artistico (Arti, Design, Architettura, ...)","","","No","No","","63"
-"2019/03/17 6:00:06 PM GMT-5","Italiano","","","","","Maschio","26","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","No","No","","100"
-"2019/03/17 6:03:55 PM GMT-5","Italiano","","","","","Femmina","28","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Umanistico (Lingue, Legge, Letteratura, ...)","","","Sì","Sì","","300"
-"2019/03/17 6:05:09 PM GMT-5","Italiano","","","","","Maschio","25","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","Sì","","Scientifico (Ingegneria, Matematica, Medicina...)","","","Sì","No","","400"
-"2019/03/17 6:46:26 PM GMT-5","Italiano","","","","","Maschio","24","Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)","No","","","","","Sì","Sì","","60"
+Informazioni cronologiche,Language/Lingua:,What gender do you identify with?,How old are you?,Where are you from?,Did you continue your studies after high school?,Sesso:,Età:,Continente di provenienza:,Hai continuato gli studi dopo le scuole superiori?,What is your educational background?,In che campo hai studiato?,Are you employed?,Do you spend a lot of time outdoor?,Hai un lavoro?,Passi molto tempo all'aria aperta?,"Assuming you are interested in the product, which is the maximum amount of money you would pay for it? (€)","Assumendo ti interessi il prodotto, qual è la cifra massima che spenderesti per acquistarlo? (€)"
+15/03/2019 11.58.50,Italiano,,,,,Maschio,23,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,Sì,Sì,,150
+15/03/2019 11.59.40,English,Female,28,Asia,Yes,,,,,"Scientific (Engineering, Maths, Medicine...)",,No,Yes,,,20,
+15/03/2019 12.02.04,English,Male,24,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,,,,,"Scientific (Engineering, Maths, Medicine...)",,No,Yes,,,130,
+15/03/2019 12.06.44,English,Male,23,Asia,Yes,,,,,"Scientific (Engineering, Maths, Medicine...)",,No,Yes,,,150,
+15/03/2019 12.08.24,English,Male,25,North America,Yes,,,,,"Scientific (Engineering, Maths, Medicine...)",,Yes,Yes,,,300,
+15/03/2019 12.10.32,English,Male,22,Asia,Yes,,,,,"Scientific (Engineering, Maths, Medicine...)",,No,No,,,20,
+15/03/2019 12.11.47,English,Male,27,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,,,,,"Scientific (Engineering, Maths, Medicine...)",,Yes,Yes,,,50,
+15/03/2019 12.17.54,English,Male,21,Asia,Yes,,,,,"Scientific (Engineering, Maths, Medicine...)",,No,Yes,,,15,
+15/03/2019 12.18.02,English,Female,19,Asia,Yes,,,,,"Humanistic (Languages, Law, Literature, ...)",,No,Yes,,,80,
+15/03/2019 12.29.28,Italiano,,,,,Maschio,53,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,Sì,,35
+15/03/2019 12.48.47,Italiano,,,,,Femmina,19,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,No,,140
+15/03/2019 12.48.55,Italiano,,,,,Femmina,17,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,No,,130
+15/03/2019 12.53.19,Italiano,,,,,Femmina,19,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,No,,70
+15/03/2019 12.53.49,Italiano,,,,,Femmina,17,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,No,,20
+15/03/2019 13.00.51,Italiano,,,,,Maschio,19,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,No,,50
+15/03/2019 13.02.33,English,Male,22,Asia,Yes,,,,,"Scientific (Engineering, Maths, Medicine...)",,No,Yes,,,3,
+15/03/2019 13.05.24,English,Female,20,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,,,,,"Scientific (Engineering, Maths, Medicine...)",,No,Yes,,,50,
+15/03/2019 13.06.13,English,Female,21,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,,,,,"Scientific (Engineering, Maths, Medicine...)",,No,No,,,13,
+15/03/2019 13.06.29,English,Male,20,"Eastern Europe (Czech Republic, Estonia, Hungary, Latvia, Lithuania, Russia, ... )",Yes,,,,,"Scientific (Engineering, Maths, Medicine...)",,No,Yes,,,45,
+15/03/2019 13.07.12,English,Male,21,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,,,,,"Scientific (Engineering, Maths, Medicine...)",,No,Yes,,,20,
+15/03/2019 13.10.58,Italiano,,,,,Femmina,21,"Europa Orientale (Repubblica Ceca, Estonia, Ungheria, Lettonia, Lituania, Russia, ... )",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,No,,50
+15/03/2019 13.12.35,English,Female,21,"Eastern Europe (Czech Republic, Estonia, Hungary, Latvia, Lithuania, Russia, ... )",Yes,,,,,"Scientific (Engineering, Maths, Medicine...)",,No,Yes,,,20,
+15/03/2019 13.31.33,English,Female,20,"Eastern Europe (Czech Republic, Estonia, Hungary, Latvia, Lithuania, Russia, ... )",Yes,,,,,"Scientific (Engineering, Maths, Medicine...)",,No,Yes,,,100,
+15/03/2019 13.33.23,English,Female,24,Asia,Yes,,,,,"Humanistic (Languages, Law, Literature, ...)",,No,Yes,,,50,
+15/03/2019 13.34.54,English,Female,22,Asia,Yes,,,,,"Scientific (Engineering, Maths, Medicine...)",,No,No,,,20,
+15/03/2019 13.45.07,Italiano,,,,,Femmina,16,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,Sì,,50
+15/03/2019 14.13.01,English,Male,20,"Eastern Europe (Czech Republic, Estonia, Hungary, Latvia, Lithuania, Russia, ... )",Yes,,,,,"Scientific (Engineering, Maths, Medicine...)",,No,Yes,,,10,
+15/03/2019 15.07.50,English,Male,23,North America,Yes,,,,,"Scientific (Engineering, Maths, Medicine...)",,No,Yes,,,40,
+15/03/2019 15.39.15,English,Male,25,Asia,Yes,,,,,"Scientific (Engineering, Maths, Medicine...)",,No,No,,,129,
+15/03/2019 15.47.53,English,Female,20,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,,,,,"Scientific (Engineering, Maths, Medicine...)",,No,Yes,,,45,
+15/03/2019 15.50.48,English,Female,18,Africa,Yes,,,,,"Scientific (Engineering, Maths, Medicine...)",,No,Yes,,,20,
+15/03/2019 15.59.31,Italiano,,,,,Maschio,60,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,Sì,,80
+15/03/2019 16.18.50,Italiano,,,,,Maschio,24,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,Sì,,100
+15/03/2019 16.21.53,English,Male,35,Asia,Yes,,,,,"Scientific (Engineering, Maths, Medicine...)",,No,Yes,,,150,
+15/03/2019 17.24.46,Italiano,,,,,Maschio,23,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,Sì,No,,150
+15/03/2019 17.48.02,English,Female,28,Asia,Yes,,,,,"Scientific (Engineering, Maths, Medicine...)",,No,Yes,,,90,
+15/03/2019 17.59.27,English,Female,30,Asia,Yes,,,,,"Scientific (Engineering, Maths, Medicine...)",,No,Yes,,,90,
+15/03/2019 18.13.33,Italiano,,,,,Femmina,58,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,No,,150
+15/03/2019 20.21.38,English,Male,25,Asia,Yes,,,,,"Scientific (Engineering, Maths, Medicine...)",,No,No,,,20,
+16/03/2019 3.50.29,Italiano,,,,,Femmina,17,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,No,Sì,,50
+16/03/2019 3.54.20,Italiano,,,,,Femmina,17,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,No,,80
+16/03/2019 3.57.52,Italiano,,,,,Femmina,18,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,Sì,,100
+16/03/2019 4.01.06,Italiano,,,,,Maschio,60,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,No,Sì,,20
+16/03/2019 4.03.19,Italiano,,,,,Maschio,72,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,No,No,,35
+16/03/2019 4.14.47,Italiano,,,,,Maschio,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,Sì,,100
+16/03/2019 4.19.18,Italiano,,,,,Femmina,20,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,Sì,,200
+16/03/2019 4.27.37,Italiano,,,,,Femmina,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,No,,250
+16/03/2019 4.31.35,Italiano,,,,,Femmina,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,No,,60
+16/03/2019 4.35.01,Italiano,,,,,Femmina,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,Sì,,200
+16/03/2019 4.37.25,Italiano,,,,,Femmina,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Artistico (Arti, Design, Architettura, ...)",,,No,No,,150
+16/03/2019 4.38.45,Italiano,,,,,Femmina,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,Sì,,300
+16/03/2019 4.43.38,Italiano,,,,,Femmina,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Artistico (Arti, Design, Architettura, ...)",,,No,No,,300
+16/03/2019 4.49.58,English,Female,22,"Eastern Europe (Czech Republic, Estonia, Hungary, Latvia, Lithuania, Russia, ... )",Yes,,,,,"Humanistic (Languages, Law, Literature, ...)",,No,No,,,1,
+16/03/2019 4.55.33,Italiano,,,,,Maschio,20,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,No,,100
+16/03/2019 4.57.39,Italiano,,,,,Maschio,20,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,Sì,,150
+16/03/2019 5.17.12,Italiano,,,,,Femmina,22,"Europa Occidentale (Austria, Belgio, Francia, Germania, Paesi Bassi, Svizzera, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,Sì,,90
+16/03/2019 5.27.40,Italiano,,,,,Femmina,20,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,No,,100
+16/03/2019 5.27.51,English,Female,27,Asia,Yes,,,,,"Scientific (Engineering, Maths, Medicine...)",,No,No,,,100,
+16/03/2019 5.28.44,Italiano,,,,,Maschio,23,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,No,,10
+16/03/2019 5.34.53,Italiano,,,,,Maschio,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Artistico (Arti, Design, Architettura, ...)",,,No,No,,300
+16/03/2019 5.36.18,Italiano,,,,,Maschio,29,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,No,,250
+16/03/2019 5.40.32,Italiano,,,,,Femmina,20,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Artistico (Arti, Design, Architettura, ...)",,,No,No,,150
+16/03/2019 5.51.20,Italiano,,,,,Femmina,52,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,No,No,,100
+16/03/2019 5.53.50,Italiano,,,,,Femmina,25,"Europa Orientale (Repubblica Ceca, Estonia, Ungheria, Lettonia, Lituania, Russia, ... )",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,Sì,Sì,,50
+16/03/2019 5.54.00,Italiano,,,,,Femmina,20,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,Sì,Sì,,200
+16/03/2019 5.55.49,Italiano,,,,,Femmina,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,Sì,,100
+16/03/2019 5.56.32,Italiano,,,,,Femmina,20,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,Sì,,150
+16/03/2019 5.56.49,Italiano,,,,,Femmina,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Artistico (Arti, Design, Architettura, ...)",,,No,Sì,,80
+16/03/2019 5.57.17,Italiano,,,,,Femmina,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,Sì,,150
+16/03/2019 5.57.44,Italiano,,,,,Femmina,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,No,,50
+16/03/2019 5.57.48,Italiano,,,,,Femmina,20,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,Sì,,100
+16/03/2019 5.58.17,English,Female,20,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,,,,,"Humanistic (Languages, Law, Literature, ...)",,Yes,Yes,,,150,
+16/03/2019 5.58.23,Italiano,,,,,Femmina,20,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,Sì,No,,120
+16/03/2019 5.59.15,Italiano,,,,,Femmina,20,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,No,,60
+16/03/2019 5.59.33,Italiano,,,,,Femmina,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,No,Sì,,100
+16/03/2019 6.00.35,Italiano,,,,,Femmina,20,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,No,,75
+16/03/2019 6.02.14,Italiano,,,,,Femmina,20,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,Sì,Sì,,120
+16/03/2019 6.02.48,Italiano,,,,,Femmina,24,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,Sì,Sì,,175
+16/03/2019 6.03.26,Italiano,,,,,Femmina,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,No,,80
+16/03/2019 6.04.54,Italiano,,,,,Femmina,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,No,,80
+16/03/2019 6.05.57,Italiano,,,,,Femmina,23,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,No,,80
+16/03/2019 6.06.21,Italiano,,,,,Maschio,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,Sì,,200
+16/03/2019 6.06.32,Italiano,,,,,Maschio,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,Sì,,200
+16/03/2019 6.09.26,Italiano,,,,,Femmina,20,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,No,,400
+16/03/2019 6.10.39,Italiano,,,,,Femmina,39,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,Sì,No,,200
+16/03/2019 6.12.36,Italiano,,,,,Femmina,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,No,,80
+16/03/2019 6.13.10,Italiano,,,,,Femmina,20,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,No,,200
+16/03/2019 6.13.21,Italiano,,,,,Maschio,35,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,Sì,No,,300
+16/03/2019 6.18.25,Italiano,,,,,Femmina,20,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,Sì,No,,160
+16/03/2019 6.18.29,Italiano,,,,,Femmina,20,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,Sì,Sì,,80
+16/03/2019 6.20.11,Italiano,,,,,Femmina,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,No,,120
+16/03/2019 6.21.38,Italiano,,,,,Maschio,24,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,No,,180
+16/03/2019 6.21.41,Italiano,,,,,Femmina,20,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,No,,50
+16/03/2019 6.24.42,Italiano,,,,,Femmina,23,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Artistico (Arti, Design, Architettura, ...)",,,No,No,,120
+16/03/2019 6.33.12,Italiano,,,,,Femmina,54,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,Sì,No,,150
+16/03/2019 6.34.50,Italiano,,,,,Femmina,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,Sì,Sì,,170
+16/03/2019 6.35.42,Italiano,,,,,Femmina,20,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,No,,70
+16/03/2019 6.38.07,Italiano,,,,,Femmina,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,Sì,,50
+16/03/2019 7.00.28,Italiano,,,,,Femmina,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,No,,250
+16/03/2019 7.01.02,Italiano,,,,,Maschio,24,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Artistico (Arti, Design, Architettura, ...)",,,No,Sì,,100
+16/03/2019 7.05.27,Italiano,,,,,Femmina,18,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,No,No,,150
+16/03/2019 7.07.55,Italiano,,,,,Femmina,15,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,No,No,,200
+16/03/2019 7.07.58,Italiano,,,,,Femmina,17,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,No,,50
+16/03/2019 7.12.44,Italiano,,,,,Femmina,25,"Europa Orientale (Repubblica Ceca, Estonia, Ungheria, Lettonia, Lituania, Russia, ... )",Sì,,"Artistico (Arti, Design, Architettura, ...)",,,Sì,No,,150
+16/03/2019 7.12.57,Italiano,,,,,Femmina,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,No,,120
+16/03/2019 7.13.44,Italiano,,,,,Maschio,22,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Artistico (Arti, Design, Architettura, ...)",,,Sì,No,,60
+16/03/2019 7.13.50,Italiano,,,,,Femmina,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,Sì,,90
+16/03/2019 7.18.26,Italiano,,,,,Maschio,22,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,Sì,,200
+16/03/2019 7.20.27,Italiano,,,,,Femmina,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,Sì,Sì,,300
+16/03/2019 7.20.34,Italiano,,,,,Femmina,25,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,Sì,,150
+16/03/2019 7.23.04,Italiano,,,,,Femmina,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,Sì,,200
+16/03/2019 7.25.09,Italiano,,,,,Femmina,42,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,No,,60
+16/03/2019 7.28.04,Italiano,,,,,Femmina,24,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,No,,200
+16/03/2019 7.28.26,Italiano,,,,,Maschio,27,"Europa Orientale (Repubblica Ceca, Estonia, Ungheria, Lettonia, Lituania, Russia, ... )",No,,,,,Sì,Sì,,20
+16/03/2019 7.29.17,Italiano,,,,,Femmina,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,Sì,Sì,,120
+16/03/2019 7.30.15,Italiano,,,,,Maschio,27,"Europa Orientale (Repubblica Ceca, Estonia, Ungheria, Lettonia, Lituania, Russia, ... )",No,,,,,Sì,Sì,,20
+16/03/2019 7.33.37,Italiano,,,,,Femmina,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,Sì,Sì,,300
+16/03/2019 7.34.31,Italiano,,,,,Femmina,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Artistico (Arti, Design, Architettura, ...)",,,No,Sì,,100
+16/03/2019 7.35.01,Italiano,,,,,Femmina,47,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,Sì,,100
+16/03/2019 7.36.08,Italiano,,,,,Maschio,22,"Europa Orientale (Repubblica Ceca, Estonia, Ungheria, Lettonia, Lituania, Russia, ... )",Sì,,"Artistico (Arti, Design, Architettura, ...)",,,Sì,Sì,,2
+16/03/2019 7.41.40,Italiano,,,,,Femmina,20,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,Sì,,150
+16/03/2019 7.42.05,Italiano,,,,,Maschio,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Artistico (Arti, Design, Architettura, ...)",,,Sì,Sì,,100
+16/03/2019 7.44.05,Italiano,,,,,Maschio,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,Sì,No,,150
+16/03/2019 7.48.47,Italiano,,,,,Femmina,23,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Artistico (Arti, Design, Architettura, ...)",,,Sì,No,,75
+16/03/2019 7.51.58,Italiano,,,,,Maschio,22,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,Sì,Sì,,150
+16/03/2019 8.02.38,Italiano,,,,,Femmina,27,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,No,Sì,,15
+16/03/2019 8.03.03,Italiano,,,,,Femmina,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,No,,120
+16/03/2019 8.11.18,Italiano,,,,,Maschio,37,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,Sì,No,,200
+16/03/2019 8.12.00,Italiano,,,,,Maschio,23,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,No,,250
+16/03/2019 8.14.45,Italiano,,,,,Femmina,51,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,No,,50
+16/03/2019 8.17.54,Italiano,,,,,Femmina,19,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,Sì,Sì,,100
+16/03/2019 9.20.51,Italiano,,,,,Femmina,22,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,No,,20
+16/03/2019 10.28.08,Italiano,,,,,Maschio,25,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,No,,150
+16/03/2019 10.44.53,Italiano,,,,,Maschio,22,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,Sì,Sì,,50
+16/03/2019 10.53.42,Italiano,,,,,Maschio,58,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,No,,100
+16/03/2019 11.02.42,Italiano,,,,,Maschio,23,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,No,,70
+16/03/2019 11.16.10,Italiano,,,,,Maschio,23,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,Sì,No,,150
+16/03/2019 11.32.25,Italiano,,,,,Maschio,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,Sì,Sì,,50
+16/03/2019 11.47.19,Italiano,,,,,Femmina,52,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Artistico (Arti, Design, Architettura, ...)",,,Sì,No,,150
+16/03/2019 11.58.58,Italiano,,,,,Maschio,23,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,No,,40
+16/03/2019 12.04.03,Italiano,,,,,Femmina,23,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,No,,70
+16/03/2019 12.08.01,Italiano,,,,,Femmina,23,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,Sì,Sì,,60
+16/03/2019 12.10.41,Italiano,,,,,Maschio,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,Sì,,25
+16/03/2019 12.12.28,Italiano,,,,,Femmina,20,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,No,,400
+16/03/2019 12.15.18,Italiano,,,,,Femmina,20,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,Sì,,120
+16/03/2019 12.19.00,Italiano,,,,,Femmina,24,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,No,,50
+16/03/2019 12.20.09,Italiano,,,,,Femmina,23,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,No,,100
+16/03/2019 12.22.12,Italiano,,,,,Femmina,23,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,Sì,,200
+16/03/2019 12.26.26,Italiano,,,,,Femmina,23,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,No,,70
+16/03/2019 12.28.21,Italiano,,,,,Femmina,23,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,No,,100
+16/03/2019 12.40.17,English,Female,25,Asia,Yes,,,,,"Scientific (Engineering, Maths, Medicine...)",,No,No,,,80,
+16/03/2019 12.45.57,Italiano,,,,,Femmina,23,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,Sì,,60
+16/03/2019 12.46.43,Italiano,,,,,Femmina,51,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,No,Sì,,50
+16/03/2019 12.47.56,Italiano,,,,,Femmina,23,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,No,,75
+16/03/2019 13.03.29,Italiano,,,,,Femmina,22,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,Sì,,200
+16/03/2019 13.03.41,Italiano,,,,,Femmina,20,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,No,,180
+16/03/2019 13.04.02,Italiano,,,,,Femmina,24,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,No,,100
+16/03/2019 13.04.19,Italiano,,,,,Femmina,25,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,No,,50
+16/03/2019 13.04.29,Italiano,,,,,Femmina,55,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,No,,200
+16/03/2019 13.06.39,Italiano,,,,,Femmina,40,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,No,,50
+16/03/2019 13.12.43,Italiano,,,,,Femmina,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,Sì,No,,45
+16/03/2019 13.17.36,Italiano,,,,,Maschio,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,No,,450
+16/03/2019 13.17.41,Italiano,,,,,Femmina,18,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,No,Sì,,70
+16/03/2019 13.17.54,Italiano,,,,,Femmina,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Artistico (Arti, Design, Architettura, ...)",,,No,Sì,,80
+16/03/2019 13.31.40,Italiano,,,,,Femmina,23,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,Sì,,200
+16/03/2019 13.32.17,Italiano,,,,,Maschio,24,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,No,,40
+16/03/2019 13.36.08,Italiano,,,,,Femmina,25,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,Sì,,30
+16/03/2019 13.38.38,Italiano,,,,,Femmina,23,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,Sì,,100
+16/03/2019 13.43.09,English,Male,21,"Western Europe (Austria, Belgium, France, Germany, Netherlands, Switzerland, ...)",Yes,,,,,"Scientific (Engineering, Maths, Medicine...)",,No,Yes,,,40,
+16/03/2019 13.45.39,Italiano,,,,,Femmina,18,"Europa Occidentale (Austria, Belgio, Francia, Germania, Paesi Bassi, Svizzera, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,No,,30
+16/03/2019 13.50.11,Italiano,,,,,Maschio,23,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,No,,100
+16/03/2019 13.52.41,Italiano,,,,,Femmina,32,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,Sì,,150
+16/03/2019 14.01.10,Italiano,,,,,Femmina,26,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,No,,50
+16/03/2019 14.09.33,Italiano,,,,,Femmina,50,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,No,,100
+16/03/2019 14.15.41,Italiano,,,,,Femmina,47,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,Sì,,120.00
+16/03/2019 14.16.05,Italiano,,,,,Femmina,20,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,No,,110
+16/03/2019 14.25.05,Italiano,,,,,Femmina,47,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,Sì,,60
+16/03/2019 14.30.52,Italiano,,,,,Femmina,51,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,Sì,No,,100
+16/03/2019 14.31.38,Italiano,,,,,Femmina,20,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,Sì,,60
+16/03/2019 14.36.31,Italiano,,,,,Femmina,53,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,Sì,,150
+16/03/2019 14.40.20,Italiano,,,,,Femmina,23,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,No,,200
+16/03/2019 14.40.39,Italiano,,,,,Maschio,23,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,No,,50
+16/03/2019 14.41.09,Italiano,,,,,Femmina,35,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,No,,50
+16/03/2019 14.45.08,Italiano,,,,,Femmina,32,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,Sì,,80
+16/03/2019 14.48.45,Italiano,,,,,Femmina,23,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,No,,50
+16/03/2019 15.09.10,Italiano,,,,,Femmina,31,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,Sì,Sì,,120
+16/03/2019 15.15.22,Italiano,,,,,Femmina,60,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,Sì,,100
+16/03/2019 15.20.02,Italiano,,,,,Femmina,24,"Europa Orientale (Repubblica Ceca, Estonia, Ungheria, Lettonia, Lituania, Russia, ... )",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,No,,90
+16/03/2019 15.20.22,Italiano,,,,,Femmina,45,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,No,,100
+16/03/2019 15.36.00,English,Female,23,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,,,,,"Humanistic (Languages, Law, Literature, ...)",,Yes,Yes,,,230,
+16/03/2019 15.57.14,Italiano,,,,,Femmina,38,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,No,,50
+16/03/2019 16.02.51,Italiano,,,,,Maschio,18,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,Sì,Sì,,230
+16/03/2019 16.04.20,Italiano,,,,,Femmina,22,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,Sì,,90
+16/03/2019 16.09.27,Italiano,,,,,Maschio,28,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,No,,100
+16/03/2019 16.22.46,Italiano,,,,,Femmina,19,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,No,,150
+16/03/2019 16.25.18,Italiano,,,,,Femmina,19,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,No,,50
+16/03/2019 16.40.46,Italiano,,,,,Maschio,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,Sì,,0
+16/03/2019 16.48.35,Italiano,,,,,Maschio,46,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,Sì,No,,250
+16/03/2019 16.52.45,Italiano,,,,,Maschio,54,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,Sì,No,,50
+16/03/2019 16.54.58,Italiano,,,,,Maschio,26,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,Sì,Sì,,100
+16/03/2019 18.02.50,Italiano,,,,,Femmina,20,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,Sì,Sì,,80
+16/03/2019 18.06.49,Italiano,,,,,Femmina,25,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,No,,100
+16/03/2019 18.53.07,Italiano,,,,,Maschio,25,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,No,,150
+16/03/2019 19.31.16,Italiano,,,,,Femmina,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,No,,150
+16/03/2019 20.25.36,Italiano,,,,,Femmina,25,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,Sì,,200
+17/03/2019 0.35.20,English,Female,23,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,,,,,"Humanistic (Languages, Law, Literature, ...)",,Yes,Yes,,,230,
+17/03/2019 0.59.41,Italiano,,,,,Maschio,39,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,Sì,,60
+17/03/2019 1.00.42,Italiano,,,,,Maschio,39,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,Sì,,60
+17/03/2019 2.36.57,Italiano,,,,,Femmina,22,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,Sì,,200
+17/03/2019 5.56.25,Italiano,,,,,Femmina,64,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Artistico (Arti, Design, Architettura, ...)",,,Sì,No,,200
+17/03/2019 6.00.55,Italiano,,,,,Femmina,64,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Artistico (Arti, Design, Architettura, ...)",,,No,Sì,,200
+17/03/2019 6.55.18,Italiano,,,,,Femmina,45,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,No,,100
+17/03/2019 7.05.25,Italiano,,,,,Femmina,45,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,Sì,,200
+17/03/2019 7.16.00,Italiano,,,,,Femmina,23,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,Sì,,60
+17/03/2019 9.16.59,Italiano,,,,,Femmina,38,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,No,,50
+17/03/2019 10.00.45,Italiano,,,,,Maschio,22,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,No,,100
+17/03/2019 10.08.14,Italiano,,,,,Femmina,55,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,No,No,,40
+17/03/2019 10.11.09,Italiano,,,,,Femmina,22,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,Sì,,150
+17/03/2019 10.19.38,Italiano,,,,,Femmina,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,No,,300
+17/03/2019 10.40.34,Italiano,,,,,Femmina,17,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,Sì,,30
+17/03/2019 10.48.15,Italiano,,,,,Femmina,19,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,No,,40
+17/03/2019 10.51.10,Italiano,,,,,Maschio,19,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,No,,175
+17/03/2019 10.51.10,Italiano,,,,,Maschio,22,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,Sì,,100
+17/03/2019 10.51.25,Italiano,,,,,Femmina,19,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,Sì,,50
+17/03/2019 10.55.47,Italiano,,,,,Femmina,23,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,Sì,,150
+17/03/2019 10.56.01,Italiano,,,,,Maschio,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,No,,30
+17/03/2019 10.56.03,Italiano,,,,,Maschio,19,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,No,,250
+17/03/2019 10.56.13,Italiano,,,,,Maschio,19,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,No,,250
+17/03/2019 10.56.36,English,Female,20,"Western Europe (Austria, Belgium, France, Germany, Netherlands, Switzerland, ...)",Yes,,,,,"Humanistic (Languages, Law, Literature, ...)",,No,Yes,,,40,
+17/03/2019 10.58.45,Italiano,,,,,Femmina,20,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,No,,100
+17/03/2019 11.00.58,Italiano,,,,,Maschio,22,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,Sì,,40
+17/03/2019 11.01.32,English,Male,19,"Western Europe (Austria, Belgium, France, Germany, Netherlands, Switzerland, ...)",Yes,,,,,"Humanistic (Languages, Law, Literature, ...)",,No,No,,,70,
+17/03/2019 11.03.02,Italiano,,,,,Femmina,19,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,Sì,,150
+17/03/2019 11.03.52,Italiano,,,,,Femmina,22,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,Sì,Sì,,50
+17/03/2019 11.04.14,English,Female,20,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,,,,,"Humanistic (Languages, Law, Literature, ...)",,No,No,,,150,
+17/03/2019 11.05.35,English,Female,21,Africa,Yes,,,,,"Humanistic (Languages, Law, Literature, ...)",,No,No,,,70,
+17/03/2019 11.05.42,Italiano,,,,,Femmina,19,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,No,,180
+17/03/2019 11.07.48,Italiano,,,,,Femmina,19,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,No,,30
+17/03/2019 11.08.31,Italiano,,,,,Femmina,20,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,Sì,Sì,,80
+17/03/2019 11.23.51,Italiano,,,,,Maschio,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,Sì,,70
+17/03/2019 11.24.02,Italiano,,,,,Femmina,23,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,Sì,,60
+17/03/2019 11.28.01,Italiano,,,,,Maschio,20,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,Sì,,100
+17/03/2019 11.33.15,English,Female,20,"Western Europe (Austria, Belgium, France, Germany, Netherlands, Switzerland, ...)",Yes,,,,,"Humanistic (Languages, Law, Literature, ...)",,Yes,No,,,50,
+17/03/2019 11.36.08,Italiano,,,,,Femmina,19,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,Sì,,60
+17/03/2019 11.36.52,Italiano,,,,,Maschio,22,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,Sì,,70
+17/03/2019 11.38.14,English,Female,29,South America,Yes,,,,,"Humanistic (Languages, Law, Literature, ...)",,No,No,,,20,
+17/03/2019 11.43.39,Italiano,,,,,Femmina,19,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,No,,50
+17/03/2019 11.49.43,Italiano,,,,,Maschio,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,No,,39
+17/03/2019 11.56.16,English,Female,19,"Western Europe (Austria, Belgium, France, Germany, Netherlands, Switzerland, ...)",Yes,,,,,"Humanistic (Languages, Law, Literature, ...)",,No,No,,,30,
+17/03/2019 12.08.58,English,Female,19,"Western Europe (Austria, Belgium, France, Germany, Netherlands, Switzerland, ...)",Yes,,,,,"Humanistic (Languages, Law, Literature, ...)",,Yes,Yes,,,35,
+17/03/2019 12.38.22,Italiano,,,,,Maschio,50,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,Sì,,100
+17/03/2019 12.40.44,Italiano,,,,,Maschio,56,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,Sì,,25
+17/03/2019 13.12.27,Italiano,,,,,Maschio,26,"Europa Orientale (Repubblica Ceca, Estonia, Ungheria, Lettonia, Lituania, Russia, ... )",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,No,,200
+17/03/2019 14.12.00,Italiano,,,,,Maschio,18,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,Sì,,100
+17/03/2019 14.14.16,Italiano,,,,,Femmina,20,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,Sì,No,,30
+17/03/2019 14.15.09,Italiano,,,,,Femmina,24,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,Sì,,300
+17/03/2019 14.16.49,Italiano,,,,,Femmina,24,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,Sì,,300
+17/03/2019 14.18.02,Italiano,,,,,Femmina,22,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,Sì,Sì,,250
+17/03/2019 14.24.41,Italiano,,,,,Femmina,43,Africa,No,,,,,Sì,No,,90
+17/03/2019 16.54.20,Italiano,,,,,Maschio,24,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,No,,250
+17/03/2019 17.03.02,Italiano,,,,,Maschio,24,Asia,Sì,,"Artistico (Arti, Design, Architettura, ...)",,,Sì,No,,450
+17/03/2019 17.06.51,Italiano,,,,,Femmina,27,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,Sì,No,,250
+17/03/2019 17.07.56,English,Female,24,South America,No,,,,,,,No,No,,,19,
+17/03/2019 17.08.35,Italiano,,,,,Femmina,20,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Artistico (Arti, Design, Architettura, ...)",,,No,Sì,,200
+17/03/2019 17.14.27,Italiano,,,,,Femmina,28,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,No,,110
+17/03/2019 17.16.22,Italiano,,,,,Maschio,29,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,Sì,,80
+17/03/2019 17.17.37,Italiano,,,,,Maschio,23,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,No,,450
+17/03/2019 17.19.25,Italiano,,,,,Maschio,29,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,Sì,Sì,,120
+17/03/2019 17.23.58,English,Female,21,South America,Yes,,,,,"Humanistic (Languages, Law, Literature, ...)",,No,No,,,30,
+17/03/2019 17.51.05,Italiano,,,,,Femmina,23,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Artistico (Arti, Design, Architettura, ...)",,,No,No,,63
+17/03/2019 18.00.07,Italiano,,,,,Maschio,26,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,No,,100
+17/03/2019 18.03.56,Italiano,,,,,Femmina,28,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,Sì,Sì,,300
+17/03/2019 18.05.09,Italiano,,,,,Maschio,25,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,Sì,No,,400
+17/03/2019 18.46.26,Italiano,,,,,Maschio,24,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,Sì,,60
+18/03/2019 1.12.51,Italiano,,,,,Femmina,27,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,Sì,No,,250
+18/03/2019 1.53.18,Italiano,,,,,Femmina,20,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Artistico (Arti, Design, Architettura, ...)",,,No,Sì,,120
+18/03/2019 1.58.53,Italiano,,,,,Femmina,24,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Artistico (Arti, Design, Architettura, ...)",,,No,No,,30
+18/03/2019 2.01.43,Italiano,,,,,Femmina,20,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,No,,50
+18/03/2019 2.51.02,Italiano,,,,,Femmina,55,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,No,,150
+18/03/2019 2.55.41,Italiano,,,,,Femmina,20,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,No,,200
+18/03/2019 2.55.44,Italiano,,,,,Femmina,29,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,No,,15
+18/03/2019 4.49.04,Italiano,,,,,Femmina,20,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,No,Sì,,280
+18/03/2019 5.38.12,Italiano,,,,,Femmina,20,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,Sì,,150
+18/03/2019 6.07.03,Italiano,,,,,Femmina,18,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,No,,280
+18/03/2019 7.00.56,Italiano,,,,,Femmina,63,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,No,No,,100
+18/03/2019 7.58.26,Italiano,,,,,Femmina,32,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,Sì,,150
+18/03/2019 8.35.36,English,Female,29,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,,,,,"Scientific (Engineering, Maths, Medicine...)",,No,No,,,200,
+18/03/2019 9.57.55,English,Male,29,"Southern Europe (Greece, Italy, Portugal, Spain, ...)",Yes,,,,,"Scientific (Engineering, Maths, Medicine...)",,Yes,Yes,,,150,
+18/03/2019 10.04.58,Italiano,,,,,Femmina,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Artistico (Arti, Design, Architettura, ...)",,,No,No,,170
+18/03/2019 11.07.06,Italiano,,,,,Femmina,23,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,No,,150
+18/03/2019 11.09.40,Italiano,,,,,Femmina,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Artistico (Arti, Design, Architettura, ...)",,,No,No,,120
+18/03/2019 11.11.59,Italiano,,,,,Femmina,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Artistico (Arti, Design, Architettura, ...)",,,No,No,,300
+18/03/2019 11.34.39,Italiano,,,,,Femmina,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Artistico (Arti, Design, Architettura, ...)",,,No,No,,200
+18/03/2019 11.58.04,Italiano,,,,,Femmina,23,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,No,,150
+18/03/2019 12.27.12,English,Female,21,Asia,Yes,,,,,"Humanistic (Languages, Law, Literature, ...)",,No,Yes,,,20,
+18/03/2019 14.24.12,Italiano,,,,,Maschio,28,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,Sì,,120
+18/03/2019 14.45.11,Italiano,,,,,Maschio,29,"Europa Occidentale (Austria, Belgio, Francia, Germania, Paesi Bassi, Svizzera, ...)",No,,,,,Sì,No,,250
+18/03/2019 14.48.02,Italiano,,,,,Femmina,19,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,Sì,,70
+18/03/2019 14.59.57,Italiano,,,,,Femmina,26,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,Sì,No,,120
+18/03/2019 15.10.23,Italiano,,,,,Femmina,37,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,No,,150
+18/03/2019 15.06.05,Italiano,,,,,Femmina,38,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,Sì,,140
+18/03/2019 15.16.07,Italiano,,,,,Femmina,51,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,No,,150
+18/03/2019 15.24.35,Italiano,,,,,Femmina,55,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,No,,100
+18/03/2019 15.49.12,Italiano,,,,,Femmina,49,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,No,Sì,,200
+18/03/2019 16.25.52,Italiano,,,,,Maschio,22,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,Sì,,50
+18/03/2019 16.52.55,Italiano,,,,,Femmina,59,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,Sì,No,,150
+18/03/2019 16.57.41,Italiano,,,,,Femmina,37,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,No,,150
+18/03/2019 18.14.57,Italiano,,,,,Femmina,27,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Umanistico (Lingue, Legge, Letteratura, ...)",,,No,Sì,,100
+19/03/2019 1.35.23,English,Male,20,"Eastern Europe (Czech Republic, Estonia, Hungary, Latvia, Lithuania, Russia, ... )",Yes,,,,,"Scientific (Engineering, Maths, Medicine...)",,No,No,,,150,
+19/03/2019 4.19.39,Italiano,,,,,Maschio,25,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,No,,90
+19/03/2019 5.42.38,Italiano,,,,,Maschio,19,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Artistico (Arti, Design, Architettura, ...)",,,No,Sì,,60
+19/03/2019 7.15.05,Italiano,,,,,Femmina,53,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,No,No,,200
+19/03/2019 7.15.38,Italiano,,,,,Maschio,59,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,No,,150
+19/03/2019 8.19.00,Italiano,,,,,Femmina,57,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,Sì,No,,100
+19/03/2019 15.03.38,Italiano,,,,,Maschio,30,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,Sì,Sì,,150
+20/03/2019 5.31.06,Italiano,,,,,Maschio,59,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Artistico (Arti, Design, Architettura, ...)",,,Sì,Sì,,80
+20/03/2019 5.41.30,Italiano,,,,,Maschio,25,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,Sì,No,,150
+20/03/2019 5.42.22,Italiano,,,,,Maschio,22,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,Sì,Sì,,50
+20/03/2019 5.44.23,Italiano,,,,,Maschio,24,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,Sì,Sì,,130
+20/03/2019 6.02.22,Italiano,,,,,Femmina,20,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,No,,80
+20/03/2019 6.03.17,Italiano,,,,,Femmina,22,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,No,,200
+20/03/2019 6.05.05,Italiano,,,,,Maschio,23,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,Sì,,200
+20/03/2019 6.06.35,Italiano,,,,,Maschio,23,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,Sì,,80
+20/03/2019 6.07.47,Italiano,,,,,Maschio,22,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,No,,60
+20/03/2019 6.50.25,Italiano,,,,,Maschio,21,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,Sì,No,,100
+20/03/2019 8.08.59,Italiano,,,,,Maschio,24,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,Sì,Sì,,300
+20/03/2019 8.18.42,Italiano,,,,,Femmina,20,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",No,,,,,Sì,Sì,,150
+20/03/2019 8.25.41,Italiano,,,,,Femmina,23,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,Sì,,50
+20/03/2019 8.35.54,Italiano,,,,,Femmina,24,"Europa Meridionale (Grecia, Italia, Portogallo, Spagna, ...)",Sì,,"Scientifico (Ingegneria, Matematica, Medicina...)",,,No,Sì,,150
