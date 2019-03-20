@@ -4,6 +4,7 @@ import numpy as np
 import matplotlib.pyplot as mplt
 from pricing.data.preprocessing_functions import *
 
+
 class DemandCalculator:
 
     def __init__(self, data, prices_col='Max_Price', smoothing_window_size=10):
@@ -33,6 +34,7 @@ class DemandCalculator:
              scale=None, phases_labels=None):
         if scale is None:
             scale = [1]
+            phases_labels = [""]
         for i in range(len(scale)):
             sc = scale[i]
             lab = legend_label if phases_labels is None else legend_label + " " + phases_labels[i]
@@ -49,16 +51,23 @@ class DemandCalculator:
             mplt.show()
             self.title = None
 
+    def get_demand_at(self, x):
+        if int(x) == x:
+            return self.smooth_rev_cum[int(x)]
+        abs_diff = abs(int(x)-x)
+        return self.smooth_rev_cum[int(x)] + (self.smooth_rev_cum[int(x) + 1] - self.smooth_rev_cum[int(x)])*abs_diff
+
 
 if __name__ == '__main__':
     # AGGREGATED DEMAND
     all_people = DP(path='../data/preprocessed_data/processed_data.csv', no_basic_preprocessing=True)
     all_dem = DemandCalculator(all_people,
                                smoothing_window_size=50)
-    all_dem.plot(smooth_reverse=True, show=True, legend_label="Aggregated",
-                 scale=[0.5, 0.7, 1],
+    all_dem.plot(smooth_reverse=True,
+                 show=False,
+                 legend_label="Aggregated",
+                 # scale=[0.5, 0.7, 1],
                  phases_labels=['@Low Interest Phase', '@Med Interest Phase', '@High Interest Phase'])
-
 
     # DISAGGREGATED DEMANDS
     a_people = DP(path='../data/preprocessed_data/processed_data.csv', no_basic_preprocessing=True)
@@ -67,15 +76,21 @@ if __name__ == '__main__':
             select_where(column="Employed", equals_to=1)])
     a = DemandCalculator(a_people,
                               smoothing_window_size=50)
-    a.plot(smooth_reverse=True, show=True, legend_label="South Europe = 1 and Employed = 1", scale=[0.5, 0.7, 1],
+    a.plot(smooth_reverse=True,
+           show=False,
+           legend_label="South Europe = 1 and Employed = 1",
+           # scale=[0.5, 0.7, 1],
            phases_labels=['@Low Interest Phase', '@Med Interest Phase', '@High Interest Phase'])
 
     b_people = DP(path='../data/preprocessed_data/processed_data.csv', no_basic_preprocessing=True)
     b_people.process_data([
-        select_where(column="Location_Southern Europe (Greece, Italy, Portugal, Spain, ...)", equals_to=0),])
+        select_where(column="Location_Southern Europe (Greece, Italy, Portugal, Spain, ...)", equals_to=0)])
     b = DemandCalculator(b_people,
                             smoothing_window_size=50)
-    b.plot(smooth_reverse=True, show=True, legend_label="South Europe = 0", scale=[0.5, 0.7, 1],
+    b.plot(smooth_reverse=True,
+           show=False,
+           legend_label="South Europe = 0",
+           #scale=[0.5, 0.7, 1],
            phases_labels=['@Low Interest Phase', '@Med Interest Phase', '@High Interest Phase'])
 
     c_people = DP(path='../data/preprocessed_data/processed_data.csv', no_basic_preprocessing=True)
@@ -84,5 +99,6 @@ if __name__ == '__main__':
         select_where(column="Employed", equals_to=0)])
     c = DemandCalculator(c_people,
                             smoothing_window_size=50)
-    c.plot(smooth_reverse=True, legend_label="South Europe = 1 and Employed = 0", scale=[0.5, 0.7, 1],
+    c.plot(smooth_reverse=True, legend_label="South Europe = 1 and Employed = 0",
+           #scale=[0.5, 0.7, 1],
            phases_labels=['@Low Interest Phase', '@Med Interest Phase', '@High Interest Phase'])
