@@ -18,6 +18,12 @@ class PercentageCalculator:
         for column_name in column_names_list:
             column_percentages[column_name] = self.compute_percentage(column_name)
 
+        # if they don't add up to 100% -> rescale
+        percentage_sum = sum(column_percentages.values())
+        if percentage_sum != 100:
+            for column_name, percentage in column_percentages.items():
+                column_percentages[column_name] = round(((percentage * 100) / percentage_sum), 2)
+
         if plot:
             self.__plot(column_percentages)
 
