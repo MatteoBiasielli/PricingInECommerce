@@ -42,7 +42,7 @@ class DemandCalculator:
             if smooth_reverse:
                 pic = sb.lineplot(self.indexes, self.smooth_rev_cum * sc, label=lab)
             if original_reverse:
-                pic = sb.lineplot(self.indexes, self.rev_cum * sc, label=lab)
+                pic = sb.lineplot(self.indexes, self.rev_cum * sc, label="Raw data")
         if show:
             pic.set_title(self.title)
             pic.legend()
