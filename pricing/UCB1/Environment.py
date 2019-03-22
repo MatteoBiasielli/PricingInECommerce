@@ -10,7 +10,7 @@ class Environment:
     # returns a reward for the pulled_arm
     def get_reward(self, pulled_arm):
         tmp = np.random.binomial(1, self.probabilities[pulled_arm])
-        return tmp
+        return [tmp, self.probabilities[pulled_arm]]
 
     # returns a reward for each arm
     def get_realizations(self):
