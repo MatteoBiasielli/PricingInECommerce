@@ -30,8 +30,7 @@ class UCB1_Learner:
     # chooses the best arm according to ucb1 criteria, Increments the number of samples of the chosen arm
     # then saves the mean of the Bernoulli associated at that pulled arm
     def pull_arm(self):
-        print("means: " + str(self.empiricalMeans))
-        print("samples: " + str(self.numOfSamples))
+
         self.t += 1
         if self.numOfSamples.__contains__(0):
             for i in range(len(self.numOfSamples)):
