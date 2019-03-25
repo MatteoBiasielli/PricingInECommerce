@@ -16,7 +16,6 @@ environment = Environment(probabilities)
 bestCandidateMean = np.max(probabilities)
 
 for i in range(numberOfExperiments):
-    print(i)
     # the UCB1 learner, after being initialized, tries each arm once
     learner = UCB1_Learner(4, 1000)
     learner2 = UCB1_Learner(4)
