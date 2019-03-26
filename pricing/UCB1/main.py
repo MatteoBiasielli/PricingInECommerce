@@ -6,47 +6,42 @@ import numpy as np
 
 
 rewards_perExp = []
-rewards_perExp2 = []
-probabilities = [0.3, 0.8, 0.2, 0.3, 0.4]
-probabilities2 = [[0.15, 0.1, 0.2, 0.35], [0.35, 0.7, 0.2, 0.35], [0.5, 0.1, 0.8, 0.15]]
-timeHorizon = 7000
-numberOfExperiments = 100
+probabilities = [0.3, 0.8, 0.2, 0.4]
+# NS_probabilities = [[0.15, 0.1, 0.2, 0.35], [0.35, 0.7, 0.2, 0.35], [0.5, 0.7, 0.8, 0.15]]
+timeHorizon = 10000
+numberOfExperiments = 500
+marginal_profits = [10, 5, 10, 15]
 environment = Environment(probabilities)
 
-bestCandidateMean = np.max(probabilities)
+bestCandidateExpReward = np.max(np.array(probabilities) * np.array(marginal_profits))
 
 for i in range(numberOfExperiments):
-    # the UCB1 learner, after being initialized, tries each arm once
-    learner = UCB1_Learner(4, 1000)
-    learner2 = UCB1_Learner(4)
-    env = NonStationaryEnvironment(probabilities2, timeHorizon)
-    env2 = NonStationaryEnvironment(probabilities2, timeHorizon)
-    realizations = env.get_realizations()
-    learner.init_ucb1_algorithm(realizations)
-    realizations = env2.get_realizations()
+    print("Experiment nr: " + str(i))
+    environment = Environment(probabilities)
 
-    learner2.init_ucb1_algorithm(realizations)
+    # The ucb1 learner, after being initialized, tries every arm once
+    learner = UCB1_Learner(num_of_arms=4, marginal_profits=marginal_profits)
+    realizations = environment.get_realizations()
+    learner.init_ucb1_algorithm(realizations)
 
     for j in range(timeHorizon):
+
+        # pull-observe-update cycle
         pulledArm = learner.pull_arm()
-        pulledArm2 = learner2.pull_arm()
-        # print("pull" + str(pulledArm))
-        reward = env.get_reward(pulledArm)
-        reward2 = env2.get_reward(pulledArm2)
+        reward = environment.get_reward(pulledArm)
         learner.update_rewards(pulledArm, reward[0], reward[1])
-        learner2.update_rewards(pulledArm2, reward2[0], reward2[1])
 
-    # collection of the pulled arms means, for each experiment
+    # At the end of each experiment the rewards are collected in the following list
     rewards_perExp.append(learner.pulledArmsReward)
-    rewards_perExp2.append(learner2.pulledArmsReward)
 
-
-mpl.plot(np.cumsum(np.mean(np.array(env.clairvoyant_arm) - np.array(rewards_perExp), axis=0)), "b")
-mpl.plot(np.cumsum(np.mean(np.array(env2.clairvoyant_arm) - np.array(rewards_perExp2), axis=0)), "r")
-mpl.legend(["sw_ucb1", "ucb1"])
-# mpl.plot(np.mean(rewards_perExp, axis=0), "r")
-# mpl.plot(np.mean(rewards_perExp2, axis=0))
-# mpl.plot(env2.clairvoyant_arm, "--k")
+# in this example we're showing the regret and the average expected reward of the learner working with the data
+# defined above using an approach of "profit maximization"
+clairvoyant_arm = np.zeros(timeHorizon)
+clairvoyant_arm += bestCandidateExpReward
+mpl.plot(np.mean(rewards_perExp, axis=0))
+mpl.plot(clairvoyant_arm, "--k")
+mpl.legend(["Avg_exp_reward", "Clairvoyant_reward"])
 mpl.show()
-
-
+mpl.plot(np.cumsum(np.mean(bestCandidateExpReward - np.array(rewards_perExp), axis=0)), "r")
+mpl.legend(["Avg_regret"])
+mpl.show()
