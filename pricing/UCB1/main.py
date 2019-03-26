@@ -1,7 +1,6 @@
 from pricing.UCB1.UCB1_Learner import *
 from pricing.UCB1.Environment import *
 import matplotlib.pyplot as mpl
-from pricing.UCB1.NonStationaryEnvironment import *
 import numpy as np
 
 
