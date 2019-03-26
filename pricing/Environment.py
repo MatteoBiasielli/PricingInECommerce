@@ -28,8 +28,6 @@ class NonStationaryEnvironment(Environment):
             self.clairvoyant_arm.append(np.max(self.probabilities[phase_nr]))
         else:
             self.clairvoyant_arm.append(np.max(np.array(self.probabilities[phase_nr]) * self.marginal_profits))
-        print(phase_nr)
-        print(pulled_arm)
         return [np.random.binomial(1, self.probabilities[phase_nr][pulled_arm]), self.probabilities[phase_nr][pulled_arm]]
 
     # returns a realization for each arm
