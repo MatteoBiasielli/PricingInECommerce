@@ -1,9 +1,7 @@
-from pricing.UCB1.UCB1_Learner import *
-from pricing.UCB1.Environment import *
 import matplotlib.pyplot as mpl
-from pricing.UCB1.NonStationaryEnvironment import *
-import numpy as np
 
+from pricing.Environment import *
+from pricing.UCB1.UCB1_Learner import *
 
 rewards_perExp = []
 rewards_perExp2 = []
@@ -40,7 +38,6 @@ for i in range(numberOfExperiments):
     rewards_perExp.append(learner.pulledArmsReward)
     rewards_perExp2.append(learner2.pulledArmsReward)
 
-
 mpl.plot(np.cumsum(np.mean(np.array(env.clairvoyant_arm) - np.array(rewards_perExp), axis=0)), "b")
 mpl.plot(np.cumsum(np.mean(np.array(env2.clairvoyant_arm) - np.array(rewards_perExp2), axis=0)), "r")
 mpl.legend(["sw_ucb1", "ucb1"])
@@ -48,5 +45,3 @@ mpl.legend(["sw_ucb1", "ucb1"])
 # mpl.plot(np.mean(rewards_perExp2, axis=0))
 # mpl.plot(env2.clairvoyant_arm, "--k")
 mpl.show()
-
-
