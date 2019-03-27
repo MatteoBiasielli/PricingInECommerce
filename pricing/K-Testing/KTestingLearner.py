@@ -66,15 +66,16 @@ class KTestingLearner:
     def __hypothesis_test(self, c_1, c_2):
         """Performs an hypothesis test where the null hypothesis is: H_0 = u_c1 - u_c2 = 0 and the alternative one
         is: H_1 = u_c1 - u_c2 > 0"""
-        n = self.n_samples_per_candidate  # TODO maybe diversify num of samples per candidate (with probabilities)
+        n_1 = self.n_samples_per_candidate
+        n_2 = self.n_samples_per_candidate
         x_1 = self.empirical_means[c_1]
         x_2 = self.empirical_means[c_2]
-        y_bar = (n * x_1 + n * x_2) / (n + n)  # pooled empirical mean
 
-        test_statistic = (x_1 - x_2) / math.sqrt(y_bar * (1 - y_bar) * (1 / n + 1 / n))
-        confidence = self.__get_z_value(1 - self.alpha)
+        y_bar = (n_1 * x_1 + n_2 * x_2) / (n_1 + n_2)  # pooled empirical mean
+        z_score = (x_1 - x_2) / math.sqrt(y_bar * (1 - y_bar) * (1 / n_1 + 1 / n_2))
+        p_value = stats.norm.sf(abs(z_score)) * 2  # two-tail
 
-        if test_statistic >= confidence:
+        if p_value <= self.alpha:
             # H_0 (null hypothesis) is rejected
             return True
         else:
@@ -95,6 +96,6 @@ class KTestingLearner:
 
 
 if __name__ == '__main__':
-    env = Environment([0.7, 0.8, 0.2, 0.1])
+    env = Environment([0.7, 0.5, 0.2, 0.1])
     learner = KTestingLearner(num_of_candidates=4, tot_n_of_samples=1000, environment=env, alpha=0.05)
     learner.start()
