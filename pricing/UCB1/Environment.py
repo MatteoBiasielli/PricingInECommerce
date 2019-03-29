@@ -16,3 +16,9 @@ class Environment:
     def get_realizations(self):
         tmp = np.array(np.random.binomial(1, self.probabilities))
         return tmp
+
+    def get_best_profit_reward(self, marginal_profits):
+        return np.max(np.array(self.probabilities) * np.array(marginal_profits))
+
+    def get_probabilities(self):
+        return self.probabilities.copy()
