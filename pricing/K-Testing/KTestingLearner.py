@@ -9,15 +9,15 @@ from pricing.Environment import Environment
 
 class KTestingLearner:
 
-    def __init__(self, environment, num_of_candidates, marginal_profits, tot_samples, alpha=0.05, plot_reward=True,
-                 plot_regret=True):
+    def __init__(self, environment, num_of_candidates, marginal_profits, tot_samples, alpha=0.05, plot_avg_reward=True,
+                 plot_avg_regret=True):
         self.environment = environment
         self.num_of_candidates = num_of_candidates
         self.marginal_profits = marginal_profits
         self.tot_samples = tot_samples
         self.alpha = alpha
-        self.plot_reward = plot_reward
-        self.plot_regret = plot_regret
+        self.plot_avg_reward = plot_avg_reward
+        self.plot_avg_regret = plot_avg_regret
         self.n_samples_per_candidate = int(tot_samples / num_of_candidates)
         # each row refers to the collected samples of one candidate
         self.samples = np.empty((num_of_candidates, self.n_samples_per_candidate), int)
@@ -44,8 +44,10 @@ class KTestingLearner:
         if not winner:
             return None
         else:
-            if self.plot_reward:
-                self.__plot_reward(winner)
+            if self.plot_avg_reward:
+                self.__plot_avg_reward(winner)
+            if self.plot_avg_regret:
+                self.__plot_avg_regret(winner)
             return winner
 
     def __select_winner(self):
@@ -104,7 +106,7 @@ class KTestingLearner:
             # cannot reject null hypothesis
             return False
 
-    def __plot_reward(self, winner):
+    def __plot_avg_reward(self, winner):
         # plot best candidate reward
         best_reward = self.environment.get_best_profit_reward(self.marginal_profits)
         clairvoyant_arm = np.zeros(2 * self.tot_samples)
@@ -116,11 +118,23 @@ class KTestingLearner:
         actual = exploration + exploitation
         mpl.plot(actual)
 
+        step = round((max(clairvoyant_arm) - min(actual)) / 10, 2)
+        mpl.yticks(np.arange(round(min(actual), 2), max(clairvoyant_arm), step))
         mpl.legend(["Clairvoyant Avg Reward", "Actual Avg Reward"])
         mpl.show()
 
-    def __plot_regret(self, winner):
-        pass  # TODO
+    def __plot_avg_regret(self, winner):
+        best_reward = self.environment.get_best_profit_reward(self.marginal_profits)
+        exploration = [np.mean(best_reward - self.empirical_means)] * self.tot_samples
+        exploitation = [best_reward - (
+                self.environment.get_probabilities()[winner] * self.marginal_profits[winner])] * self.tot_samples
+        actual = exploration + exploitation
+        mpl.plot(actual, "r")
+
+        step = round(max(actual) / 10, 2)
+        mpl.yticks(np.arange(0, round(max(actual), 2), step))
+        mpl.legend(["Avg Regret"])
+        mpl.show()
 
 
 if __name__ == '__main__':
