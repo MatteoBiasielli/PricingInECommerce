@@ -8,9 +8,9 @@ import numpy as np
 # - PARAMETERS - #
 
 # Init parameters
-probabilities = np.array([[0.5, 0.3, 0.7], [0.5, 0.3, 0.95]]) # Structure is [] containing [] of probabilities
+probabilities = np.array([[0.5, 0.3, 0.7], [0.5, 0.3, 0.95], [0.4, 0.7, 0.5]]) # Structure is [] containing [] of probabilities
 marginal_profits = [10, 8, 6]
-time_horizon = 10000
+time_horizon = 9450
 n_experiments = 100
 sw = 1000
 
@@ -33,7 +33,8 @@ if isProfitMaximization:
 if len(probabilities[0]) != len(marginal_profits):
     print("ERROR: Length of arm probabilities and marginal profits do not match.")
     exit()
-
+if time_horizon != int(time_horizon/len(probabilities))*len(probabilities):
+    print("WARNING: Time horizon is not a multiple of the phase time. The program might misbehave.")
 
 # - ALGORITHM - #
 
