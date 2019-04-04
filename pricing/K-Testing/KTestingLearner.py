@@ -1,20 +1,26 @@
 import math
 
+import matplotlib.pyplot as mpl
 import numpy as np
 import scipy.stats as stats
-import matplotlib.pyplot as mpl
 
 from pricing.Environment import Environment
 
 
 class KTestingLearner:
 
-    def __init__(self, environment, num_of_candidates, marginal_profits, tot_samples, alpha=0.05, plot_avg_reward=True,
-                 plot_avg_regret=True):
+    def __init__(self, environment, num_of_candidates, tot_samples, marginal_profits=None, alpha=0.05,
+                 plot_avg_reward=True, plot_avg_regret=True):
         self.environment = environment
         self.num_of_candidates = num_of_candidates
-        self.marginal_profits = marginal_profits
         self.tot_samples = tot_samples
+        if marginal_profits is not None:
+            assert num_of_candidates == len(
+                marginal_profits), "The marginal profits must be equal to the number of candidates!"
+            self.profitMaximization = True
+        else:
+            self.profitMaximization = False
+        self.marginal_profits = marginal_profits
         self.alpha = alpha
         self.plot_avg_reward = plot_avg_reward
         self.plot_avg_regret = plot_avg_regret
@@ -22,21 +28,21 @@ class KTestingLearner:
         # each row refers to the collected samples of one candidate
         self.samples = np.empty((num_of_candidates, self.n_samples_per_candidate), int)
         self.empirical_means = []
-        self.normalized_means = []
 
     def start(self):
         """Starts the k-testing algorithm"""
-        # collect the samples
+        # collect the samples (buy / not buy)
         for i in range(self.n_samples_per_candidate):
             realizations = self.environment.get_realizations()
             self.samples[:, i] = realizations
 
         for candidate in range(self.num_of_candidates):
-            # compute empirical means
-            mean_conversion_rate = np.count_nonzero(self.samples[candidate, :]) / self.n_samples_per_candidate
-            self.empirical_means.append(mean_conversion_rate * self.marginal_profits[candidate])
-            # turn mean conversion rate to mean profit
-            self.samples[candidate, :] = self.samples[candidate, :] * self.marginal_profits[candidate]
+            if self.profitMaximization:
+                # turn mean conversion rate to mean profit
+                self.samples[candidate, :] = self.samples[candidate, :] * self.marginal_profits[candidate]
+
+            # save empirical means in list (conversion rates or mean profits depending on case)
+            self.empirical_means.append(np.mean(self.samples[candidate, :]))
 
         # select the winner candidate
         winner = self.__select_winner()
@@ -52,9 +58,11 @@ class KTestingLearner:
 
     def __select_winner(self):
         """Selects the winning candidate if possible, otherwise returns False"""
-        # normalize mean profits
-        self.normalized_means = (self.empirical_means - np.amin(self.empirical_means)) / (
-                np.amax(self.empirical_means) - np.amin(self.empirical_means))
+        means = self.empirical_means.copy()
+        if self.profitMaximization:
+            # normalize mean profits
+            means = (self.empirical_means - np.amin(self.empirical_means)) / (
+                    np.amax(self.empirical_means) - np.amin(self.empirical_means))
 
         """
         # sort the candidates by empirical mean profits
@@ -67,19 +75,19 @@ class KTestingLearner:
                 return candidate
         """
         # test most promising candidate against all others
-        best_empirical = self.normalized_means.argmax()
-        is_winner = self.__test_against_others(best_empirical)
+        best_empirical = np.argmax(means)
+        is_winner = self.__test_against_others(best_empirical, means)
         if is_winner:
             return best_empirical
         # if no candidate is a winner then return False
         return False
 
-    def __test_against_others(self, candidate):
+    def __test_against_others(self, candidate, means):
         """Tests if the given candidate has greater mean than all of the other candidates with statistical
         significance"""
         is_winner = True
         for other_candidate in [x for x in range(self.num_of_candidates) if x != candidate]:
-            test = self.__hypothesis_test(candidate, other_candidate)
+            test = self.__hypothesis_test(candidate, other_candidate, means)
             # if even one test is inconclusive -> it's not a winner
             if test is False:
                 is_winner = False
@@ -87,13 +95,13 @@ class KTestingLearner:
 
         return is_winner
 
-    def __hypothesis_test(self, c_1, c_2):
+    def __hypothesis_test(self, c_1, c_2, means):
         """Performs an hypothesis test where the null hypothesis is: H_0 = u_c1 - u_c2 = 0 and the alternative one
         is: H_1 = u_c1 - u_c2 > 0"""
         n_1 = self.n_samples_per_candidate
         n_2 = self.n_samples_per_candidate
-        x_1 = self.normalized_means[c_1]
-        x_2 = self.normalized_means[c_2]
+        x_1 = means[c_1]
+        x_2 = means[c_2]
 
         y_bar = (n_1 * x_1 + n_2 * x_2) / (n_1 + n_2)  # pooled empirical mean
         z_score = (x_1 - x_2) / math.sqrt(y_bar * (1 - y_bar) * (1 / n_1 + 1 / n_2))
@@ -108,13 +116,18 @@ class KTestingLearner:
 
     def __plot_avg_reward(self, winner):
         # plot best candidate reward
-        best_reward = self.environment.get_best_profit_reward(self.marginal_profits)
+        if self.profitMaximization:
+            best_reward = np.max(np.array(self.environment.get_probabilities()) * np.array(self.marginal_profits))
+            winner_reward = self.environment.get_probabilities()[winner] * self.marginal_profits[winner]
+        else:
+            best_reward = self.environment.get_best_reward()
+            winner_reward = self.environment.get_probabilities()[winner]
         clairvoyant_arm = np.zeros(2 * self.tot_samples)
         clairvoyant_arm += best_reward
         mpl.plot(clairvoyant_arm, "--k")
         # plot actual reward
         exploration = [np.mean(self.empirical_means)] * self.tot_samples
-        exploitation = [self.environment.get_probabilities()[winner] * self.marginal_profits[winner]] * self.tot_samples
+        exploitation = [winner_reward] * self.tot_samples
         actual = exploration + exploitation
         mpl.plot(actual)
 
@@ -124,10 +137,14 @@ class KTestingLearner:
         mpl.show()
 
     def __plot_avg_regret(self, winner):
-        best_reward = self.environment.get_best_profit_reward(self.marginal_profits)
-        exploration = [np.mean(best_reward - self.empirical_means)] * self.tot_samples
-        exploitation = [best_reward - (
-                self.environment.get_probabilities()[winner] * self.marginal_profits[winner])] * self.tot_samples
+        if self.profitMaximization:
+            best_reward = np.max(np.array(self.environment.get_probabilities()) * np.array(self.marginal_profits))
+            winner_reward = self.environment.get_probabilities()[winner] * self.marginal_profits[winner]
+        else:
+            best_reward = self.environment.get_best_reward()
+            winner_reward = self.environment.get_probabilities()[winner]
+        exploration = [best_reward - np.mean(self.empirical_means)] * self.tot_samples
+        exploitation = [best_reward - winner_reward] * self.tot_samples
         actual = exploration + exploitation
         mpl.plot(actual, "r")
 
