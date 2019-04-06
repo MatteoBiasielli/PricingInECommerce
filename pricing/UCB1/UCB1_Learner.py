@@ -22,7 +22,7 @@ class UCB1_Learner:
     def init_ucb1_algorithm(self, realizations):
         self.t += 1
         self.numOfSamples += 1
-        self.empiricalMeans += realizations
+        self.empiricalMeans += realizations  # TODO
 
         # If the sliding window is present, push the first realization of each arm into that arm buffer
         if self.sliding_window > 0:
