@@ -1,3 +1,5 @@
+import math
+
 import numpy as np
 
 
@@ -6,6 +8,7 @@ class Environment:
     def __init__(self, probabilities):
         self.numOfArms = len(probabilities)
         self.probabilities = probabilities
+        self.variances = [round(p * (1 - p), 2) for p in probabilities]
 
     # returns a reward for the pulled_arm
     def get_reward(self, pulled_arm):
@@ -22,3 +25,6 @@ class Environment:
 
     def get_probabilities(self):
         return self.probabilities.copy()
+
+    def get_variances(self):
+        return self.variances.copy()
