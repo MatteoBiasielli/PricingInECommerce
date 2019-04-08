@@ -29,6 +29,7 @@ class SeqKTestLearner:
         # each row refers to the collected samples of one candidate
         self.samples = np.empty((num_of_candidates, self.n_samples_per_candidate))
         self.history_of_samples = []
+        self.history_of_mean_rewards = []
 
     def start(self):
         """Starts the k-testing algorithm that returns one winner candidate at the end of the process"""
@@ -64,6 +65,10 @@ class SeqKTestLearner:
         last_samples = self.history_of_samples[-2 * self.n_samples_per_candidate:]
         random.shuffle(last_samples)
         self.history_of_samples[-2 * self.n_samples_per_candidate:] = last_samples
+        # compute mean of true rewards in this phase
+        last_true_rewards = self.history_of_mean_rewards[-2 * self.n_samples_per_candidate:]
+        self.history_of_mean_rewards[-2 * self.n_samples_per_candidate:] = [np.mean(last_true_rewards)] * (
+                2 * self.n_samples_per_candidate)
         # apply hypothesis test (test if mean of variation is higher than mean of control)
         if self.__hypothesis_test(variation, control) is True:
             # variation is better than control
@@ -76,11 +81,13 @@ class SeqKTestLearner:
         """Collects a fixed number of samples for the specified candidate and updates the history of samples"""
         # collect the samples (buy / not buy)
         for i in range(self.n_samples_per_candidate):
-            realization = self.environment.get_reward(candidate)[0]
+            realization, true_value = self.environment.get_reward(candidate)
             if self.profitMaximization:
                 realization = realization * self.marginal_profits[candidate]
+                true_value = true_value * self.marginal_profits[candidate]
             self.samples[candidate, i] = realization
             self.history_of_samples.append(realization)
+            self.history_of_mean_rewards.append(true_value)
 
     def __hypothesis_test(self, c_1, c_2):
         """Performs an hypothesis test where the null hypothesis is: H_0 = u_c1 - u_c2 = 0 and the alternative one
@@ -123,6 +130,10 @@ class SeqKTestLearner:
         mpl.plot(self.history_of_samples)
         mpl.show()
 
+    def get_mean_rewards_collected(self):
+        """Plots the mean rewards during all phases of one experiment (exploration and exploitation)"""
+        return self.history_of_mean_rewards.copy()
+
 
 if __name__ == '__main__':
     probabilities = [0.8, 0.4, 0.5, 0.2]
@@ -131,6 +142,7 @@ if __name__ == '__main__':
     env = Environment(probabilities)
     results = [0, 0, 0, 0]
     history_of_rewards = []
+    history_of_mean_rewards = []
     n_experiments = 5000
 
     # experiments
@@ -139,12 +151,21 @@ if __name__ == '__main__':
         winner_candidate = learner.start()
         results[winner_candidate] += 1
         history_of_rewards.append(learner.get_rewards_collected())
+        history_of_mean_rewards.append(learner.get_mean_rewards_collected())
 
-    # plot the avg reward of all the experiments
-    mean_reward = [sum(x) / len(history_of_rewards) for x in zip(*history_of_rewards)]
-    mpl.plot(mean_reward)
+    print("Total wins by candidate: {}".format(results))
+
+    # plot actual rewards collected
+    actual_reward = [sum(x) / len(history_of_rewards) for x in zip(*history_of_rewards)]
+    mpl.plot(actual_reward)
     best_reward = np.max(np.array(env.get_probabilities()) * np.array(MP))
-    mpl.plot([best_reward] * len(mean_reward), "--k")
+    mpl.plot([best_reward] * len(actual_reward), "--k")
     mpl.legend(["Actual Reward ({} exps)".format(n_experiments), "Clairvoyant Avg Reward"])
     mpl.show()
-    print("Total wins by candidate: {}".format(results))
+
+    # plot mean rewards during phases
+    mean_reward = [sum(x) / len(history_of_mean_rewards) for x in zip(*history_of_mean_rewards)]
+    mpl.plot(mean_reward)
+    mpl.plot([best_reward] * len(mean_reward), "--k")
+    mpl.legend(["Avg Reward ({} exps)".format(n_experiments), "Clairvoyant Avg Reward"])
+    mpl.show()
