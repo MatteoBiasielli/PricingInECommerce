@@ -1,5 +1,3 @@
-import math
-
 import numpy as np
 
 
@@ -8,7 +6,6 @@ class Environment:
     def __init__(self, probabilities):
         self.numOfArms = len(probabilities)
         self.probabilities = probabilities
-        self.variances = [round(p * (1 - p), 2) for p in probabilities]
 
     # returns a reward for the pulled_arm
     def get_reward(self, pulled_arm):
@@ -26,5 +23,15 @@ class Environment:
     def get_probabilities(self):
         return self.probabilities.copy()
 
-    def get_variances(self):
-        return self.variances.copy()
+    def get_highest_variance(self, marginal_profits=None):
+        assert all(isinstance(x, (int, float)) for x in self.probabilities)
+        variances = []
+        if marginal_profits is None:
+            variances = [round(p * (1 - p), 2) for p in self.probabilities]
+        else:
+            for prob, mp in zip(self.probabilities, marginal_profits):
+                u = prob * mp
+                var = round((((0 - u) ** 2) * (1 - prob) + ((mp - u) ** 2) * prob), 2)
+                variances.append(var)
+
+        return max(variances)

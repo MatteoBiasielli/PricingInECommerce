@@ -1,18 +1,15 @@
-import math
 import queue
 import random
 
+import math
 import matplotlib.pyplot as mpl
 import numpy as np
 import scipy.stats as stats
 
-from pricing.Environment import Environment
-
 
 class SeqKTestLearner:
 
-    def __init__(self, environment, num_of_candidates, marginal_profits=None, alpha=0.05,
-                 plot_avg_reward=True, plot_avg_regret=True):
+    def __init__(self, environment, num_of_candidates, marginal_profits=None, alpha=0.05, beta=0.2, delta=1):
         self.environment = environment
         self.num_of_candidates = num_of_candidates
         if marginal_profits is not None:
@@ -23,9 +20,11 @@ class SeqKTestLearner:
             self.profitMaximization = False
         self.marginal_profits = marginal_profits
         self.alpha = alpha
-        self.plot_avg_reward = plot_avg_reward
-        self.plot_avg_regret = plot_avg_regret
-        self.n_samples_per_candidate = 100  # TODO implement formula for n
+        self.beta = beta
+        self.delta = delta
+        min_n_of_samples = math.ceil((((self.z_value(1 - alpha) + self.z_value(
+            beta)) ** 2) * environment.get_highest_variance(marginal_profits)) / (delta ** 2))
+        self.n_samples_per_candidate = min_n_of_samples
         # each row refers to the collected samples of one candidate
         self.samples = np.empty((num_of_candidates, self.n_samples_per_candidate))
         self.history_of_samples = []
@@ -99,9 +98,9 @@ class SeqKTestLearner:
         x_2 = np.mean(self.samples[c_2, :])
 
         if self.profitMaximization:
-            # z-test, variances known (assumed to be 1 for the moment)
-            var_1 = 1
-            var_2 = 1
+            # z-test, sample variance
+            var_1 = np.var(self.samples[c_1, :], ddof=1)
+            var_2 = np.var(self.samples[c_2, :], ddof=1)
             z_score = (x_1 - x_2) / math.sqrt((var_1 / n_1) + (var_2 / n_2))
 
         else:
@@ -133,39 +132,3 @@ class SeqKTestLearner:
     def get_mean_rewards_collected(self):
         """Plots the mean rewards during all phases of one experiment (exploration and exploitation)"""
         return self.history_of_mean_rewards.copy()
-
-
-if __name__ == '__main__':
-    probabilities = [0.8, 0.4, 0.5, 0.2]
-    MP = [20, 25, 30, 35]
-    print("Real values: {}".format([a * b for a, b in zip(probabilities, MP)]))
-    env = Environment(probabilities)
-    results = [0, 0, 0, 0]
-    history_of_rewards = []
-    history_of_mean_rewards = []
-    n_experiments = 5000
-
-    # experiments
-    for experiment in range(n_experiments):
-        learner = SeqKTestLearner(num_of_candidates=4, marginal_profits=MP, environment=env, alpha=0.05)
-        winner_candidate = learner.start()
-        results[winner_candidate] += 1
-        history_of_rewards.append(learner.get_rewards_collected())
-        history_of_mean_rewards.append(learner.get_mean_rewards_collected())
-
-    print("Total wins by candidate: {}".format(results))
-
-    # plot actual rewards collected
-    actual_reward = [sum(x) / len(history_of_rewards) for x in zip(*history_of_rewards)]
-    mpl.plot(actual_reward)
-    best_reward = np.max(np.array(env.get_probabilities()) * np.array(MP))
-    mpl.plot([best_reward] * len(actual_reward), "--k")
-    mpl.legend(["Actual Reward ({} exps)".format(n_experiments), "Clairvoyant Avg Reward"])
-    mpl.show()
-
-    # plot mean rewards during phases
-    mean_reward = [sum(x) / len(history_of_mean_rewards) for x in zip(*history_of_mean_rewards)]
-    mpl.plot(mean_reward)
-    mpl.plot([best_reward] * len(mean_reward), "--k")
-    mpl.legend(["Avg Reward ({} exps)".format(n_experiments), "Clairvoyant Avg Reward"])
-    mpl.show()
