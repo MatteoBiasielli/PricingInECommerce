@@ -9,7 +9,8 @@ import scipy.stats as stats
 
 class SeqKTestLearner:
 
-    def __init__(self, environment, num_of_candidates, marginal_profits=None, alpha=0.05, beta=0.2, delta=1):
+    def __init__(self, environment, num_of_candidates, marginal_profits=None, alpha=0.05, beta=0.2, delta=1,
+                 n_samples=None):
         self.environment = environment
         self.num_of_candidates = num_of_candidates
         if marginal_profits is not None:
@@ -22,9 +23,13 @@ class SeqKTestLearner:
         self.alpha = alpha
         self.beta = beta
         self.delta = delta
-        min_n_of_samples = math.ceil((((self.z_value(1 - alpha) + self.z_value(
-            beta)) ** 2) * environment.get_highest_variance(marginal_profits)) / (delta ** 2))
-        self.n_samples_per_candidate = min_n_of_samples
+        if n_samples is None:
+            # if the samples are not specified, use the formula for min samples
+            min_n_of_samples = math.ceil((((self.z_value(1 - alpha) + self.z_value(
+                beta)) ** 2) * environment.get_highest_variance(marginal_profits)) / (delta ** 2))
+            self.n_samples_per_candidate = min_n_of_samples
+        else:
+            self.n_samples_per_candidate = n_samples
         # each row refers to the collected samples of one candidate
         self.samples = np.empty((num_of_candidates, self.n_samples_per_candidate))
         self.history_of_samples = []
