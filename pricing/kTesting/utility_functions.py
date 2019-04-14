@@ -20,3 +20,12 @@ def plot_rewards(environment, marginal_profits, rewards, label):
     mpl.plot([best_reward] * len(mean_reward), "--k")
     mpl.legend(["{} ({} exps)".format(label, len(rewards)), "Clairvoyant Avg Reward"])
     mpl.show()
+
+
+def plot_cumulative_regret(environment, marginal_profits, rewards):
+    """"Plot the cumulative regret averaging all the experiments."""
+    mean_reward = [sum(x) / len(rewards) for x in zip(*rewards)]
+    best_reward = np.max(np.array(environment.get_probabilities()) * np.array(marginal_profits))
+    mpl.plot(np.cumsum(best_reward - mean_reward), "r")
+    mpl.legend(["Cumulative Regret ({} exps)".format(len(rewards))])
+    mpl.show()

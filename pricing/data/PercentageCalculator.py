@@ -41,7 +41,20 @@ class PercentageCalculator:
 
         return percentages
 
-    def __plot(self, columns_percentages):
+    def get_numerical_column_percentages(self, column_name, list_of_ranges):
+        for rang in list_of_ranges:
+            assert rang[0] <= rang[1], "The numeric ranges must be realistic."
+        column = self.data[column_name].ravel()
+        percentages = {}
+        for rang in list_of_ranges:
+            # count number of samples in the range and compute percentage on total
+            percentage = round((sum(1 for n in column if rang[0] <= n <= rang[1]) / column.size) * 100, 2)
+            percentages[rang] = percentage
+
+        return percentages
+
+    @staticmethod
+    def __plot(columns_percentages):
         labels = columns_percentages.keys()
         sizes = columns_percentages.values()
 
@@ -56,5 +69,6 @@ if __name__ == '__main__':
     all_people = DP(path='../data/preprocessed_data/processed_data.csv',
                     no_basic_preprocessing=True).get_processed_data()
     PC = PercentageCalculator(all_people)
+    print(PC.get_numerical_column_percentages("Max_Price", [(0, 50), (0, 249), (250, 500)]))
     print(PC.compare_columns(["Background_Scientific", "Background_Humanistic", "Background_Artistic"]))
     print(PC.get_single_column_percentage("University"))

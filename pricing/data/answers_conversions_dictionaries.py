@@ -8,7 +8,7 @@ def anwswers_translations():
     trans.append(['Europa Occidentale (Austria, Belgio, Francia, Germania, Paesi Bassi, Svizzera, ...)',
                   'Western Europe (Austria, Belgium, France, Germany, Netherlands, Switzerland, ...)', 'WestEU'])
     trans.append(['Nord Europa (Danimarca, Finlandia, Islanda, Norvegia, Svezia, ...)',
-                  'MalNorthern Europe (Denmark, Finland, Iceland, Norway, Sweden, ...)e', 'NorthEU'])
+                  'Northern Europe (Denmark, Finland, Iceland, Norway, Sweden, ...)', 'NorthEU'])
     trans.append(['Europa Orientale (Repubblica Ceca, Estonia, Ungheria, Lettonia, Lituania, Russia, ... )',
                   'Eastern Europe (Czech Republic, Estonia, Hungary, Latvia, Lithuania, Russia, ... )', 'EastEU'])
     trans.append(['Nord America', 'North America', 'NorthAmerica'])
