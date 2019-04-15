@@ -12,20 +12,32 @@ def get_candidates(start, end, n_candidates):
     return candidates
 
 
-def plot_rewards(environment, marginal_profits, rewards, label):
+def plot_rewards(environment, marginal_profits, rewards, label, show=True):
     """"Plot the mean rewards of all the experiments against the clairvoyant one."""
     mean_reward = [sum(x) / len(rewards) for x in zip(*rewards)]
-    mpl.plot(mean_reward)
-    best_reward = np.max(np.array(environment.get_probabilities()) * np.array(marginal_profits))
-    mpl.plot([best_reward] * len(mean_reward), "--k")
-    mpl.legend(["{} ({} exps)".format(label, len(rewards)), "Clairvoyant Avg Reward"])
-    mpl.show()
+    if show:
+        mpl.plot(mean_reward)
+        best_reward = np.max(np.array(environment.get_probabilities()) * np.array(marginal_profits))
+        mpl.plot([best_reward] * len(mean_reward), "--k")
+        mpl.legend(["{} ({} exps)".format(label, len(rewards)), "Clairvoyant Avg Reward"])
+        mpl.show()
+    return mean_reward
 
 
-def plot_cumulative_regret(environment, marginal_profits, rewards):
+def plot_cumulative_regret(environment, marginal_profits, rewards, show=True):
     """"Plot the cumulative regret averaging all the experiments."""
     mean_reward = [sum(x) / len(rewards) for x in zip(*rewards)]
     best_reward = np.max(np.array(environment.get_probabilities()) * np.array(marginal_profits))
-    mpl.plot(np.cumsum(best_reward - mean_reward), "r")
-    mpl.legend(["Cumulative Regret ({} exps)".format(len(rewards))])
+    cum_regret = np.cumsum(best_reward - mean_reward)
+    if show:
+        mpl.plot(cum_regret, "r")
+        mpl.legend(["Cumulative Regret ({} exps)".format(len(rewards))])
+        mpl.show()
+    return cum_regret
+
+
+def plot_multiple_curves(list_of_curves, labels):
+    for curve in list_of_curves:
+        mpl.plot(curve)
+    mpl.legend(labels)
     mpl.show()
