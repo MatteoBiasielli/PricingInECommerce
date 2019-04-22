@@ -55,7 +55,7 @@ class SeqKTestLearner:
                 variation = q.get()
 
         # collect some winner samples
-        self.__collect_samples(control)
+        self.__collect_samples(control, custom_samples=4000)
 
         return control
 
@@ -81,15 +81,17 @@ class SeqKTestLearner:
             # there is no evidence that variation is better than control
             return control
 
-    def __collect_samples(self, candidate):
+    def __collect_samples(self, candidate, custom_samples=None):
         """Collects a fixed number of samples for the specified candidate and updates the history of samples"""
+        n_samples = self.n_samples_per_candidate if custom_samples is None else custom_samples
         # collect the samples (buy / not buy)
-        for i in range(self.n_samples_per_candidate):
+        for i in range(n_samples):
             realization, true_value = self.environment.get_reward(candidate)
             if self.profitMaximization:
                 realization = realization * self.marginal_profits[candidate]
                 true_value = true_value * self.marginal_profits[candidate]
-            self.samples[candidate, i] = realization
+            if custom_samples is None:
+                self.samples[candidate, i] = realization
             self.history_of_samples.append(realization)
             self.history_of_mean_rewards.append(true_value)
 

@@ -36,8 +36,22 @@ def plot_cumulative_regret(environment, marginal_profits, rewards, show=True):
     return cum_regret
 
 
-def plot_multiple_curves(list_of_curves, labels):
+def plot_cumulative_reward(rewards, show=True):
+    """"Plot the cumulative reward averaging all the experiments."""
+    mean_reward = [sum(x) / len(rewards) for x in zip(*rewards)]
+    cum_reward = np.cumsum(mean_reward)
+    if show:
+        mpl.plot(cum_reward)
+        mpl.legend(["Cumulative Reward ({} exps)".format(len(rewards))])
+        mpl.show()
+    return cum_reward
+
+
+def plot_multiple_curves(list_of_curves, title, labels):
+    """Plot multiple curves in the same figure."""
     for curve in list_of_curves:
         mpl.plot(curve)
     mpl.legend(labels)
+    mpl.title(title)
+    mpl.savefig("{}.png".format(title), dpi=200)
     mpl.show()
