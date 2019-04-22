@@ -115,7 +115,8 @@ class SeqKTestLearner:
             y_bar = (n_1 * x_1 + n_2 * x_2) / (n_1 + n_2)  # pooled empirical mean
             z_score = (x_1 - x_2) / math.sqrt(y_bar * (1 - y_bar) * (1 / n_1 + 1 / n_2))
 
-        if z_score >= self.z_value(1 - self.alpha):
+        critical_value = self.z_value(1 - self.alpha)
+        if z_score >= critical_value:
             # H_0 (null hypothesis) is rejected
             return True
         else:
@@ -123,9 +124,9 @@ class SeqKTestLearner:
             return False
 
     @staticmethod
-    def z_value(confidence):
-        """Returns the z-value at a certain confidence"""
-        return stats.norm.ppf(1 - (1 - confidence) / 2)
+    def z_value(at):
+        """Returns value of gaussian at certain quantile (Right-tailed)"""
+        return stats.norm.ppf(at)
 
     def get_rewards_collected(self):
         """Returns the history of rewards collected during one experiment"""
