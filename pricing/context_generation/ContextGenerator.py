@@ -4,6 +4,8 @@ from tqdm import tqdm
 import seaborn as sb
 import matplotlib.pyplot as mplt
 import copy
+import utils as u
+import pricing.demand.DemandCalculator as DC
 
 
 class Node:
@@ -54,7 +56,7 @@ class Node:
             cum_prob += class_probs[j]
             n_cum += cont_gen.n(arm, j)
         # print(arm, n_cum)
-        return score - np.sqrt(-np.log10(0.025) * 2 / (cum_prob * n_cum))
+        return score - np.sqrt(-np.log10(0.1) * 2 / (cum_prob * n_cum))
 
     def split(self, class_probs, cont_gen, arms):
         if len(self.dem_ind_list) <= 1:
@@ -100,6 +102,7 @@ class ContextTreeGeneratorUCB1:
         self.clairvoyants = []
         self.rewards = []
         self.arms = arms
+        self.current_scale_factor = 1
         self.sw_size = sliding_window_size
         self.class_probabilities = class_probabilities
         self.arm_demand_means = arm_demand_means
@@ -130,7 +133,7 @@ class ContextTreeGeneratorUCB1:
             clair += node.get_clairvoyant(self.class_probabilities, self.arm_demand_means, self.arms)
             bestarm = node.get_best_arm(self.class_probabilities, self, self.arms)
             for dem in node.dem_ind_list:
-                sort = np.random.binomial(n=1, size=1, p=self.arm_demand_means[bestarm][dem])[0]
+                sort = np.random.binomial(n=1, size=1, p=self.arm_demand_means[bestarm][dem]*self.current_scale_factor)[0]
                 self.realizations_per_arm_per_demand[bestarm][dem].append(sort)
                 self.realizations_per_arm_per_demand_timestamps[bestarm][dem].append(self.time_steps)
             # print(self.realizations_per_arm_per_demand)
@@ -184,16 +187,23 @@ class ContextTreeGeneratorUCB1:
 
 
 if __name__ == '__main__':
-    class_probs = np.array([0.3, 0.5, 0.2])
-    arm_dem_means = np.array([[0.5, 0.4, 0.1], [0.4, 0.5, 0.1], [0.01, 0.4, 1]])
-    arms = np.array([10, 9, 5])
-    sw_size = 4000
-
+    n_arms = 17
+    sw_size = -1
+    prod_cost = 10
+    arms = np.array([30 + (340/n_arms) * i for i in range(n_arms)])
+    class_probs = np.array([108/329, 48/329, 173/329])
+    arm_dem_means = np.zeros([len(arms), len(class_probs)])
+    a, b, c, = DC.get_three_demands()
+    dems = [a, b, c]
+    for i in range(len(arms)):
+        for j in range(len(class_probs)):
+            arm_dem_means[i][j] = dems[j].get_demand_at(arms[i])
     clairs = []
     rews = []
     regrs = []
-    T_HOR = 10000
+    T_HOR = 18250
     N_EXPS = 6
+    arms = arms - prod_cost
     for _ in tqdm(range(N_EXPS)):
         contgen = ContextTreeGeneratorUCB1(class_probs, arm_dem_means, arms, sw_size, ["a", "b", "c"])
         for i in range(T_HOR):
@@ -204,10 +214,10 @@ if __name__ == '__main__':
         rews.append(contgen.rewards)
         regrs.append(contgen.regrets)
         contgen.print_tree()
-    sb.lineplot(range(T_HOR), np.mean(clairs, axis=0))
-    sb.lineplot(range(T_HOR), np.mean(rews, axis=0))
+    # sb.lineplot(range(T_HOR), u.smoothen_curve(np.mean(clairs, axis=0)))
+    sb.lineplot(range(T_HOR), u.smoothen_curve(np.mean(rews, axis=0)))
     mplt.show()
-    sb.lineplot(range(T_HOR), np.mean(regrs, axis=0))
+    sb.lineplot(range(T_HOR), u.smoothen_curve(np.mean(regrs, axis=0)))
     mplt.show()
 
 
