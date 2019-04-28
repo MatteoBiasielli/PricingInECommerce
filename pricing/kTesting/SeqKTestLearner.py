@@ -9,7 +9,7 @@ import scipy.stats as stats
 
 class SeqKTestLearner:
 
-    def __init__(self, environment, num_of_candidates, marginal_profits=None, alpha=0.05, beta=0.2, delta=1,
+    def __init__(self, environment, num_of_candidates, marginal_profits=None, alpha=0.05, beta=0.1, delta=1,
                  n_samples=None):
         self.environment = environment
         self.num_of_candidates = num_of_candidates
