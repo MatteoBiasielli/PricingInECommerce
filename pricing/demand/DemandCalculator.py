@@ -6,8 +6,34 @@ from pricing.data.preprocessing_functions import *
 
 
 class DemandCalculator:
+    """
+        The DemandCalculator object handles the entire generation of a demand curve starting from the
+        (preprocessed) data we collected with the survey. An important assumption is the fact that the customer is
+        assumed to buy the product at any price that is below the maximum price he indicated in the survey. Under
+        this assumption, the Demand Curve is strictly non-increasing.
 
+
+        EXAMPLE USAGE (plots the demand):
+        all_people = DataPreprocesser(path='../data/preprocessed_data/processed_data.csv', no_basic_preprocessing=True)
+        all_dem = DemandCalculator(all_people,
+                                   smoothing_window_size=50)
+        all_dem.plot(smooth_reverse=True,
+                     show=False,
+                     legend_label="Aggregated",
+                     scale=['high'],
+                      #phases_labels=['@Low Interest Phase', '@Med Interest Phase', '@High Interest Phase']
+                     )
+
+    """
     def __init__(self, data, prices_col='Max_Price', smoothing_window_size=10):
+        """
+        Initializes the object with the data it uses and creates the smoothened demand curve.
+        :param data: is a Pandas dataframe containing the survey data
+        :param prices_col: is the name of the column of data that contains the maximm price that each user is
+                            available to pay
+        :param smoothing_window_size: is the size of the smoothing kernel that is applied to the raw data to obtain a
+                            smooth demand curve
+        """
         self.data = data
         self.pr_col = prices_col
         self.smoothing_window_size = smoothing_window_size
@@ -15,6 +41,13 @@ class DemandCalculator:
         self.title = None
 
     def __calculate_reverse_cumulative_distribution(self):
+        """
+        Private method that supports __init__ . This method should not be used by any other method, as
+        its only purpose is initially creating the demand curve.
+        :return: reverse_cum: the non smoothened demand curve
+                 smooth_reverse_cum: the smoothened demand curve
+                 indexes: a list of x-values for which the demand curve value is defined
+        """
         vals = self.data.data[self.pr_col].values
         num = int(max(vals) + 1)
         quantum = 1 / len(vals)
@@ -32,7 +65,15 @@ class DemandCalculator:
 
     @staticmethod
     def __scale(x, method):
-        if isinstance(method, int):
+        """
+        Private method that supports get_demand_at and plot and that should not be used without the latter. Scales
+        the input value x according to the phase indicated in method.
+        :param x: the value(s) to scale. Can be scalar or numpy.array
+        :param method: the scaling policy (or the phase). It can be a float or a string
+        :return: x*method if method is a float, __scalestr(x, method) if method is a string, raises an exception
+        otherwise
+        """
+        if isinstance(method, float):
             return x*method
         if isinstance(method, str):
             return DemandCalculator.__scalestr(x, method)
@@ -40,6 +81,13 @@ class DemandCalculator:
 
     @staticmethod
     def __scalestr(x, method):
+        """
+        Private method that supports __scale.
+        :param x: the value(s) to scale. Can be scalar or numpy.array
+        :param method: string representing the phase that x needs to be scaled for.
+                        Possible values: 'high', 'med', 'low'
+        :return: the value of x scaled according to the indicated phase.
+        """
         if method == 'high':
             if isinstance(x, int) or isinstance(x, float):
                 if x == 0:
@@ -76,6 +124,15 @@ class DemandCalculator:
             self.title = None
 
     def get_demand_at(self, x, scale):
+        """
+        Returns the value D(x) of the demand at x.
+        :param x: the x-value for which D(x) is needed
+        :param scale: a string representing the phase that x needs to be scaled for.
+                        Possible values: 'high', 'med', 'low'
+                        OR
+                      any float value
+        :return: D(x) scaled accordingly to scale
+        """
         if int(x) == x:
             val = self.smooth_rev_cum[int(x)]
         else:
