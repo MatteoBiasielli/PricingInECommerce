@@ -16,14 +16,14 @@ def run_experiments(demand_curve, n_candidates, alpha, phase="high"):
     tot_datapoints = 18250
     n_samples_each = round((tot_datapoints / (n_candidates - 1)) / 2)
     print("With {} candidates, {} alpha:".format(n_candidates, alpha))
-    print("\tReal values: {}".format([a * b for a, b in zip(probabilities, marginal_profits)]))
+    print("\tReal values: {}".format([round(a * b, 3) for a, b in zip(probabilities, marginal_profits)]))
     env = Environment(probabilities)
     wins = [0] * len(probabilities)
     history_of_actual_rewards = []
     history_of_mean_rewards = []
 
     # experiments:
-    n_experiments = 500
+    n_experiments = 100
     for experiment in range(n_experiments):
         learner = SeqKTestLearner(num_of_candidates=len(probabilities), marginal_profits=marginal_profits,
                                   environment=env, n_samples=None, alpha=alpha)
@@ -48,15 +48,15 @@ if __name__ == '__main__':
     rewards_to_plot = []
     regret_to_plot = []
     cum_rew_to_plot = []
-    candidates_to_test = [4, 5, 9, 17]
+    candidates_to_test = [5, 10, 17]
     alpha_to_test = [0.05]
-    for i in alpha_to_test:
-        results = run_experiments(all_dem, n_candidates=17, alpha=i)
+    for i in candidates_to_test:
+        results = run_experiments(all_dem, n_candidates=i, alpha=0.3)
         rewards_to_plot.append(results[0])
         regret_to_plot.append(results[1])
         cum_rew_to_plot.append(results[2])
 
     # visualize results:
-    plot_multiple_curves(rewards_to_plot, title="Avg Reward", labels=alpha_to_test)
-    # plot_multiple_curves(regret_to_plot, "Cumulative Regret", candidates_to_test)
-    # plot_multiple_curves(cum_rew_to_plot, title="Cumulative Reward", labels=alpha_to_test)
+    plot_multiple_curves(rewards_to_plot, title="Avg Reward", labels=candidates_to_test, extend=True)
+    plot_multiple_curves(regret_to_plot, title="Cumulative Regret", labels=candidates_to_test, extend=True)
+    # plot_multiple_curves(cum_rew_to_plot, title="Cumulative Reward", labels=candidates_to_test)
