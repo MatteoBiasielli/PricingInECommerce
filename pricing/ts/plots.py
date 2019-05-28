@@ -2,10 +2,12 @@ import matplotlib.pyplot as plt
 from numpy import genfromtxt, arange, subtract, cumsum, repeat
 
 PATH = "./results/"
+KTPATH = "../kTesting/results/"
+UCB1PATH = "../UCB1/Results/"
 
 
-def get_data_from_csv(filename):
-    return genfromtxt(PATH + filename, delimiter=",")
+def get_data_from_csv(filename, path=PATH, delimiter=","):
+    return genfromtxt(path + filename, delimiter=delimiter)
 
 
 def plot_1phase_metricsOverInteractions(toplot="rew", pfrom=3, upto=17, save=False):
@@ -141,4 +143,57 @@ def plot_3phases_gfunOverInteractions(sw=3041, save=False):
     plt.show()
 
 
-plot_3phases_gfunOverInteractions(sw=6083, save=True)
+def plot_1phase_finalMetricsOverArms_Comparison(toplot="rew", pfrom=3, upto=17, save=False):
+    plt.figure(figsize=(16, 8))
+    xlabel = "Number Of Arms"
+    ylabel = "Final Average Expected Reward" if toplot == "rew" else " Final Average Cumulative Regret"
+    load_subname = "exprew" if toplot == "rew" else "cumreg"
+    dondony_subname = "reward" if toplot == "rew" else "regret"
+    save_subname = "finExpRew" if toplot == "rew" else "finCumReg"
+    arms_subname = "allArms" if pfrom == 3 and upto == 17 else str(pfrom) + "to" + str(upto)
+
+    plt.xlabel(xlabel)
+    plt.ylabel(ylabel)
+
+    legend = ["K-Testing Reward", "UCB1 Reward", "TS Reward", "Clairvoyant Reward"] if toplot == "rew" \
+        else["K-Testing Regret", "UCB1 Regret", "TS Regret"]
+
+    conv_data_kt = []
+    conv_data_ucb1 = []
+    conv_data_ts = []
+    clr_data = []
+    arms_data = []
+
+    data_ucb1 = get_data_from_csv("Ucb1_spezzata_" + dondony_subname + ".txt", path=UCB1PATH, delimiter=";")
+    for i in range(pfrom, upto + 1):
+        data_kt = get_data_from_csv(load_subname + "_" + str(i) + ".csv", path=KTPATH)
+        data_ts = get_data_from_csv("ts_1phase" + str(i) + "arms_" + load_subname + "_10000exp.csv")
+
+        conv_data_kt.append(data_kt[len(data_kt) - 1])
+        conv_data_ts.append(data_ts[len(data_ts) - 1])
+
+        conv_data_ucb1.append(data_ucb1[i - 3])
+
+        if toplot == "rew":
+            data = get_data_from_csv("ts_1phase" + str(i) + "arms_clrrew_10000exp.csv")
+            clr_data.append(data[len(data) - 1])
+
+        arms_data.append(i)
+
+    plt.plot(arms_data, conv_data_kt)
+    plt.plot(arms_data, conv_data_ucb1)
+    plt.plot(arms_data, conv_data_ts)
+
+    if toplot == "rew":
+        plt.plot(arms_data, clr_data, "--k")
+
+    plt.xticks(arms_data)
+    plt.legend(legend)
+
+    if save:
+        plt.savefig("plots/ts_1phase_" + save_subname + "_" + arms_subname + ".png")
+
+    plt.show()
+
+
+plot_1phase_finalMetricsOverArms_Comparison(toplot="reg", pfrom=4)
