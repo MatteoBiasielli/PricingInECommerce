@@ -122,7 +122,7 @@ def plot_3phases_gfunOverInteractions(sw=3041, save=False):
     plt.xlabel(xlabel)
     plt.ylabel(ylabel)
 
-    legend = ["G(4, 10)", "G(4, 17)"]
+    legend = ["G(10, 4)", "G(17, 4)"]
 
     ref_data = get_data_from_csv("ts_3phases" + str(sw) + "sw4arms_exprew_10000exp.csv")
     data_10 = get_data_from_csv("ts_3phases" + str(sw) + "sw10arms_exprew_10000exp.csv")
@@ -196,4 +196,4 @@ def plot_1phase_finalMetricsOverArms_Comparison(toplot="rew", pfrom=3, upto=17, 
     plt.show()
 
 
-plot_1phase_finalMetricsOverArms_Comparison(toplot="reg", save=True)
+plot_3phases_gfunOverInteractions(sw=6083, save=True)
