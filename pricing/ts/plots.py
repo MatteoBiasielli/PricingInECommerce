@@ -191,9 +191,9 @@ def plot_1phase_finalMetricsOverArms_Comparison(toplot="rew", pfrom=3, upto=17, 
     plt.legend(legend)
 
     if save:
-        plt.savefig("plots/ts_1phase_" + save_subname + "_" + arms_subname + ".png")
+        plt.savefig("plots/comp_1phase_" + save_subname + "_" + arms_subname + ".png")
 
     plt.show()
 
 
-plot_1phase_finalMetricsOverArms_Comparison(toplot="reg", pfrom=4)
+plot_1phase_finalMetricsOverArms_Comparison(toplot="reg", save=True)
