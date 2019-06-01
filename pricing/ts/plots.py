@@ -196,4 +196,77 @@ def plot_1phase_finalMetricsOverArms_Comparison(toplot="rew", pfrom=3, upto=17, 
     plt.show()
 
 
-plot_3phases_gfunOverInteractions(sw=6083, save=True)
+def comp_3phases_gfunOverInteractions(save=False):
+    plt.figure(figsize=(16, 8))
+    xlabel = "Number Of Interactions"
+    ylabel = "G-Function"
+    plt.title("Sliding Window = " + str(6083))
+    plt.xlabel(xlabel)
+    plt.ylabel(ylabel)
+
+    legend = ["G(TS_10, UCB1_10)"]
+
+    data_ts = get_data_from_csv("ts_3phases6083sw10arms_exprew_10000exp.csv")
+    data_ucb1 = get_data_from_csv("Ucb1_10_reward_sw_phaselen.txt",
+                                  path=UCB1PATH + "Non-Stationary Results/", delimiter=";")
+
+    gfun_10 = subtract(cumsum(data_ts), cumsum(data_ucb1))
+
+    plt.plot(gfun_10)
+    plt.plot(repeat(0, 18250), "--k")
+
+    plt.legend(legend)
+
+    if save:
+        plt.savefig("plots/comp_3phases_gFun_6083.png")
+
+    plt.show()
+
+
+def comp_3phases_metricsOverInteractions(toplot="rew", save=False):
+    plt.figure(figsize=(16, 8))
+    xlabel = "Number Of Interactions"
+
+    if toplot=="rew":
+        title_prefix = "Expected"
+        save_subname = "avgExpRew"
+        plot_subname = "Reward"
+    else:
+        title_prefix = "Cumulative"
+        save_subname = "avgCumReg"
+        plot_subname = "Regret"
+
+    ylabel = "Average " + title_prefix + " " + plot_subname
+
+    plt.xlabel(xlabel)
+    plt.ylabel(ylabel)
+
+    legend = ["UCB1 " + plot_subname, "TS " + plot_subname]
+
+    data_ucb1 = get_data_from_csv("Ucb1_10_reward_sw_phaselen.txt",
+                                  path=UCB1PATH + "Non-Stationary Results/", delimiter=";")
+
+    clr_data = get_data_from_csv("ts_3phases6083sw10arms_clrrew_10000exp.csv")
+
+    if toplot == "rew":
+        data_ts = get_data_from_csv("ts_3phases6083sw10arms_exprew_10000exp.csv")
+        legend.append("Clairvoyant Reward")
+    else:
+        data_ts = get_data_from_csv("ts_3phases6083sw10arms_cumreg_10000exp.csv")
+        data_ucb1 = cumsum(subtract(clr_data, data_ucb1))
+
+    plt.plot(data_ucb1)
+    plt.plot(data_ts)
+
+    if toplot == "rew":
+        plt.plot(clr_data, "--k")
+
+    plt.legend(legend)
+
+    if save:
+        plt.savefig("plots/comp_3phases_" + save_subname + "_6083.png")
+
+    plt.show()
+
+
+comp_3phases_metricsOverInteractions(save=True)
