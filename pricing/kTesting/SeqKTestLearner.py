@@ -26,7 +26,7 @@ class SeqKTestLearner:
         if n_samples is None:
             # if the samples are not specified, use the formula for min samples
             min_n_of_samples = math.ceil((((self.z_value(1 - alpha) + self.z_value(
-                beta)) ** 2) * environment.get_highest_variance(marginal_profits)) / (delta ** 2))
+                1 - beta)) ** 2) * environment.get_highest_variance(marginal_profits)) / (delta ** 2))
             self.n_samples_per_candidate = min_n_of_samples
         else:
             self.n_samples_per_candidate = n_samples
@@ -55,7 +55,7 @@ class SeqKTestLearner:
                 variation = q.get()
 
         # collect some winner samples
-        self.__collect_samples(control, custom_samples=4000)
+        self.__collect_samples(control, custom_samples=1)
 
         return control
 
@@ -109,6 +109,7 @@ class SeqKTestLearner:
             var_1 = np.var(self.samples[c_1, :], ddof=1)
             var_2 = np.var(self.samples[c_2, :], ddof=1)
             z_score = (x_1 - x_2) / math.sqrt((var_1 / n_1) + (var_2 / n_2))
+            # df = (((var_1 / n_1) + (var_2 / n_2))**2) / (((var_1 / n_1)**2/(n_1-1)) + ((var_2 / n_2)**2/(n_2-1)))
 
         else:
             # z-test on proportions
@@ -127,6 +128,10 @@ class SeqKTestLearner:
     def z_value(at):
         """Returns value of gaussian at certain quantile (Right-tailed)"""
         return stats.norm.ppf(at)
+
+    @staticmethod
+    def t_value(at, df):
+        return stats.t.ppf(at, df)
 
     def get_rewards_collected(self):
         """Returns the history of rewards collected during one experiment"""

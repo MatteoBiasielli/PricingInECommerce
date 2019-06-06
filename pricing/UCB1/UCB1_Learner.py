@@ -7,6 +7,10 @@ class UCB1_Learner:
         self.t = 0
         self.pulledArmsReward = []
         self.rewards_per_arm = [[] for i in range(num_of_arms)]
+        self.results = []
+        self.ones = np.zeros(num_of_arms)
+        self.zeros = np.zeros(num_of_arms)
+        self.resultsSize = 0
         self.empiricalMeans = np.zeros(num_of_arms)
         self.numOfSamples = np.zeros(num_of_arms)
         self.num_of_arms = num_of_arms
@@ -25,15 +29,19 @@ class UCB1_Learner:
         self.empiricalMeans += realizations  # TODO
 
         # If the sliding window is present, push the first realization of each arm into that arm buffer
-        if self.sliding_window > 0:
-            for i in range(self.num_of_arms):
-                self.rewards_per_arm[i][0] = realizations[i]
+        for i in range(len(realizations)):
+            self.results.append([i, realizations[i]])
+            self.resultsSize += 1
+            if realizations[i] == 0:
+                self.zeros[i] += 1
+            else:
+                self.ones[i] += 1
 
     # chooses the best arm according to ucb1 criteria, Increments the number of samples of the chosen arm
     # then saves the mean of the Bernoulli associated at that pulled arm
     def pull_arm(self):
-
         self.t += 1
+
         # This if_statement may be true only in presence of a sliding window
         if self.numOfSamples.__contains__(0):
             for i in range(len(self.numOfSamples)):
@@ -43,9 +51,9 @@ class UCB1_Learner:
             # Classic selection of the best arm in case of "market invasion" approach (marginal_profits = 0)
             # Alternative selection in case of "profit maximization" approach (marginal_profits given)
             if self.marginal_profits == 0:
-                return np.argmax(self.empiricalMeans + np.sqrt((2 * np.log(self.t)) / self.numOfSamples))
+                return np.argmax(self.empiricalMeans + 0.3 * np.sqrt((2 * np.log(self.t)) / self.numOfSamples))
             else:
-                return np.argmax(self.marginal_profits * (self.empiricalMeans + np.sqrt((2 * np.log(self.t)) / self.numOfSamples)))
+                return np.argmax(self.marginal_profits * (self.empiricalMeans + 0.3 * np.sqrt((2 * np.log(self.t)) / self.numOfSamples)))
 
     # Update the empirical mean and the number of samples of each arm
     def update_rewards(self, pulled_arm, reward, exp_reward):
@@ -57,6 +65,11 @@ class UCB1_Learner:
         else:
             self.pulledArmsReward.append(exp_reward * self.marginal_profits[pulled_arm])
 
+        if reward == 0:
+            self.zeros[pulled_arm] += 1
+        else:
+            self.ones[pulled_arm] += 1
+
         # If the sliding window is not present, the mean and the number of observed samples of the pulled arm
         # are updated
         if self.sliding_window == 0:
@@ -65,26 +78,43 @@ class UCB1_Learner:
             self.empiricalMeans[pulled_arm] = (self.numOfSamples[pulled_arm] - 1) / self.numOfSamples[pulled_arm] * \
                                               self.empiricalMeans[pulled_arm] + reward / self.numOfSamples[pulled_arm]
         else:
-            # Updates for each arm in case of sliding window:
-            for i in range(self.num_of_arms):
-                # If we're considering the pulled arm:
-                if i == pulled_arm:
-                    if self.rewards_per_arm[i][-1] == -1:  # If the last elem of the buffer is a black space:
-                        self.numOfSamples[i] += 1  # The number of samples increases, otherwise it remains constant
+            if self.resultsSize == self.sliding_window:
+                target = self.results[-1][0]
+                value = self.results[-1][1]
 
-                    self.rewards_per_arm[i].insert(0, reward)  # Push into the pulled arm's buffer the new sample
-                # If we're considering another arm
+                self.numOfSamples[target] -= 1
+
+                if value == 0:
+                    self.zeros[target] -= 1
                 else:
-                    if self.rewards_per_arm[i][-1] != -1:  # If the last elem of the buffer IS NOT a black space:
-                        self.numOfSamples[i] -= 1  # the number of samples reduces, otherwise it remains constant
+                    self.ones[target] -= 1
 
-                    self.rewards_per_arm[i].insert(0, -1)  # Push into the buffer a blank space (this arm was not pulled this round)
-
-                # Pop of the last element of the buffer
-                self.rewards_per_arm[i].__delitem__(-1)
-
-                # Empirical mean update looking at the buffer of the arm we're considering
-                if self.numOfSamples[i] == 0:
-                    self.empiricalMeans[i] = 0.0
+                if self.ones[target] + self.zeros[target] > 0:
+                    self.empiricalMeans[target] = self.ones[target] / (self.zeros[target] + self.ones[target])
                 else:
-                    self.empiricalMeans[i] = self.rewards_per_arm[i].count(1) / (self.sliding_window - self.rewards_per_arm[i].count(-1))
+                    self.empiricalMeans[target] = 0.0
+
+                self.results.__delitem__(-1)
+
+                self.results.insert(0, [pulled_arm, reward])
+
+                if reward == 0:
+                    self.zeros[pulled_arm] += 1
+                else:
+                    self.ones[pulled_arm] += 1
+
+                self.numOfSamples[pulled_arm] += 1
+
+                self.empiricalMeans[pulled_arm] = self.ones[pulled_arm] / (self.zeros[pulled_arm] + self.ones[pulled_arm])
+            else:
+                self.results.insert(0, [pulled_arm, reward])
+                self.resultsSize += 1
+
+                if reward == 0:
+                    self.zeros[pulled_arm] += 1
+                else:
+                    self.ones[pulled_arm] += 1
+
+                self.numOfSamples[pulled_arm] += 1
+
+                self.empiricalMeans[pulled_arm] = self.ones[pulled_arm] / (self.zeros[pulled_arm] + self.ones[pulled_arm])
